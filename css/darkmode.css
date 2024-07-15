@@ -1,0 +1,13 @@
+body.dark-mode {
+    --primary-color:rgb(255, 200, 0);
+    --secondary-color:  rgb(0, 55, 138);
+    --background-color: rgb(13, 13, 13);
+    --text-color1: rgb(255, 255, 255);
+    --text-color2: rgb(255, 201, 22);
+    --shadow-color: rgba(255, 255, 255, 0.289);
+    --shadow-hover: rgba(0, 0, 0, 0.381);
+    --container-gray: var(--secondary-color);
+}
+body.dark-mode .menu-extra .dm-icon {
+    color: var(--secondary-color);
+}

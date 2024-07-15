@@ -1,0 +1,110 @@
+@media (max-width: 1026px) {
+    .navbar {
+        font-size: 90%;
+    }
+    .logo-tittle h1 {
+        font-size: 90%;
+    }
+    .menu-extra {
+        font-size: 90%;
+    }
+
+
+}
+@media (max-width: 768px) {
+
+        body {
+        font-size: 90%;
+        }
+    /* navigation bar */
+        .navbar {
+        width: 80%;
+        font-size: 90%;
+         }
+         .menu {
+        background-color: white;
+        width: 70vw;
+        height: 100vh;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -550px;
+        transition: right 300ms ease-in;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+        }
+        .menu.open {
+            right: 0;
+        }
+        .close-button {
+            color: black;
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        .menu a {
+        font-size: 1.4em;
+        text-align: center;
+        display:block;
+        color: black;
+        padding: 0.5em 0;
+        }
+        .menu a:hover {
+        background-color: rgb(231, 231, 231);
+        color: black;
+        }
+        .menu a:nth-child(2) {
+        margin-top: 2rem;
+        }
+        .logo-tittle h1 {
+        font-size: 90%;
+         }
+        .menu-extra {
+        font-size: 90%;
+        }
+        .hamburger-menu {
+        display: inline-block;
+        }
+        /* navigation bar end */
+
+        /* home section */
+               
+}
+
+
+
+
+@media (max-width: 426px) {
+    .navbar {
+        width: 85%;
+        font-size: 90%;
+        
+    }
+    .menu {
+        background-color: white;
+        width: 70vw;
+        height: 100vh;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -550px;
+    }
+    .logo img {
+        width: 25px;
+        height: 25px;
+    }
+    .logo-tittle h1 {
+       font-size: 80%;
+    }
+    .menu-extra {
+        padding: 0;
+        width: 100px;
+        font-size: 0;
+    }
+    .hamburger-menu {
+        display: block;
+    
+    }
+}
