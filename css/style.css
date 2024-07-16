@@ -704,7 +704,7 @@ video {
 }
 
 .founder-container img {
-    transform: scale(.6);
+    width: 300px;
 }
 
 .founder-image {
@@ -1293,8 +1293,8 @@ video {
 
 .appear-on-scroll {
     opacity: 0;
-    transform: translateY(60px);
-    transition: opacity 500ms ease-out, transform 500ms ease-in-out;
+    transform: translateY(50px);
+    transition: opacity 1000ms ease-in-out, transform 200ms ease-in-out;
 }
 
 .appear-on-scroll.visible {
