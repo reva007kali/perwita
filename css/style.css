@@ -577,11 +577,15 @@ video {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 5%;
 }
 
 .clients-tittle h1 {
-    font-size: 3em;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 2em;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .clients-tittle span {
@@ -591,22 +595,25 @@ video {
 
 .clients-tittle p {
     font-size: 1.5em;
+    color: white;
     margin-bottom: 2rem;
 }
 
 .clients-image-slider {
-    width: 100%;
+    width: 70%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px; /* Sesuaikan dengan kebutuhan */
+    height: 100px; /* Sesuaikan dengan kebutuhan */
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 5px black;
 }
 
 .slider-wrapper {
     display: flex;
     gap: 1rem; /* Jarak antar gambar */
-    animation: scroll 30s linear infinite;
+    animation: scroll 90s linear infinite;
 }
 
 .slider-wrapper img {
@@ -623,7 +630,7 @@ video {
         transform: translateX(0%);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
@@ -914,3 +921,29 @@ video {
     padding: 2rem;
 }
 /* footer end */
+
+.post-update {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image-gallery .image-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

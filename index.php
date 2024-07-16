@@ -1,3 +1,21 @@
+<?php
+$servername = "localhost:3306";
+$username = "root";
+$password = ""; // Default password is empty in XAMPP
+$dbname = "contact_form_db"; // Ensure this database exists
+
+// Buat koneksi
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Cek koneksi
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT image_url, link_url FROM images";
+$result = $conn->query($sql);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,13 +31,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/feather-icons"></script>
   <link rel="icon" href="img/logo-pn.png" type="image/png">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -212,41 +227,61 @@
   <!-- clients Section -->
   <section class="clients">
     <div class="clients-tittle">
-      <h1>OUR <span>CLIENTS</span></h1>
-      <P>We have clients from around the world</P>
-      <div class="clients-image-slider">
-        <div class="slider-wrapper">
-          <!-- Gambar 1 hingga 25 -->
-          <img src="img/clients/1.png" alt="Image 1">
-          <img src="img/clients/2.png" alt="Image 1">
-          <img src="img/clients/3.png" alt="Image 1">
-          <img src="img/clients/4.png" alt="Image 1">
-          <img src="img/clients/5.png" alt="Image 1">
-          <img src="img/clients/6.png" alt="Image 1">
-          <img src="img/clients/7.png" alt="Image 1">
-          <img src="img/clients/8.png" alt="Image 1">
-          <img src="img/clients/9.png" alt="Image 1">
-          <img src="img/clients/10.png" alt="Image 1">
-          <img src="img/clients/11.png" alt="Image 1">
-          <img src="img/clients/12.png" alt="Image 1">
-          <img src="img/clients/13.png" alt="Image 1">
-          <img src="img/clients/14.png" alt="Image 1">
-          <img src="img/clients/15.png" alt="Image 1">
-          <img src="img/clients/16.png" alt="Image 1">
-          <img src="img/clients/17.png" alt="Image 1">
-          <img src="img/clients/18.png" alt="Image 1">
-          <img src="img/clients/19.png" alt="Image 1">
-          <img src="img/clients/20.png" alt="Image 1">
-          <img src="img/clients/21.png" alt="Image 1">
-          <img src="img/clients/22.png" alt="Image 1">
-          <img src="img/clients/23.png" alt="Image 1">
-          <img src="img/clients/24.png" alt="Image 1">
-          <img src="img/clients/25.png" alt="Image 1">
-        </div>
+      <h1>We have been distributing thousands of skilled labor and proessionals in various fields for leading companies
+        in <span>indonesia and International company</span></h1>
+      <P>Our Clients : </P>
+    </div>
+    <div class="clients-image-slider">
+      <div class="slider-wrapper">
+        <!-- Gambar 1 hingga 25 -->
+        <img src="img/clients/1.png" alt="Image 1">
+        <img src="img/clients/2.png" alt="Image 1">
+        <img src="img/clients/3.png" alt="Image 1">
+        <img src="img/clients/4.png" alt="Image 1">
+        <img src="img/clients/5.png" alt="Image 1">
+        <img src="img/clients/6.png" alt="Image 1">
+        <img src="img/clients/7.png" alt="Image 1">
+        <img src="img/clients/8.png" alt="Image 1">
+        <img src="img/clients/9.png" alt="Image 1">
+        <img src="img/clients/10.png" alt="Image 1">
+        <img src="img/clients/11.png" alt="Image 1">
+        <img src="img/clients/12.png" alt="Image 1">
+        <img src="img/clients/13.png" alt="Image 1">
+        <img src="img/clients/14.png" alt="Image 1">
+        <img src="img/clients/15.png" alt="Image 1">
+        <img src="img/clients/16.png" alt="Image 1">
+        <img src="img/clients/17.png" alt="Image 1">
+        <img src="img/clients/18.png" alt="Image 1">
+        <img src="img/clients/19.png" alt="Image 1">
+        <img src="img/clients/20.png" alt="Image 1">
+        <img src="img/clients/21.png" alt="Image 1">
+        <img src="img/clients/22.png" alt="Image 1">
+        <img src="img/clients/23.png" alt="Image 1">
+        <img src="img/clients/24.png" alt="Image 1">
+        <img src="img/clients/25.png" alt="Image 1">
       </div>
     </div>
   </section>
   <!-- clients Section end -->
+  <section class="post-update">
+    <h1>Image Gallery</h1>
+    <div class="image-gallery">
+      <?php
+      if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+          echo '<div class="image-item">';
+          echo '<img src="' . $row["image_url"] . '" alt="Image">';
+          echo '<br>';
+          echo '<a href="' . $row["link_url"] . '"><button>Go to Link</button></a>';
+          echo '</div>';
+        }
+      } else {
+        echo "No images found.";
+      }
+      $conn->close();
+      ?>
+    </div>
+  </section>
 
 
   <!-- Testimonial Section start -->
@@ -356,10 +391,7 @@
           <button type="submit">Send Message</button>
         </form>
         <div id="maps" class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7913.058803901431!2d112.55523925748452!3d-7.406505258286148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7809074020df59%3A0x79e3d39bbdbd2f1f!2sPT.%20Perwita%20Nusaraya!5e0!3m2!1sen!2sid!4v1721034974655!5m2!1sen!2sid"
-            width="400" height="410" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7913.058803901431!2d112.55523925748452!3d-7.406505258286148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7809074020df59%3A0x79e3d39bbdbd2f1f!2sPT.%20Perwita%20Nusaraya!5e0!3m2!1sen!2sid!4v1721034974655!5m2!1sen!2sid" width="400" height="410" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -373,7 +405,9 @@
 
   <script src="https://unpkg.com/feather-icons"></script>
 
-  <script>feather.replace();</script>
+  <script>
+    feather.replace();
+  </script>
   <script src="script/script.js"></script>
 </body>
 
