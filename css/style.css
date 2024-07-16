@@ -239,7 +239,7 @@ video {
 }
 
 .home-content h2 {
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 300;
     margin-right: 50%;
     margin-bottom: 2rem;
@@ -989,4 +989,92 @@ video {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* about us page */
+
+/* About us hero */
+.about-home {
+    position: relative;
+    /* max-width: 100vw; */
+    height: 100vh;
+    box-shadow: 1px 3px 10px black;
+}
+
+.about-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.707)20%, rgba(0, 0, 0, 0.225));
+    z-index: 1;
+}
+
+.about-home img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    padding-left: 5rem;
+    bottom: 10px;
+    left: 0px;
+    color: white;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.about-home-content h1 {
+    font-size: 7em;
+    font-weight: 600;
+    /* margin-top: 2rem; */
+    margin-right: 30%;
+}
+
+.about-home-content h1 span {
+    color: var(--secondary-color);
+}
+
+.about-home-content h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin-right: 50%;
+    margin-bottom: 2rem;
+}
+
+
+/* about us section */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 500vh;
+}
+.about-us-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7%;
+    text-align: center;
+    gap: 2rem;
+}
+.about-us-tittle h1 {
+    text-align: center;
+    font-size: 6em;
+    width: 40%;
+}
+.about-us-tittle p {
+    font-size: 1.5em;
 }

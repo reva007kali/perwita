@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function animateCounter(element, target) {
         let current = 0;
-        const increment = target / 200; // Adjusted speed for faster animation
+        const increment = target / 100; // Adjusted speed for faster animation
 
         const updateCounter = () => {
             current += increment;
