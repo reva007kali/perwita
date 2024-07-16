@@ -103,4 +103,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         updateCounter();
     }
+    
+    const sliderWrapper = document.querySelector('.slider-wrapper');
+    const images = sliderWrapper.querySelectorAll('img');
+    
+    // Clone images to create an infinite loop
+    images.forEach(img => {
+        const clone = img.cloneNode(true);
+        sliderWrapper.appendChild(clone);
+    });
 });

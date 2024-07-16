@@ -569,6 +569,7 @@ video {
     /* max-width: 100vw; */
     height: 400px;
     background-color: var(--primary-color);
+    overflow: hidden;
 }
 
 .clients-tittle {
@@ -591,6 +592,39 @@ video {
 .clients-tittle p {
     font-size: 1.5em;
     margin-bottom: 2rem;
+}
+
+.clients-image-slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Sesuaikan dengan kebutuhan */
+}
+
+.slider-wrapper {
+    display: flex;
+    gap: 1rem; /* Jarak antar gambar */
+    animation: scroll 30s linear infinite;
+}
+
+.slider-wrapper img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-90%);
+    }
 }
 
 
