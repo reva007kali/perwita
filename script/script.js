@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         updateCounter();
     }
-    
+
     const sliderWrapper = document.querySelector('.slider-wrapper');
     const images = sliderWrapper.querySelectorAll('img');
     
@@ -113,3 +113,16 @@ document.addEventListener('DOMContentLoaded', function() {
         sliderWrapper.appendChild(clone);
     });
 });
+
+ // modal late post
+ function openModal(imgElement) {
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("modalImg");
+    modal.style.display = "block";
+    modalImg.src = imgElement.src;
+}
+
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
