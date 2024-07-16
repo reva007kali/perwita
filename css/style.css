@@ -617,6 +617,7 @@ video {
     background-color: var(--background-color);
     height: 100vh;
     background-size: contain;
+    overflow: hidden;
     position: relative;
 }
 .deploy .image2 {
@@ -640,12 +641,12 @@ video {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 100%;
+    /* width: 100%; */
 }
 .deploy-tittle h1 {
     margin: 3.1% 5%;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
 }
 .deploy-tittle span {
     color: var(--secondary-color);
@@ -654,7 +655,7 @@ video {
     display: flex;
     justify-content: start;
     align-items: start;
-    height: 100vh;
+    /* height: 100vh; */
     gap: 3rem   ;
 }
 .total-deploy {
@@ -664,7 +665,7 @@ video {
     justify-content: center;
     background-color: var(--secondary-color);
     width: 250px;
-    height: 200px;
+    height: 350px;
     border-radius: 10px;
 }
 
