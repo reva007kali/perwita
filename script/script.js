@@ -60,27 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
         feather.replace(); // Ensure Feather icons are loaded before this call
     }
 
-    // Image Slider for Clients Section
-    const imageSlider = document.getElementById('imageSlider');
-    for (let i = 1; i <= 25; i++) {
-        const img = document.createElement('img');
-        img.src = `img/clients/${i}.png`;
-        img.alt = `Client ${i}`;
-        imageSlider.appendChild(img);
-    }
-
-    const sliderWidth = imageSlider.scrollWidth;
-    const viewportWidth = imageSlider.offsetWidth;
-    let scrollPosition = 0;
-
-    function slide() {
-        scrollPosition += 2; // Increased speed for visibility
-        if (scrollPosition >= sliderWidth - viewportWidth) {
-            scrollPosition = 0;
-        }
-        imageSlider.scrollTo(scrollPosition, 0);
-    }
-    setInterval(slide, 10); // Adjusted for smoother animation
 
     // Deploy Number Animation
     const counters = document.querySelectorAll('.count-up');

@@ -284,7 +284,7 @@ video {
     align-items: center;
     background-size: cover;
     background-position: 0 -150px;
-    min-height: 100vh;
+    height: 100vh;
 }
 .build-content {
     margin-top: 3rem;
@@ -354,7 +354,6 @@ video {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url(/img/units/unitbg2.png);
     background-position: 0 -100px;
     background-size: cover;
     /* max-width: 100vw; */
@@ -613,11 +612,28 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
     gap: 1rem;
     background-color: var(--background-color);
     height: 100vh;
-    background-image: url(/img/background/pattern_2.png);
     background-size: contain;
+    position: relative;
+}
+.deploy .image2 {
+    position: absolute;
+    bottom: -0px;
+    left: -100px;
+    height: 550px;
+    width: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+.deploy .image3 {
+    position: absolute;
+    bottom: -0px;
+    right: -50px;
+    height: 500px;
+    width: 500px;
 }
 
 .deploy-tittle {
@@ -627,28 +643,31 @@ video {
     width: 100%;
 }
 .deploy-tittle h1 {
+    margin: 3.1% 5%;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
+}
+.deploy-tittle span {
+    color: var(--secondary-color);
 }
 .deploy-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
+    height: 100vh;
+    gap: 3rem   ;
 }
 .total-deploy {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 2%;
-    width: 300px;
-    background-color: white;
-    border-radius: 20px;
+    background-color: var(--secondary-color);
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
 }
-.total-deploy img {
-    width: 200px;
 
-}
 
 /* Deploy section end */
 .founder {
@@ -656,7 +675,6 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/background/1.png);
     background-size: cover;
     box-shadow: 1px 1px 10px var(--shadow-color);
     height: 100vh;
