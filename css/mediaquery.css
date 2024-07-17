@@ -1,5 +1,6 @@
 @media (max-width: 1026px) {
     .navbar {
+        width: 90%;
         font-size: 90%;
     }
     .logo-tittle h1 {
@@ -18,7 +19,7 @@
         }
     /* navigation bar */
         .navbar {
-        width: 80%;
+        width: 70%;
         font-size: 90%;
          }
          .menu {
@@ -70,7 +71,25 @@
         /* navigation bar end */
 
         /* home section */
-               
+        .home-content {
+            font-size: 60%;
+        }
+        .home-content h1 {
+            margin-right: 0;
+        }
+        .home-content p {
+            margin-right: 0;
+        }
+
+        .build-future {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            background-size: cover;
+        }
+        
 }
 
 
@@ -78,7 +97,7 @@
 
 @media (max-width: 426px) {
     .navbar {
-        width: 85%;
+        width: 65%;
         font-size: 90%;
         
     }
@@ -107,4 +126,26 @@
         display: block;
     
     }
+
+    /* home */
+    .home-content {
+        font-size: 60%;
+    }
+    .home-content h1 {
+        margin-right: 0;
+    }
+    .home-content p {
+        margin-right: 0;
+    }
+
+    .build-future {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-size: cover;
+    }
+    
+
 }

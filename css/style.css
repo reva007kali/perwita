@@ -32,6 +32,7 @@ body {
     color: var(--text-color1);
     background-color: var(--background-color);
     line-height: 1.2;
+    overflow-x: hidden;
 }
 
 /* text setting */
@@ -188,7 +189,6 @@ header.scrolled .navbar {
 /* hero section start */
 .home {
     position: relative;
-    /* max-width: 100vw; */
     height: 100vh;
     box-shadow: 1px 3px 10px black;
 }
@@ -284,7 +284,7 @@ video {
     align-items: center;
     background-size: cover;
     background-position: 0 -150px;
-    height: 120vh;
+    min-height: 100vh;
 }
 
 .build-content {
@@ -309,44 +309,6 @@ video {
     font-size: 1.5em;
     mix-blend-mode: hard-light;
 }
-
-.services-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10%;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.services-card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 210px;
-    height: 120px;
-    line-height: 2.5;
-    color: var(--text-color1);
-    background-color: var(--background-color);
-    box-shadow: 2px 2px 15px var(--shadow-color);
-    border-radius: 20px;
-    font-size: .7rem;
-}
-
-.services-card-content h1 {
-    font-weight: 400;
-}
-
-.services-card-content:hover {
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.811);
-}
-
-.services-card-content span {
-    font-size: 50px;
-    color: var(--primary-color);
-}
-
 /* build future together done */
 
 /* Units Section Start */
@@ -391,6 +353,7 @@ video {
 .units-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     gap: 2rem;
 }
@@ -482,7 +445,7 @@ video {
     background-size: cover;
     gap: 1rem;
     background-color: var(--background-color);
-    height: 100vh;
+    min-height: 100vh;
     background-size: contain;
     overflow: hidden;
     position: relative;
@@ -525,9 +488,10 @@ video {
 
 .deploy-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: start;
-    /* height: 100vh; */
+    min-height: 100vh;
     gap: 2rem;
 }
 
@@ -578,7 +542,7 @@ video {
     align-items: center;
     justify-content: center;
     /* max-width: 100vw; */
-    height: 400px;
+    min-height: 400px;
     background-color: var(--primary-color);
     overflow: hidden;
 }
@@ -661,7 +625,7 @@ video {
     align-items: center;
     background-size: cover;
     box-shadow: 1px 1px 10px var(--shadow-color);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .founder-container {
@@ -682,6 +646,7 @@ video {
 .founder-content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0 5%;
     align-items: center;
     max-width: 100vw;
@@ -986,7 +951,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    min-height: 500px;
     gap: 4rem;
 }
 
@@ -996,6 +961,7 @@ video {
 
 .post {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -1030,6 +996,7 @@ video {
 .modal-content {
     margin: auto;
     display: block;
+    height: 50%;
     width: 50%;
     max-width: 500px;
 }
@@ -1130,7 +1097,7 @@ video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0)50%);
+    background: linear-gradient(to top, (var(--background-color)), rgba(255, 255, 255, 0)50%);
     z-index: 1;
 }
 
@@ -1244,7 +1211,7 @@ video {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
 }
 .history h1 {
     font-weight: 600;
