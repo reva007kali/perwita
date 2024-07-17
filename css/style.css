@@ -284,7 +284,7 @@ video {
     align-items: center;
     background-size: cover;
     background-position: 0 -150px;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 .build-content {
@@ -789,6 +789,7 @@ video {
 .footer_logo {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     margin: 2% 3%;
     padding-bottom: 2rem;
@@ -803,6 +804,7 @@ video {
 .footer-row {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin: 0 5%;
     gap: 5rem;
 }
@@ -834,6 +836,8 @@ video {
 }
 
 .footer_contact_form {
+    /* display: flex;
+    flex-wrap: wrap; */
     margin: 0;
     min-width: 400px;
     /* background-color: white; */
@@ -1088,6 +1092,7 @@ video {
     justify-content: center;
     height: 100vh;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 .about-us::before {
@@ -1099,6 +1104,7 @@ video {
     height: 100%;
     background: linear-gradient(to top, (var(--background-color)), rgba(255, 255, 255, 0)50%);
     z-index: 1;
+    background-attachment: fixed;
 }
 
 .about-us-tittle {
@@ -1224,25 +1230,35 @@ video {
     justify-content: center;
     width: 100%;
     height: 500px;
-    gap: 5rem;
+    gap: 2rem;
 }
 .history-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: left;
     margin-top: 8rem;
-    padding: 2rem;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 20px;
-    width: 40.25%;
-    height: 300px;
+    width: 40%;
+}
+.history-card h2 {
+    display: block;
 }
 .empty {
-    width: 40.25%;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 40%;
+}
+
+.history-divider {
+    display: flex;
+    justify-content: center;
+    width: 10%;
 }
 .history-line {
     position: relative;
-    width: .5%;
+    width: 3px;
     background-color: var(--primary-color);
 }
 .circle-point {
@@ -1268,4 +1284,3 @@ video {
     opacity: 1;
     transform: translateY(0);
 }
-/* done fo today */
