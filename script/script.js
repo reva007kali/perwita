@@ -142,8 +142,24 @@ document.addEventListener('DOMContentLoaded', function () {
                 element.classList.remove('visible');
             }
         });
+        
     }
 
     window.addEventListener('scroll', checkVisibility);
     checkVisibility(); // Initial check on page load
 });
+// document.addEventListener("DOMContentLoaded", function () {
+//     const totalDeployElement = document.querySelector('.total-deploy');
+
+//     const observer = new IntersectionObserver(entries => {
+//         entries.forEach(entry => {
+//             if (entry.isIntersecting) {
+//                 totalDeployElement.classList.add('flip-in');
+//                 observer.unobserve(totalDeployElement); // Stop observing after the animation is applied
+//             }
+//         });
+//     });
+
+//     observer.observe(totalDeployElement);
+// });
+
