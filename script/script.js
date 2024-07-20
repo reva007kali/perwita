@@ -60,8 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         feather.replace(); // Ensure Feather icons are loaded before this call
     }
 
-
-    // Deploy Number Animation
+    // Deploy Number Animation with Thousands Separator
     const counters = document.querySelectorAll('.count-up');
 
     const options = {
@@ -94,10 +93,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const updateCounter = () => {
             current += increment;
             if (current < target) {
-                element.textContent = Math.ceil(current);
+                element.textContent = Math.ceil(current).toLocaleString();
                 requestAnimationFrame(updateCounter);
             } else {
-                element.textContent = target;
+                element.textContent = target.toLocaleString();
             }
         };
 
@@ -114,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// modal late post
+// Modal late post
 function openModal(imgElement) {
     var modal = document.getElementById("myModal");
     var modalImg = document.getElementById("modalImg");
@@ -142,24 +141,33 @@ document.addEventListener('DOMContentLoaded', function () {
                 element.classList.remove('visible');
             }
         });
-        
     }
 
     window.addEventListener('scroll', checkVisibility);
     checkVisibility(); // Initial check on page load
+
+    // Slide-up Animation
+    const slideUpElements = document.querySelectorAll('.slide-up');
+
+    const slideUpOptions = {
+        root: null, // Use the viewport as the root
+        rootMargin: '0px',
+        threshold: 0.1 // Trigger when 10% of the element is in view
+    };
+
+    const slideUpCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target); // Stop observing once the animation is applied
+            }
+        });
+    };
+
+    const slideUpObserver = new IntersectionObserver(slideUpCallback, slideUpOptions);
+
+    slideUpElements.forEach(element => {
+        slideUpObserver.observe(element);
+    });
 });
-// document.addEventListener("DOMContentLoaded", function () {
-//     const totalDeployElement = document.querySelector('.total-deploy');
-
-//     const observer = new IntersectionObserver(entries => {
-//         entries.forEach(entry => {
-//             if (entry.isIntersecting) {
-//                 totalDeployElement.classList.add('flip-in');
-//                 observer.unobserve(totalDeployElement); // Stop observing after the animation is applied
-//             }
-//         });
-//     });
-
-//     observer.observe(totalDeployElement);
-// });
 
