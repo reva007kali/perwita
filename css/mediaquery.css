@@ -69,6 +69,9 @@
     /* navigation bar end */
 
     /* home */
+    .home {
+        margin-bottom: 0;
+    }
     .home-content {
         top: 20%;
        margin-top: auto;
@@ -78,35 +81,66 @@
     }
     .home .cta {
         margin-top: 10%;
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     /* build future section */
     .build-future img {
-        width: 100%;
-        height: 350px;
+        width: 90%;
+        max-height: 350px;
         object-fit: cover;
         object-position: center;
     }
     /* message founder section */
+    .founder {
+        border-radius: 0;
+        margin-inline: 0;
+    }
+    .founder-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .founder-image {
-        width: 200px;
-        height: 200px;
-        margin-top: 1rem;
+        max-width: 250px;
+        padding: 1rem;
+        object-fit: cover;
         border-radius: 50%;
-        background-size: cover;
-        background-position: top;
-        box-shadow: inset 1px 1px 10px var(--shadow-color);
     }
     .founder-message {
+        order: 1;
+       align-items: center;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .founder-message h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 2rem;
         margin-top: 1rem;
     }
-    .founder-content p {
-        font-size: 1.5em;
+    .founder-message h1 span {
+        color: var(--secondary-color);
     }
-    .founder-container img {
-        margin-top: 1rem;
-        width: 200px;
+    .founder-message p {
+        font-size: 1.2em;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    .founder-img-name {
+        order: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .founder-img-name h4 {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+    .founder-img-name h5 {
+        font-size: .7rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
     }
 
     /* Units */
@@ -142,7 +176,10 @@
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    .overall-deploy {
+        margin-top: 0;
     }
     /* clients slider section */
     .clients-image-slider {
