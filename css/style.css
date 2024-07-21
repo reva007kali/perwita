@@ -8,11 +8,13 @@
     width: .7rem;
     margin-block: 1rem;
 }
+
 ::-webkit-scrollbar-track {
     background-color: rgb(211, 211, 211);
     border-radius: 20px;
-    
+
 }
+
 ::-webkit-scrollbar-thumb {
     height: 5px;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.765);
@@ -42,9 +44,11 @@
 html {
     scroll-behavior: smooth;
 }
+
 /* animation slide */
 .slide-up {
-    transform: translateY(100px); /* Adjust according to your needs */
+    transform: translateY(100px);
+    /* Adjust according to your needs */
     opacity: 0;
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
@@ -219,7 +223,7 @@ header.scrolled .navbar {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    box-shadow: 1px 3px 10px black; 
+    box-shadow: 1px 3px 10px black;
 }
 
 .home video {
@@ -283,21 +287,25 @@ header.scrolled .navbar {
     font-weight: 300;
     transition: 200ms ease;
 }
+
 .home .cta:first-child {
     background-color: var(--primary-color);
 }
+
 .home .cta:hover {
     background-color: rgb(0, 160, 228);
     color: white;
 }
+
 /* home end */
 
 
 /* Build Future Section */
 .build-future {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     gap: 1rem;
@@ -305,8 +313,8 @@ header.scrolled .navbar {
 
 .build-content {
     /* margin-top: 3rem; */
-    max-width: 45%;
-    text-align: left;
+    max-width: 100%;
+    text-align: center;
     color: var(--text-color1);
     z-index: 2;
     margin-bottom: 2rem;
@@ -321,19 +329,22 @@ header.scrolled .navbar {
 }
 
 .build-content p {
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
     mix-blend-mode: hard-light;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
+
 .build-future img {
-    width: 40%;
+    width: 50%;
     max-height: 380px;
     object-fit: cover;
+    background: #fafafa;
     border-radius: 50px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.655) inset;
-    /* object-position: 0px -350px; */
+    box-shadow: inset 9.91px 9.91px 25px #D9DADE, inset -9.91px -9.91px 25px #FFFFFF;
+
 }
+
 /* build future together done */
 
 /* Founder */
@@ -344,9 +355,9 @@ header.scrolled .navbar {
     justify-content: center;
     min-height: 100vh;
     background-size: cover;
-    background-repeat: repeat;
-    margin-inline : 2%;
+    margin-inline: 2%;
 }
+
 .founder-container {
     display: flex;
     align-items: center;
@@ -357,28 +368,34 @@ header.scrolled .navbar {
     /* border: 10px solid var(--secondary-color); */
     /* box-shadow: 1px 1px 10px black inset; */
 }
+
 .founder-image {
     max-width: 400px;
     padding: 1rem;
     object-fit: cover;
     border-radius: 50%;
 }
+
 .founder-message {
     display: flex;
     flex-direction: column;
     max-width: 60%;
 }
+
 .founder-message h1 {
     font-size: 4em;
     margin-bottom: 2rem;
 }
+
 .founder-message h1 span {
     color: var(--secondary-color);
 }
+
 .founder-message p {
     font-size: 1.2em;
     line-height: 1.4;
 }
+
 .founder-cta {
     display: flex;
     align-items: center;
@@ -390,22 +407,27 @@ header.scrolled .navbar {
     border-radius: 20px;
     transition: 200ms ease;
 }
+
 .founder-cta:hover {
     transform: scale(1.1);
 }
+
 .founder-img-name {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .founder-img-name h4 {
     font-size: 1.7rem;
     margin-bottom: 1.2rem;
 }
+
 .founder-img-name h5 {
     font-size: 1.1rem;
     font-weight: 400;
 }
+
 .group-logo {
     max-width: 300px;
 }
@@ -430,6 +452,7 @@ header.scrolled .navbar {
     color: white;
     margin-top: 5rem;
 }
+
 .units-tittle h1 {
     margin-inline: 5%;
     font-size: 4em;
@@ -462,7 +485,7 @@ header.scrolled .navbar {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
     /* outline: 2px solid red; */
@@ -473,9 +496,9 @@ header.scrolled .navbar {
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-color:  rgb(255, 219, 59);
+    background-color: rgb(255, 219, 59);
     color: rgb(0, 52, 77);
-    box-shadow:  1px 5px 10px rgba(0, 0, 0, 0.799);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.799);
     border-radius: 15px;
     overflow: hidden;
     width: 250px;
@@ -537,6 +560,7 @@ header.scrolled .navbar {
     letter-spacing: 1px;
     font-weight: 700;
 }
+
 /* Units Section Done */
 
 
@@ -559,7 +583,7 @@ header.scrolled .navbar {
     left: 50px;
     object-fit: cover;
     object-position: top;
-    z-index:0;
+    z-index: 0;
     height: 550px;
 }
 
@@ -586,7 +610,8 @@ header.scrolled .navbar {
     justify-content: center;
     gap: 1rem;
     margin-top: 0;
-    min-height: 100px;;
+    min-height: 100px;
+    ;
     color: white;
 }
 
@@ -606,8 +631,9 @@ header.scrolled .navbar {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    
+
 }
+
 .total-deploy {
     display: flex;
     flex-direction: column;
@@ -617,7 +643,7 @@ header.scrolled .navbar {
     gap: .5rem;
     margin-top: 2rem;
     background-color: white;
-    border:5px solid var(--secondary-color);
+    border: 5px solid var(--secondary-color);
     box-shadow: 1px 6px 10px var(--shadow-color);
     width: 250px;
     height: 250px;
@@ -637,7 +663,7 @@ header.scrolled .navbar {
     margin-inline: 2%;
     margin-bottom: rem;
     text-align: center;
-    
+
 }
 
 .total-deploy span {
@@ -648,6 +674,7 @@ header.scrolled .navbar {
     width: 50px;
     height: 50px;
 }
+
 .overall-deploy {
     display: flex;
     flex-direction: column;
@@ -657,10 +684,12 @@ header.scrolled .navbar {
     margin-bottom: 2rem;
     height: 120px;
 }
+
 .overall-deploy h1 {
     color: white;
     font-size: 3em;
 }
+
 .overall-deploy .h2 {
     color: rgb(255, 208, 0);
     font-size: 3em;
@@ -668,29 +697,34 @@ header.scrolled .navbar {
     text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.507);
 
 }
+
 /* Deploy section end */
 
 /* Licenses section */
 .licenses {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-size: cover;
 }
+
 .licences-tittle {
     font-size: 3em;
     margin-block: 2rem;
 }
+
 .licenses h1 span {
     color: var(--secondary-color);
 }
+
 .licenses-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-inline: 5%;
 }
+
 .licenses-card {
     display: flex;
     flex-direction: column;
@@ -701,15 +735,18 @@ header.scrolled .navbar {
     transition: 100ms ease;
     cursor: pointer;
 }
+
 .licenses-card h1 {
     margin-bottom: 5px;
     font-size: 1em;
 }
+
 .licenses-card p {
     text-align: center;
     margin-inline: 10%;
     font-size: .8em;
 }
+
 .licenses-card img {
     width: 150px;
     height: 200px;
@@ -718,9 +755,11 @@ header.scrolled .navbar {
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.354);
 }
+
 .licenses-card:hover {
     transform: scale(1.1);
 }
+
 /* Licenses section */
 
 /* Clients section start */
@@ -729,15 +768,9 @@ header.scrolled .navbar {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh ;
-}
-.clients::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: .9;
-    background-color: var(--primary2-color);
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
 }
 
 .clients-tittle {
@@ -762,6 +795,7 @@ header.scrolled .navbar {
     color: var(--secondary-color);
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
+
 .clients-tittle p {
     background-color: var(--secondary-color);
     border-radius: 10px;
@@ -771,6 +805,7 @@ header.scrolled .navbar {
     color: rgb(0, 0, 0);
     margin-bottom: 4rem;
 }
+
 .clients-row {
     display: flex;
     align-items: center;
@@ -779,34 +814,40 @@ header.scrolled .navbar {
     gap: 1rem;
     z-index: 1;
 }
+
 .clients-category {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 400px;
 }
+
 .clients-category h1 {
     color: white;
     margin-bottom: 2rem;
 }
+
 .clients-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
 }
+
 .clients-images img {
-    box-shadow: 1px 1px 5px ;
+    box-shadow: 1px 1px 5px;
     border-radius: 10px;
     object-fit: cover;
-    width:150px ;
+    width: 150px;
     height: 100px;
     cursor: pointer;
     background-color: white;
 }
+
 .clients-images img:hover {
     transform: scale(1.05);
 }
+
 /* clients Section End */
 
 /* latest post section */
@@ -818,12 +859,15 @@ header.scrolled .navbar {
     align-items: center;
     min-height: 350px;
     gap: 2rem;
-    background-color: var(--background-color);
+    background-size: cover;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.502) inset;
+
 }
 
 .post-update h1 {
     font-size: 2em;
 }
+
 .post-update h1 span {
     color: var(--secondary-color);
 }
@@ -842,23 +886,26 @@ header.scrolled .navbar {
     box-shadow: 1px 1px 10px var(--shadow-color);
     cursor: pointer;
     opacity: 1;
-    transition:  transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
 }
 
 .post img:hover {
     opacity: .9;
     transform: scale(1.05);
 }
+
 .sm-tittle {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 .sm-icons img {
     margin: 0px 10px;
     width: 30px;
     cursor: pointer;
 }
+
 .sm-icons img:hover {
     transform: scale(1.05);
 }
@@ -880,7 +927,7 @@ header.scrolled .navbar {
 
 .modal-content {
     display: block;
-    margin-inline:auto;
+    margin-inline: auto;
     height: 70%;
     max-width: 500px;
 }
@@ -901,6 +948,7 @@ header.scrolled .navbar {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* modal late post */
 
 /* footer section start */
@@ -912,6 +960,7 @@ header.scrolled .navbar {
     background-color: var(--primary2-color);
     color: white;
 }
+
 .footer-header {
     display: flex;
     align-items: center;
@@ -920,9 +969,11 @@ header.scrolled .navbar {
     border-bottom: 2px solid white;
     font-weight: 500;
 }
+
 .footer-header img {
     width: 100px;
 }
+
 .footer-content-container {
     display: flex;
     flex-wrap: wrap;
@@ -931,6 +982,7 @@ header.scrolled .navbar {
     padding: 10px;
     gap: 3rem;
 }
+
 .offices {
     display: flex;
     flex-direction: column;
@@ -940,18 +992,21 @@ header.scrolled .navbar {
     /* outline: 1px solid red; */
     max-width: 500px;
 }
+
 .offices h1 {
     font-weight: 500;
     font-size: 1.3em;
     margin-bottom: 1rem;
     border-bottom: 1px solid white;
 }
+
 .office-content {
     display: flex;
     flex-direction: column;
     list-style: none;
     line-height: 2.2;
 }
+
 .office-content li {
     display: flex;
     /* align-items: center; */
@@ -959,13 +1014,16 @@ header.scrolled .navbar {
     font-size: 13px;
     gap: .5rem;
 }
+
 .office-content a:hover {
     color: rgb(242, 170, 46);
 }
+
 .office-content span {
     padding-top: 5px;
     font-size: 1.3rem;
 }
+
 /* link and social media container */
 .link-and-sm {
     display: flex;
@@ -976,15 +1034,18 @@ header.scrolled .navbar {
     list-style: none;
     line-height: 1.7;
 }
+
 .link-and-sm h2 {
     padding-bottom: 5px;
     font-weight: 600;
     margin-bottom: 1rem;
     border-bottom: 1px solid white;
 }
+
 .link-and-sm a {
     color: white;
 }
+
 .link-and-sm a:hover {
     color: rgb(242, 170, 46);
 }
@@ -998,11 +1059,13 @@ header.scrolled .navbar {
     padding-inline: 10px;
     width: 400px;
 }
+
 .contact-form h1 {
     font-weight: 600;
     margin-bottom: .5rem;
-    
+
 }
+
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -1010,14 +1073,17 @@ header.scrolled .navbar {
     width: 300px;
     gap: 10px;
 }
+
 .contact-form form input {
     height: 40px;
     border-radius: 15px;
 }
+
 .contact-form form textarea {
     height: 200px;
     border-radius: 20px;
 }
+
 .contact-form button {
     align-self: center;
     width: 120px;
@@ -1028,9 +1094,11 @@ header.scrolled .navbar {
     cursor: pointer;
     margin-bottom: 2rem;
 }
+
 .contact-form button:hover {
     background-color: yellow;
 }
+
 .contact-form p {
     margin-bottom: 1rem;
 }
@@ -1054,11 +1122,12 @@ header.scrolled .navbar {
     text-align: center;
     padding: 1rem;
 }
+
 .group-logo-footer {
     align-self: center;
     width: 160px;
     margin-bottom: 2rem;
     /* filter: grayscale(); */
 }
-/* footer end */
 
+/* footer end */
