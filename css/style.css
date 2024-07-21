@@ -375,6 +375,11 @@ header.scrolled .navbar {
     object-fit: cover;
     border-radius: 50%;
 }
+/* .FounderImageBorder {
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 10px black;
+} */
 
 .founder-message {
     display: flex;
@@ -444,6 +449,7 @@ header.scrolled .navbar {
     min-height: 95vh;
     gap: 3rem;
     background-color: var(--primary2-color);
+    box-shadow: 1px 1px 10px black;
 }
 
 .units-tittle {
@@ -575,6 +581,7 @@ header.scrolled .navbar {
     background-color: var(--primary-color);
     min-height: 98vh;
     position: relative;
+    box-shadow: 1px 1px 10px black;
 }
 
 .deploy .image2 {
@@ -1131,3 +1138,44 @@ header.scrolled .navbar {
 }
 
 /* footer end */
+
+/* about section */
+.about-home {
+    display: flex;
+    justify-content: start;
+    min-height: 92vh;
+    background-size:auto;
+    margin-top: 4rem;
+    position: relative;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 5%;
+}
+.about-content h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+}
+.about-content span {
+    color: var(--secondary-color);
+}
+.about-content p {
+    font-size: 2em;
+}
+.hero-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    margin-right: 2%;
+}
+.hero-img {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.457);
+}
