@@ -8,6 +8,6 @@ body.dark-mode {
     --shadow-hover: rgba(0, 0, 0, 0.381);
     --container-gray: var(--secondary-color);
 }
-body.dark-mode .menu-extra .dm-icon {
-    color: var(--secondary-color);
+body.dark-mode .menu-extra .dm-icon .dark-mode-button li {
+    color: white;
 }

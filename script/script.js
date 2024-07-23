@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Navbar Scroll Effect
-    var navbar = document.getElementById('header');
+    var navbar = document.getElementById('menu');
     window.addEventListener('scroll', function () {
         if (window.scrollY > 20) {
             navbar.classList.add('scrolled');
@@ -10,27 +10,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Hamburger Menu
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const menu = document.querySelector('.menu');
-    const closeButton = document.querySelector('.close-button');
-    const content = document.querySelector('.content');
-
-    hamburgerMenu.addEventListener('click', function () {
-        menu.classList.add('open');
-    });
-
-    closeButton.addEventListener('click', function () {
-        menu.classList.remove('open');
-    });
-
-    document.addEventListener('click', function (event) {
-        if (!menu.contains(event.target) && !hamburgerMenu.contains(event.target)) {
-            menu.classList.remove('open');
+    function updatemenu() {
+        if (document.getElementById('responsive-menu').checked == true) {
+          document.getElementById('menu').style.borderBottomRightRadius = '0';
+          document.getElementById('menu').style.borderBottomLeftRadius = '0';
+        }else{
+          document.getElementById('menu').style.borderRadius = '10px';
         }
-    });
+      }
 
     // Dark Mode
-    const darkModeToggle = document.getElementById('dm-btn');
+    const darkModeToggle = document.getElementById('dark-mode-button');
     const popupMessage = document.getElementById('popupMessage');
 
     darkModeToggle.addEventListener('click', function () {
