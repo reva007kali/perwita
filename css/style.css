@@ -1441,6 +1441,8 @@ a {
     align-items: center;
     min-height: 100vh;
     text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .ms-tittle {
@@ -1448,7 +1450,7 @@ a {
 }
 
 .ms-tittle h1 {
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .ms-tittle span {
@@ -1457,22 +1459,125 @@ a {
 
 .ms-tittle p {
     margin-inline: 20%;
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: 4rem;
 }
 
 .ms-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.454);
+    background-color: white;
     margin-bottom: 6rem;
+    text-align: center;
 }
+
 .ms-card h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--secondary-color);
 }
+
 .ms-card p strong {
-    font-size: 1.5em;
+    font-size: 2em;
 }
+
 .ms-card p {
-    margin-inline: 30%;
+    margin-inline: 5%;
     font-size: 1.2em;
 }
+
+.ms-card img {
+    width: 100px;
+    height: 100px;
+}
+
 /* milestone */
+
+/* our leader */
+.leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leader h1 {
+    margin-block: 4rem;
+    font-size: 4em;
+}
+.leader h1 span {
+    color: var(--secondary-color);
+}
+
+.leader-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: 10%;
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.leader-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    background: #2b2f77;
+    background: -webkit-linear-gradient(138deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: linear-gradient(138deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+
+}
+
+.leader-card h3 {
+    font-size: 1.5em;
+}
+
+.leader-card h4 {
+    margin-inline: 0;
+}
+
+.leader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.leader-card a {
+    align-content: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.leader-card img:first-child {
+    border-radius: 50%;
+    margin-top: 2rem;
+    width: 250px;
+    height: 250px;
+    border: 8px solid white;
+    object-fit: cover;
+    object-position: center;
+}
+.leader-content .leader-image-grouplogo {
+    width: 180px;
+}
+.leader-content img {
+    margin-top: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* our leader */
