@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perwita Nusaraya Group</title>
+    <!-- Bootstrap CSS -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="img/logo-pn.png" type="image/png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <!-- Navigation Bar Start -->
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <div class="logo">
+            <img src="img/logo-pn.png" Logo>
+            <div class="logo-tittle">
+                <h1>Perwita Nusaraya <span>Group</span></h1>
+            </div>
+        </div>
+        <ul>
+            <li><a href='#'>Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class='dropdown-arrow' href='http://'>Units</a>
+                <ul class='sub-menus'>
+                    <li><a href='http://'>Sea Based</a></li>
+                    <li><a href='http://'>Land Based</a></li>
+                    <li><a href='http://'>Training Centers</a></li>
+                </ul>
+            </li>
+            <li><a href='http://'>Jobs</a></li>
+            <li><a href='http://'>Partner</a></li>
+            <li><a href='http://'>Gallery</a></li>
+            <li><a href='http://'>FAQs</a></li>
+        </ul>
+        <div class="dark-mode-button" id="dark-mode-button">
+            <li style="margin-right: 10px;">Dark Mode</li>
+            <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
+        </div>
+    </nav>
+
+    <div id="popupMessage" class="hidden"></div>
+    <!-- Navigation Bar end -->
+
+    <!--seabased home  -->
+    <section class="seabased" id="seabased" style="background-image: url(img/hero-picture/1.jpeg);">
+        <div class="seabased-content">
+            <h1>SEA <span>BASED</span></h1>
+            <p>"Navigating Excellence, Anchoring Careers"</p>
+        </div>
+        <div class="sb-cta">
+            <a href="">River Cruise</a>
+            <a href="">Expedition Cruises</a>
+            <a href="">Fisherman</a>
+        </div>
+    </section>
+
+    <!-- overview -->
+    <section class="sb-overview" style="background-image:url(img/background/sbbg.png);">
+        <div class="sb-content">
+            <h1>Overview <img src="img/logo/crewmanninglogo.jpg" alt=""></h1>
+            <p>"At Perwita Nusaraya, we are committed to shaping the future of maritime professionals. Our seabased
+                services provide comprehensive training and career development for individuals aspiring to excel in the
+                global maritime industry. With a focus on excellence, innovation, and safety, we prepare our trainees to
+                meet the demands of the ever-evolving maritime sector."</p>
+        </div>
+        <img src="img/seabased/overview.JPG" alt="">
+    </section>
+    <!-- overview -->
+
+    <!-- seabased Career -->
+    <section class="sb-career">
+        <h1>CAREER OPORTUNITIES</h1>
+        <p>Explore a World of Maritime Careers</p>
+        <div class="sb-river">
+            <div class="sb-river-img" style="background-image: url(img/seabased/scylla.jpg);"></div>
+            <div class="river-content">
+                <h1>European River Cruises</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut unde dignissimos porro enim eaque a harum
+                    nulla cupiditate nostrum corrupti?</p>
+                <div class="sb-clients" style="display: flex;">
+                    <img src="img/clients/1.png" alt="">
+                    <img src="img/clients/11.png
+                        " alt="">
+                    <img src="img/clients/" alt="">
+                    <img src="img/clients/riverman.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sb-river">
+
+            <div class="river-content">
+                <h1>Expedition cruises</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut unde dignissimos porro enim eaque a harum
+                    nulla cupiditate nostrum corrupti?</p>
+                <div class="sb-clients" style="display: flex;">
+                    <img src="img/clients/1.png" alt="">
+                    <img src="img/clients/11.png
+                        " alt="">
+                    <img src="img/clients/ANGLO.da90e9.jpg" alt="">
+                    <img src="img/clients/riverman.png" alt="">
+                </div>
+            </div>
+
+            <div class="sb-river-img" style="background-image: url(img/seabased/scylla.jpg);"></div>
+        </div>
+    </section>
+    <!-- seabased Career -->
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer">
+
+        <h1 class="footer-header"><img src="img/logo-no-background.png" alt="">Perwita Nusaraya Group</h1>
+
+        <div class="footer-content-container">
+
+            <div class="offices">
+                <!-- offices list -->
+                <div class="office-content">
+                    <h1>Corporate Office</h1>
+                    <ul>
+                        <li><span class="material-symbols-outlined">location_on</span>Graha Perwita Building Jalan Raya
+                            Bypass Krian
+                            Km.31 Sidoarjo 61262. East Java-Indonesia.</li>
+                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
+                        <li><span class="material-symbols-outlined">phone</span>+62 851 7671 5850</li>
+                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
+                                see map</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="office-content">
+                    <h1>Jakarta Branch Office</h1>
+                    <ul>
+                        <li><span class="material-symbols-outlined">location_on</span>Perwita Nusaraya Wisma Bumiputera
+                            LT. 3A, Jl.
+                            Jend Sudirman Kav. 75, South Jakarta 12910, DKI Jakarta.
+                        </li>
+                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
+                        <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
+                                see map</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="office-content">
+                    <h1>Bali Branch Office</h1>
+                    <li><span class="material-symbols-outlined">location_on</span>Jl. Bina Kusuma No. 9 , Ubung -
+                        Denpasar , Bali.
+                    </li>
+                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
+                    <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+                    <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to see
+                            map</a>
+                    </li>
+                </div>
+
+                <div class="office-content">
+                    <h1>South Korea Branch Office</h1>
+                    <li><span class="material-symbols-outlined">location_on</span>Hanil Office Tower 152, Jaseong-ro,
+                        1815,
+                        Munhyeon-dong, Nam-gu, Busan, South Korea</li>
+                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
+                    <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li>
+                    <li><span class="material-symbols-outlined">map</span>Click to see map<a href="#"
+                            style="color: white;" class="map-link"></a>
+                    </li>
+                </div>
+                <!-- offices list end -->
+            </div>
+
+            <div class="link-and-sm">
+                <h2>Link</h2>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="units.html">Units</a>
+                <a href="job-portal.html">Jobs</a>
+                <a href="partner.html">Partner</a>
+                <a href="#">Gallery</a>
+                <a href="faqs.html">FAQs</a>
+
+                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/terms-of-service">Terms of Service</a>
+                <a href="/our-team">Our Team</a>
+                <a href="/faqs">FAQs</a>
+                <a href="/blog">Blog</a>
+
+                <div class="websitelink">
+                    <a href="https://perwitanusaraya.co.id/"><span
+                            class="material-symbols-outlined">globe</span>perwitanusaraya.co.id</a>
+                    <a href="https://mji.perwitanusaraya.co.id/"><span
+                            class="material-symbols-outlined">globe</span>mji.perwitanusaraya.co.id</a>
+                    <a href="https://perwitainternship.com/"><span
+                            class="material-symbols-outlined">globe</span>perwitainternship.com</a>
+                    <a href="https://perwitamarine.com/"><span
+                            class="material-symbols-outlined">globe</span>perwitamarine.com</a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h1>Contact us</h1>
+                <form action="php/submit_form.php" method="post">
+                    <input type="text" name="name" placeholder=" Your Name" required>
+                    <input type="email" name="email" placeholder=" Your Email" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <p>Follow us :</p>
+
+                <div class="sm-icons">
+                    <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img
+                            src="img/icon/ig.png" alt=""></a>
+                    <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img
+                            src="img/icon/fb.png" alt=""></a>
+                    <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
+                            src="img/icon/linkedin.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- links and Social media -->
+
+        <div class="copyright"><i data-feather="copyright"></i>&copy; Perwita Nusarya Group 2024</div>
+        <img src="img/assest/group logo.png" alt="" class="group-logo-footer">
+    </div>
+    <!-- Footer section end-->
+
+    <!-- script list -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
