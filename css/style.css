@@ -2057,7 +2057,7 @@ a {
     font-size: 3em;
     text-align: center;
     color: #333;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .accordion {
     background-color: #fff;
@@ -2072,6 +2072,7 @@ a {
     border-bottom: none;
 }
 .accordion-header {
+    margin-block: .3rem;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -2091,4 +2092,223 @@ a {
 .accordion-content p {
     margin: 0;
     color: #666;
+}
+
+/* landbased secton  */
+
+.landbased {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.landbased::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0));
+    z-index: 0;
+}
+
+.landbased-content {
+    text-align: center;
+    margin-inline: 5%;
+    color: white;
+    z-index: 1;
+}
+
+.landbased-content span {
+    color: var(--secondary-color);
+}
+
+.landbased-content h1 {
+    font-weight: 800;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px black;
+}
+
+.landbased-content p {
+    font-size: 2em;
+}
+
+.lb-cta {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.lb-cta a {
+    font-size: 1.2em;
+    border-radius: 5px;
+    outline: 2px solid white;
+    color: white;
+    padding: 1rem 2rem;
+    background: var(--primary2-color);
+}
+
+.lb-cta a:hover {
+    background: var(--secondary-color);
+}
+
+/* landbased services */
+.lb-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.lb-services h1 {
+    font-size: 3em;
+}
+
+.lb-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.card svg {
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 100px;
+    fill: var(--secondary-color);
+}
+
+.card h4 {
+    margin: 10px 5%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+}
+
+.modal-content svg {
+    margin-bottom: 3rem;
+    width: 100px;
+    height: 100px;
+    fill: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.modal-content p {
+    margin-top: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+/* career developments */
+.lb-careers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.lb-careers h1 {
+    font-size: 3em;
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
+}
+.lb-careers p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.lb-careers-container {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+}
+.lb-careers-img {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 90vh;
+}
+.lb-careers-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem;
+    width: 50%;
+    height: 90vh;
+    background-color: rgb(236, 236, 236);
+}
+.lb-careers-content h1 {
+    font-size: 2em;
+    font-weight: 600;
 }
