@@ -93,7 +93,7 @@
     <div class="lb-services" style="background-image: url(img/landbased/bgbased01.png);">
         <h1>Our Services</h1>
         <div class="lb-container">
-            <div class="card" data-modal="modal1">
+            <div class="lb-card" data-modal="modal1">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path
@@ -101,7 +101,7 @@
                 </svg>
                 <h4>Recruitment Services</h4>
             </div>
-            <div class="card" data-modal="modal2">
+            <div class="lb-card" data-modal="modal2">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path
@@ -109,7 +109,7 @@
                 </svg>
                 <h4>Training and Development</h4>
             </div>
-            <div class="card" data-modal="modal3">
+            <div class="lb-card" data-modal="modal3">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path
@@ -117,7 +117,7 @@
                 </svg>
                 <h4>Consulting Services</h4>
             </div>
-            <div class="card" data-modal="modal4">
+            <div class="lb-card" data-modal="modal4">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path
@@ -125,7 +125,7 @@
                 </svg>
                 <h4>Human Resource Management</h4>
             </div>
-            <div class="card" data-modal="modal5">
+            <div class="lb-card" data-modal="modal5">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path
@@ -213,7 +213,7 @@
 
     <script>
         // Function to open modals
-        document.querySelectorAll('.card').forEach(card => {
+        document.querySelectorAll('.lb-card').forEach(card => {
             card.addEventListener('click', () => {
                 const modalId = card.getAttribute('data-modal');
                 document.getElementById(modalId).style.display = 'flex';

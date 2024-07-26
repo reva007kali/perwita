@@ -1588,7 +1588,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 1500px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2182,7 +2182,7 @@ a {
     padding: 10px;
 }
 
-.card {
+.lb-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2199,23 +2199,23 @@ a {
     transition: transform 0.3s;
 }
 
-.card:hover {
+.lb-card:hover {
     transform: scale(1.05);
 }
 
-.card img {
+.lb-card img {
     width: 50px;
     height: 50px;
     margin-top: 15px;
 }
-.card svg {
+.lb-card svg {
     margin-bottom: 1rem;
     width: 100px;
     height: 100px;
     fill: var(--secondary-color);
 }
 
-.card h4 {
+.lb-card h4 {
     margin: 10px 5%;
 }
 
