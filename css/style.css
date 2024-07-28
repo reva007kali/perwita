@@ -1381,7 +1381,7 @@ a {
     object-position: top;
     width: 600px;
     height: 400px;
-    border-radius: 80px;
+    border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.511);
 }
 
@@ -1457,127 +1457,48 @@ a {
     margin-bottom: 1rem;
 }
 
-.ms-grid {
+.ms-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: start;
     flex-wrap: wrap;
-    gap: 3rem;
-    margin-inline: 10%;
+    margin-inline: 2%;
+    margin-top: 2rem;
 }
 
 .ms-card {
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 200px;
-    gap: .3rem;
-    padding: 2rem 0rem;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.454);
-    background-color: white;
-    position: relative;
-    overflow: hidden;
+    width: 150px;
     transition: transform 200ms ease-in-out;
 }
-
-.ms-card1::before {
-    content: "Established in August 1994 to carry out activities of Human Resources Development in Indonesia";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card2::before {
-    content: "Approved by The Ministry of Manpower as an Indonesian Manpower Recruiting company for Overseas placement.";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card3::before {
-    content: "We collaborated with global companies for seafarers recruitment, endorsing crew for Carnival Cruise Lines, Oceania Cruises, Regent Seven Seas Cruises, Quark Expeditions, Scylla";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card4::before {
-    content: "Established PT. Perwita Maritim Pershada, a Maritime Training Center based on STCW 2010 and approved by Directorate General of Sea Transportation Indonesia";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card5::before {
-    content: "PT. HAMERTA SINAR SURYA a Construction Skill Training and Test Center, and recognized by CIDB Malaysia to upgrade skill worker's competency";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card6::before {
-    content: "Having approval by the Ministry of Manpower of Indonesia to conduct Internship Program to Japan, managed by LPK Perwita Nusaraya as Legal Sending Organization";
-    position: absolute;
-    align-content: center;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
-    color: white;
-    visibility: hidden;
-}
-
-.ms-card:hover::before {
-    visibility: visible;
-    opacity: 1;
-}
-
 .ms-card:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
-
-.ms-card h3 {
-    font-size: 1.5em;
-    color: var(--secondary-color);
+.ms-card h1 {
+    font-size: 15px;
+    margin-block: 10px;
 }
-
-.ms-card p strong {
-    text-align: center;
-    font-size: 1.2em;
-}
-
 .ms-card p {
-    font-size: .8em;
+    font-size: 12px;
 }
-
-.ms-card p:nth-child(4) {
-    display: none;
-}
-
-.ms-card img {
+.ms-line {
+    margin-top: 5rem;
     width: 50px;
-    height: 50px;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+.ms-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    gap: 10px;
 }
 
 /* milestone */
@@ -1614,52 +1535,32 @@ a {
     margin-bottom: 2rem;
 }
 
+.leader-card img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.272);
+}
+
 .leader-card {
     position: relative;
+}
+
+.leader-card-link a {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 300px;
-    height: 400px;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.269);
+    justify-content: center;
+    /* outline: 1px solid red; */
+    bottom: 25px;
+    left: 10%;
+    position: absolute;
 }
 
-
-.leader-card h3 {
-    font-size: 1.5em;
-}
-
-.leader-card h4 {
-    margin-inline: 0;
-}
-
-.leader-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 1rem;
-    color: var(--text-color1);
-}
-
-.leader-card img {
-    margin-top: 2rem;
-    width: 200px;
-    height: 200px;
+.leader-card-link img {
+    width: 30px;
     border-radius: 50%;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
-    object-fit: cover;
-    object-position: center;
+    margin-right: 10px;
 }
 
-.leader-content img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-}
 
 /* our leader */
 
@@ -1782,10 +1683,11 @@ a {
     align-items: center;
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 60vh;
     margin: 2%;
     border-radius: 20px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.365)
 }
 
 .sb-content {
@@ -1796,7 +1698,7 @@ a {
 .sb-content h1 {
     padding-bottom: 5px;
     color: var(--primary-color);
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 1rem;
     margin-right: 5rem;
     border-bottom: 5px solid var(--secondary-color);
@@ -1809,13 +1711,13 @@ a {
 }
 
 .sb-content p {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .sb-overview img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 
 }
@@ -1848,10 +1750,10 @@ a {
     margin-bottom: 3rem;
 
 }
-
 .sb-river {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     min-height: 80vh;
 
 }
@@ -1900,6 +1802,214 @@ a {
     margin-inline: 5px;
     border-radius: 5px;
 }
+/* life onboard river cruise */
+
+.river-cruise-life {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.river-life-content {
+    position: relative;
+    width: 100%;
+}
+
+.river-section {
+    
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.river-section h1, h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.river-life-content p, ul {
+    color: #555;
+}
+
+.river-life-content ul {
+    padding-left: 20px;
+}
+
+.river-life-content ul li {
+    margin-bottom: 10px;
+}
+
+.river-life-content a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.river-life-content a:hover {
+    text-decoration: underline;
+}
+.river-section .rimg1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    top: 10rem;
+    right: 5rem;
+}
+.destination-img-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.destination-img-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* expedition cruise */
+.expedition-cruise {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    
+    border-radius: 8px;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expedition-cruise__content {
+    margin-inline: 5%;
+    width: 100%;
+}
+
+.expedition-cruise__title,
+.expedition-cruise__subtitle {
+    color: #333;
+}
+
+.expedition-cruise__paragraph,
+.expedition-cruise__list {
+    color: #555;
+}
+
+.expedition-cruise__list {
+    padding-left: 20px;
+}
+
+.expedition-cruise__list-item {
+    margin-bottom: 10px;
+}
+
+/* a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+.expedition-cruise__expedition-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.expedition-cruise__text {
+    flex: 1;
+}
+
+.expedition-cruise__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expedition-cruise__photo {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* fisherman ship */
+.fisherman-ship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #b2ebf2, #ffffff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fisherman-ship__content {
+    margin-inline: 5%;
+}
+
+.fisherman-ship__title,
+.fisherman-ship__subtitle {
+    color: #333;
+}
+
+.fisherman-ship__paragraph,
+.fisherman-ship__list {
+    color: #555;
+}
+
+.fisherman-ship__list {
+    padding-left: 20px;
+}
+
+.fisherman-ship__list-item {
+    margin-bottom: 10px;
+}
+
+/* a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+.fisherman-ship__fisherman-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fisherman-ship__text {
+    flex: 1;
+}
+
+.fisherman-ship__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fisherman-ship__photo {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 /* ivan pereira */
 .director-ivan-container {
@@ -1964,6 +2074,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
 }
+
 .sb-licenses h1 {
     text-align: center;
     align-content: center;
@@ -1995,6 +2106,7 @@ a {
 .sb-licenses-content h1 {
     font-size: 2em;
 }
+
 .sb-licenses-content ul {
     margin-left: 2rem;
 }
@@ -2033,66 +2145,103 @@ a {
     background-color: var(--primary2-color);
     margin: 5%;
 }
+
 .sb-deployed h1 {
     font-weight: 500;
     text-align: center;
     font-size: 3em;
     color: white;
 }
+
 .sb-deployed h1 span {
     font-weight: 700;
     color: var(--secondary-color);
 }
 
 /* services */
-
-.services-container {
-    min-height: 80vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    transition: all 200ms ease-in;
-}
-.services-container h1 {
-    font-size: 3em;
-    text-align: center;
-    color: #333;
-    margin-bottom: 2rem;
-}
-.accordion {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-}
-.accordion-item {
-    border-bottom: 1px solid #ddd;
-}
-.accordion-item:last-child {
-    border-bottom: none;
-}
-.accordion-header {
-    margin-block: .3rem;
+.sb-services {
     display: flex;
-    gap: 1rem;
     flex-direction: column;
-    background-color: #0056b3;
-    color: #fff;
-    cursor: pointer;
-    padding: 25px;
+    align-items: center;
+    min-height: 50vh;
+    gap: 2rem;
+}
+
+.sb-services h1 {
+    margin-top: 2rem;
+    font-size: 3em;
+}
+.sb-services-box h2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 1.2em;
+}
+
+.sb-services-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.sb-services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+}
+.sb-services svg {
+    width: 30px;
+}
+.sb-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    gap: 1rem;
+    background-color: white;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.272);
+    margin-bottom: 1rem;
 }
-.accordion-content {
-    padding: 15px;
-    display: none;
-    background-color: #f9f9f9;
+
+.sb-li-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    list-style: none;
 }
-.accordion-content p {
-    margin: 0;
-    color: #666;
+
+.sb-services-card:hover .sb-li-container {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
 }
+
+.sb-li-container li {
+    text-align: center;
+    align-content: center;
+    width: 190px;
+    padding: 1rem;
+    margin-block: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
+}
+.li-marketing li {
+    background-color: rgb(70, 255, 199);
+}
+.li-recruitment li {
+    background-color: rgb(70, 218, 255);
+}
+.li-nhr li {
+    background-color: rgb(253, 232, 5);
+}
+.li-deployment li {
+    background-color: rgb(30, 145, 168);
+}
+
 
 /* landbased secton  */
 
@@ -2170,6 +2319,7 @@ a {
     padding: 20px;
     background-color: #ffffff;
 }
+
 .lb-services h1 {
     font-size: 3em;
 }
@@ -2208,6 +2358,7 @@ a {
     height: 50px;
     margin-top: 15px;
 }
+
 .lb-card svg {
     margin-bottom: 1rem;
     width: 100px;
@@ -2272,43 +2423,83 @@ a {
 }
 
 /* career developments */
-.lb-careers {
+.landbased-jobs {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
-.lb-careers h1 {
-    font-size: 3em;
-    margin-top: 2rem ;
-    margin-bottom: 1rem;
-}
-.lb-careers p {
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
-}
-.lb-careers-container {
-    display: flex;
-    width: 100%;
-    min-height: 90vh;
-}
-.lb-careers-img {
-    background-position: center;
-    background-size: cover;
-    width: 50%;
-    height: 90vh;
-}
-.lb-careers-content {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-    padding: 5rem;
-    width: 50%;
-    height: 90vh;
-    background-color: rgb(236, 236, 236);
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.lb-careers-content h1 {
-    font-size: 2em;
-    font-weight: 600;
+
+.landbased-jobs__content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.landbased-jobs__title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.landbased-jobs__sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.landbased-jobs__section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to left, #b2ebf2, #ffffff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.landbased-jobs__section--domestic {
+    flex-direction: row-reverse;
+    background: linear-gradient(to right, #b2ebf2, #ffffff);
+}
+
+.landbased-jobs__text {
+    flex: 1;
+}
+
+.landbased-jobs__subtitle {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.landbased-jobs__paragraph,
+.landbased-jobs__list {
+    color: #555;
+}
+
+.landbased-jobs__list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.landbased-jobs__list-item {
+    margin-bottom: 10px;
+}
+
+
+.landbased-jobs__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landbased-jobs__photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
