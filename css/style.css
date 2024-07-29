@@ -1392,7 +1392,7 @@ a {
     align-items: center;
     text-align: center;
     padding: 3rem;
-    width: 400px;
+    width: 500px;
     height: 400px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.573);
     border-radius: 20px;
@@ -1410,7 +1410,7 @@ a {
     background: #d3ff47;
     background: -webkit-linear-gradient(263deg, #d3ff47 0%, #bc48ff 100%);
     background: linear-gradient(263deg, #d3ff47 0%, #bc48ff 100%);
-    margin-bottom: 1rem;
+    margin-bottom: .2rem;
 }
 
 .OH-card p {
@@ -1770,7 +1770,7 @@ a {
     font-size: 3em;
     margin-bottom: 1rem;
     border-bottom: 4px solid var(--secondary-color);
-    margin-right: 10rem;
+    margin-right: 5rem;
     font-weight: 600;
 }
 
@@ -1818,34 +1818,57 @@ a {
 }
 
 .river-life-content {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .river-section {
-    
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
     margin-bottom: 20px;
 }
-
-
-
+.river-section h2 {
+    margin-top: 3rem;
+    font-size: 2.5em;
+}
+.river-section ul {
+    padding: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.279);
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.river-section ul li {
+    margin-top: 1rem;
+    text-align: left;
+}
+.river-section p {
+    margin-top: 2rem;
+}
 
 
 .river-life-content a:hover {
     text-decoration: underline;
 }
 .river-section .rimg1 {
-    position: absolute;
-    width: 400px;
+    width: 900px;
     height: 400px;
     object-fit: cover;
+    object-position: center;
     border-radius: 10px;
     top: 10rem;
     right: 5rem;
 }
 .destination-img-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
     margin-top: 3rem;
 }
@@ -1853,6 +1876,8 @@ a {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
 }
 
 /* expedition cruise */
@@ -1989,6 +2014,23 @@ a:hover {
     width: 80%;
     height: auto;
     border-radius: 8px;
+}
+
+.cm-video {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cm-video video {
+    width: 300px;
+    border-radius: 30px;
+}
+.river-cruise-life h4 {
+    margin-top: 2rem;
+    font-size: 3em;
+    
 }
 
 
