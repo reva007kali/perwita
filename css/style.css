@@ -2100,12 +2100,22 @@ a:hover {
 
 
 /* ivan pereira */
+.director-ivan {
+    border-top: 20px solid var(--secondary-color);
+    border-bottom: 20px solid var(--secondary-color);
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-inline : 7%;
+    border-radius: 70px;
+}
 .director-ivan-container {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 90vh;
     margin-inline: 7%;
+
 }
 
 .ivan-pereira-content {
@@ -2117,7 +2127,11 @@ a:hover {
 }
 
 .ivan-pereira-content h1 {
-    font-size: 2em;
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+.ivan-pereira-content p {
+    font-size: 1rem;
 }
 
 .ivan-pereira {
@@ -2138,7 +2152,8 @@ a:hover {
 .ivan-pereira h2 {
     text-align: center;
     margin-inline: 20%;
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .ivan-pereira img:last-child {
