@@ -177,3 +177,60 @@ document.querySelectorAll('.accordion-header').forEach(header => {
     });
 });
 
+// licenses modal
+// Get the modal
+var modal = document.getElementById("licenseModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Add event listeners to the license cards
+var cards = document.getElementsByClassName("licenses-card");
+for (var i = 0; i < cards.length; i++) {
+  cards[i].onclick = function() {
+    var license = this.getAttribute("data-license");
+    var description = this.getAttribute("data-description");
+    var file = this.getAttribute("data-file");
+    var image = this.getAttribute("data-image");
+
+    document.getElementById("modal-title").innerText = license;
+    document.getElementById("modal-description").innerText = description;
+    document.getElementById("download-link").href = file;
+    document.getElementById("modal-image").src = image;
+
+    modal.style.display = "block";
+  }
+}
+
+// sb service modal
+function openModal(modalId) {
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+
+// Close the modal when clicking outside of the modal content
+window.onclick = function(event) {
+    const modals = document.querySelectorAll('.sb-modal');
+    modals.forEach(modal => {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+}
+
+
