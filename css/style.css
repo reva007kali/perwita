@@ -1810,6 +1810,9 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     min-height: 80vh;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
@@ -1818,7 +1821,7 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 5%;
-    width: 50%;
+    width: 700px;
 }
 
 .river-content h1 {
@@ -1844,9 +1847,15 @@ a {
 }
 
 .sb-river-img {
-    width: 50%;
+    width: 700px;
     background-size: cover;
     background-position: center;
+}
+
+.sb-clients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .sb-clients img {
@@ -2106,9 +2115,10 @@ a:hover {
     box-shadow: 1px 1px 10px black;
     margin-bottom: 4rem;
     margin-top: 4rem;
-    margin-inline : 7%;
+    margin-inline: 7%;
     border-radius: 70px;
 }
+
 .director-ivan-container {
     display: flex;
     align-items: center;
@@ -2130,6 +2140,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 2.4em;
 }
+
 .ivan-pereira-content p {
     font-size: 1rem;
 }
@@ -2211,6 +2222,7 @@ a:hover {
 }
 
 .sb-licenses-content ul {
+    list-style: circle;
     margin-left: 2rem;
 }
 
@@ -2260,16 +2272,19 @@ a:hover {
     font-weight: 700;
     color: var(--secondary-color);
 }
+
 .sb-deployed-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
+
 .sb-deployed-content p {
     color: white;
     font-size: 1.7em;
 }
+
 .sb-deployed-content p strong {
     color: var(--secondary-color);
 }
@@ -2438,6 +2453,7 @@ a:hover {
     text-align: center;
     font-size: 3em;
 }
+
 .sb-department p {
     font-size: 1.3em;
     margin-inline: 10%;
@@ -2450,7 +2466,7 @@ a:hover {
     flex-direction: column;
     /* text-align: left; */
     width: 200px;
-    background-color:white;
+    background-color: white;
     gap: 1rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.489);
     padding: 1rem;
@@ -2976,4 +2992,66 @@ a:hover {
 
 .faq-page__answer {
     color: #666;
+}
+
+/* training centers */
+.tc-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    z-index: 88;
+}
+
+.tc-cta a {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    font-size: .9rem;
+    border: 2px solid white;
+}
+
+.tc-cta a:hover {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 10px;
+    font-size: .9rem;
+}
+
+.tc-list {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tc-tittle {
+    display: flex;
+    align-items: center;
+    
+    padding: 100px;
+}
+
+.tc-tittle h1 {
+    margin-left: 3rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+.tc-tittle-img img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.409);
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
 }
