@@ -1331,7 +1331,7 @@ a {
     bottom: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.208));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.208));
     z-index: 1;
 }
 
@@ -1633,6 +1633,7 @@ a {
     justify-content: center;
     padding: 2rem;
     gap: 2rem;
+    min-height: 100vh;
 }
 
 .VM h1 {
@@ -1685,7 +1686,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    min-height: 100vh;
     gap: 1rem;
 }
 
@@ -1784,9 +1785,10 @@ a {
 }
 
 .sb-content h1 {
+    display: flex;
     padding-bottom: 5px;
     color: var(--primary-color);
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 1rem;
     margin-right: 5rem;
     border-bottom: 5px solid var(--secondary-color);
