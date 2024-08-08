@@ -125,6 +125,17 @@
                     <p>Learn more</p>
                 </div>
             </div>
+            <div class="sb-services-card" onclick="openModal('crewreadiness')">
+                <div class="sb-services-box">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M0 64C0 28.7 28.7 0 64 0L384 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM183 278.8c-27.9-13.2-48.4-39.4-53.7-70.8l39.1 0c1.6 30.4 7.7 53.8 14.6 70.8zm41.3 9.2l-.3 0-.3 0c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5l47.1 0c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8l39.1 0c-5.3 31.4-25.8 57.6-53.7 70.8zM279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8c27.9 13.2 48.4 39.4 53.7 70.8l-39.1 0zM223.7 96l.3 0 .3 0c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5l-47.1 0c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5zM183 105.2c-6.8 17.1-12.9 40.4-14.6 70.8l-39.1 0c5.3-31.4 25.8-57.6 53.7-70.8zM352 192A128 128 0 1 0 96 192a128 128 0 1 0 256 0zM112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0z" />
+                    </svg>
+                    <h2>Crew Readiness</h2>
+                    <p>Learn more</p>
+                </div>
+            </div>
             <div class="sb-services-card" onclick="openModal('deployment')">
                 <div class="sb-services-box">
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -209,6 +220,24 @@
         </div>
     </div>
 
+    <div class="sb-modal" id="crewreadiness">
+        <div class="sb-modal-content">
+            <span class="close" onclick="closeModal('crewreadiness')">&times;</span>
+            <h3>Crew Readiness</h3>
+            <p> Document Readiness Team steps in post-creation of the employee ID, ensuring that new hires are
+                document-ready and prepared to join on the scheduled date.
+            <p>They serve as the primary contact for new hires during this phase, coordinating with the Visa and
+                document assistance teams to facilitate timely readiness for boarding.</p>
+            <p> In case of cancellations, NHRT is equipped to recommend replacements who are fully prepared.
+                A Data Analyst will provide support to the NHRT</p>
+            <ul>
+                <li>Visa Team</li>
+                <li>Document Assistance Team</li>
+                <li>Data Analyst</li>
+            </ul>
+        </div>
+    </div>
+
     <div class="sb-modal" id="deployment">
         <div class="sb-modal-content">
             <span class="close" onclick="closeModal('deployment')">&times;</span>
@@ -234,11 +263,12 @@
 
         <div class="sb-department-container">
 
-            <div class="department" style="background-image: url(img/seabased/bgseabased01.png);">
+            <div class="department" style="background-image: url(img/seabased/department/dining.jpg);">
                 <div class="department-row">
-                    <img src="img/seabased/department/dining.jpg" alt="">
                     <ul>
-                        <h2>F&B Services</h2>
+                        <h2>F&B Servicesspan <span class="material-symbols-outlined">
+                                keyboard_double_arrow_down
+                            </span></h2>
                         <li>Buffet Attendant</li>
                         <li>Assistant Waiter</li>
                         <li>Waiter</li>
@@ -247,16 +277,17 @@
                         <li>Bar Server</li>
                         <li>Bartender</li>
                     </ul>
-                
+
 
                 </div>
             </div>
 
-            <div class="department" style="background-image: url(img/seabased/bgseabased01.png);">
+            <div class="department" style="background-image: url(img/seabased/department/culinary2.webp);">
                 <div class="department-row">
-                    <img src="img/seabased/department/culinary.jpg" alt="">
                     <ul>
-                        <h2>Culinary</h2>
+                        <h2>Culinary<span class="material-symbols-outlined">
+                            keyboard_double_arrow_down
+                        </span></h2>
                         <li>Utility Steward</li>
                         <li>Commis 1,2,3</li>
                         <li>Butcher</li>
@@ -267,15 +298,16 @@
                         <li>Sous Chef (River Cruise)</li>
                         <li>Executive Chef (River Cruise)</li>
                     </ul>
-                  
+
                 </div>
             </div>
 
-            <div class="department" style="background-image: url(img/seabased/bgseabased01.png);">
+            <div class="department" style="background-image: url(img/seabased/department/housekeeping.jpg);">
                 <div class="department-row">
-                    <img src="img/seabased/department/housekeeping.jpg" alt="">
                     <ul>
-                        <h2>Housekeeping</h2>
+                        <h2>Housekeeping<span class="material-symbols-outlined">
+                            keyboard_double_arrow_down
+                        </span></h2>
                         <li>Housekeeping Utility</li>
                         <li>Assistant Cabin Steward</li>
                         <li>Cabin Steward</li>
@@ -284,11 +316,12 @@
                 </div>
             </div>
 
-            <div class="department" style="background-image: url(img/seabased/bgseabased01.png);">
+            <div class="department" style="background-image: url(img/seabased/department/marine.jpg);">
                 <div class="department-row">
-                    <img src="img/seabased/department/marine.webp" alt="">
                     <ul>
-                        <h2>Marine & Others</h2>
+                        <h2>Marine & Others<span class="material-symbols-outlined">
+                            keyboard_double_arrow_down
+                        </span></h2>
                         <li>Ordinary Seaman</li>
                         <li>AB Sailor</li>
                         <li>Wiper</li>
@@ -403,37 +436,37 @@
         </div>
     </section>
     <!-- sebased deployed number -->
-     <!-- latest post -->
-  <section class="post-update slide-up" style="background-image: url(img/background/socialmediabg.png);">
-    <div class="sm-tittle">
+    <!-- latest post -->
+    <section class="post-update slide-up" style="background-image: url(img/background/socialmediabg.png);">
+        <div class="sm-tittle">
 
-      <h1 class="slide-up">Follow Our <span>Social Media</span></h1>
+            <h1 class="slide-up">Follow Our <span>Social Media</span></h1>
 
-      <div class="sm-icons">
-        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img src="img/icon/ig.png"
-            alt=""></a>
-        <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img src="img/icon/fb.png"
-            alt=""></a>
-        <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
-            src="img/icon/linkedin.png" alt=""></a>
-      </div>
+            <div class="sm-icons">
+                <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img
+                        src="img/icon/ig.png" alt=""></a>
+                <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img
+                        src="img/icon/fb.png" alt=""></a>
+                <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
+                        src="img/icon/linkedin.png" alt=""></a>
+            </div>
 
-    </div>
+        </div>
 
-    <div class="post slide-up">
-      <img src="img/latest-post/1.jpg" alt="" onclick="openModal(this)">
-      <img src="img/latest-post/2.jpg" alt="" onclick="openModal(this)">
-      <img src="img/latest-post/3.jpg" alt="" onclick="openModal(this)">
-      <img src="img/latest-post/4.jpg" alt="" onclick="openModal(this)">
-      <img src="img/latest-post/5.jpg" alt="" onclick="openModal(this)">
-    </div>
+        <div class="post slide-up">
+            <img src="img/latest-post/1.jpg" alt="" onclick="openModal(this)">
+            <img src="img/latest-post/2.jpg" alt="" onclick="openModal(this)">
+            <img src="img/latest-post/3.jpg" alt="" onclick="openModal(this)">
+            <img src="img/latest-post/4.jpg" alt="" onclick="openModal(this)">
+            <img src="img/latest-post/5.jpg" alt="" onclick="openModal(this)">
+        </div>
 
-    <div id="myModal" class="modal">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <img class="modal-content" id="modalImg">
-    </div>
-  </section>
-  <!-- latest post -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+    </section>
+    <!-- latest post -->
 
 
 
