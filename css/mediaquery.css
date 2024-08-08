@@ -2,6 +2,11 @@
     body {
         font-size: 70%;
     }
+    nav {
+        font-size: 60%;
+        z-index: 900;
+        height: 100px;
+    }
 
     /* home */
     .home {
@@ -137,5 +142,25 @@
         font-size: 40px;
         font-weight: bold;
         transition: 0.3s;
+    }
+    .river-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5%;
+        width: 200px;
+    }
+    .sb-river-img {
+        width: 300px;
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
     }
 }

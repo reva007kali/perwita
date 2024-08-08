@@ -1833,6 +1833,7 @@ a {
 /* overview */
 .sb-overview {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     background-size: cover;
@@ -1909,7 +1910,7 @@ a {
 .sb-river {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     min-height: 80vh;
     margin-bottom: 2rem;
     border-radius: 10px;
@@ -1922,14 +1923,14 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 5%;
-    width: 600px;
+    min-width: 600px;
 }
 
 .river-content h1 {
     font-size: 2em;
     margin-bottom: 1rem;
     border-bottom: 4px solid var(--secondary-color);
-    margin-right: 5rem;
+    margin-right: 0rem;
     font-weight: 600;
 }
 
@@ -2304,6 +2305,7 @@ a:hover {
 .sb-licenses-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 5rem;
     gap: 2rem;
 }
@@ -2329,6 +2331,7 @@ a:hover {
     background-color: var(--primary2-color);
     overflow: hidden;
     margin: 5%;
+    position: relative;
 }
 
 .sb-deployed h1 {
@@ -2361,6 +2364,16 @@ a:hover {
 
 .sb-deployed-content p strong {
     color: var(--secondary-color);
+}
+.sb-deployed img {
+    position: absolute;
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
 }
 
 /* services */
@@ -2571,7 +2584,7 @@ a:hover {
     right: 0;
     background: #474bff;
     background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
-    background: linear-gradient(0deg, #9c9eff 0%, #ffe684 100%);
+    background: linear-gradient(0deg, #9c9eff 0%, #ffbf00 100%);
     border-radius: 20px;
     transition: 300ms ease-in-out;
 }
@@ -2604,6 +2617,7 @@ a:hover {
 }
 
 .department li {
+    border-radius: 5px;
     text-align: left;
     width: 100%;
     padding: 2px;
@@ -2614,7 +2628,7 @@ a:hover {
 }
 
 .department li:hover {
-    background-color: var(--secondary-color);
+    background-color: rgb(234, 234, 234);
 }
 
 /* sb department */
