@@ -3207,6 +3207,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 80vh;
     border-bottom: 8px solid var(--secondary-color);
 }
 .why-perwita {
@@ -3454,3 +3455,15 @@ a:hover {
 }
 
 /* bio leader */
+
+/* ourhistory */
+.history-content {
+    padding: 30px;
+}
+.history-content p {
+    width: 700px;
+    margin-block: 1rem;
+}
+.history-content h1 {
+    font-size: 2em;
+}
