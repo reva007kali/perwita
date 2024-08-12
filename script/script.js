@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Hamburger Menu
     function updatemenu() {
-        if (document.getElementById('responsive-menu').checked == true) {
-          document.getElementById('menu').style.borderBottomRightRadius = '0';
-          document.getElementById('menu').style.borderBottomLeftRadius = '0';
-        }else{
-          document.getElementById('menu').style.borderRadius = '10px';
+        var menu = document.getElementById('menu');
+        if (document.getElementById('responsive-menu').checked) {
+            menu.style.borderBottomRightRadius = '0';
+            menu.style.borderBottomLeftRadius = '0';
+        } else {
+            menu.style.borderRadius = '10px';
         }
-      }
+    }
 
     // Dark Mode
     const darkModeToggle = document.getElementById('dark-mode-button');
@@ -33,20 +34,14 @@ document.addEventListener('DOMContentLoaded', function () {
     function showPopupMessage(message) {
         popupMessage.textContent = message;
         popupMessage.classList.add('show');
-        popupMessage.classList.remove('hidden');
         setTimeout(() => {
             popupMessage.classList.remove('show');
-            popupMessage.classList.add('hidden');
-        }, 1000); // Increased to 1000ms for better readability
+        }, 1000); // Adjusted to 1000ms for better readability
     }
 
     function updateIcon() {
         const icon = document.getElementById('dm-icon');
-        if (document.body.classList.contains('dark-mode')) {
-            icon.setAttribute('data-feather', 'moon');
-        } else {
-            icon.setAttribute('data-feather', 'sun');
-        }
+        icon.setAttribute('data-feather', document.body.classList.contains('dark-mode') ? 'moon' : 'sun');
         feather.replace(); // Ensure Feather icons are loaded before this call
     }
 
@@ -59,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         threshold: 0.5
     };
 
-    const callback = (entries, observer) => {
+    const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const counter = entry.target;
@@ -68,9 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 observer.unobserve(counter);
             }
         });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
+    }, options);
 
     counters.forEach(counter => {
         observer.observe(counter);
@@ -80,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let current = 0;
         const increment = target / 100; // Adjusted speed for faster animation
 
-        const updateCounter = () => {
+        function updateCounter() {
             current += increment;
             if (current < target) {
                 element.textContent = Math.ceil(current).toLocaleString();
@@ -88,43 +81,41 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 element.textContent = target.toLocaleString();
             }
-        };
+        }
 
         updateCounter();
     }
 
+    // Image Slider (if needed)
     const sliderWrapper = document.querySelector('.slider-wrapper');
-    const images = sliderWrapper.querySelectorAll('img');
+    if (sliderWrapper) {
+        const images = sliderWrapper.querySelectorAll('img');
+        images.forEach(img => {
+            const clone = img.cloneNode(true);
+            sliderWrapper.appendChild(clone);
+        });
+    }
 
-    // Clone images to create an infinite loop
-    images.forEach(img => {
-        const clone = img.cloneNode(true);
-        sliderWrapper.appendChild(clone);
-    });
-});
+    // Modal Image Viewer
+    function openModal(imgElement) {
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("modalImg");
+        modal.style.display = "block";
+        modalImg.src = imgElement.src;
+    }
 
-// Modal late post
-function openModal(imgElement) {
-    var modal = document.getElementById("myModal");
-    var modalImg = document.getElementById("modalImg");
-    modal.style.display = "block";
-    modalImg.src = imgElement.src;
-}
+    function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
 
-function closeModal() {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "none";
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    const elements = document.querySelectorAll('.appear-on-scroll'); // Change this to your specific class or ID
+    // Scroll Appear on Scroll
+    const elements = document.querySelectorAll('.appear-on-scroll');
 
     function checkVisibility() {
         const triggerBottom = window.innerHeight / 1.2;
-
         elements.forEach(element => {
             const boxTop = element.getBoundingClientRect().top;
-
             if (boxTop < triggerBottom) {
                 element.classList.add('visible');
             } else {
@@ -138,102 +129,109 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Slide-up Animation
     const slideUpElements = document.querySelectorAll('.slide-up');
-
     const slideUpOptions = {
         root: null, // Use the viewport as the root
         rootMargin: '0px',
         threshold: 0.1 // Trigger when 10% of the element is in view
     };
 
-    const slideUpCallback = (entries, observer) => {
+    const slideUpObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
                 observer.unobserve(entry.target); // Stop observing once the animation is applied
             }
         });
-    };
-
-    const slideUpObserver = new IntersectionObserver(slideUpCallback, slideUpOptions);
+    }, slideUpOptions);
 
     slideUpElements.forEach(element => {
         slideUpObserver.observe(element);
     });
-});
 
-// seabsed accordion 
-document.querySelectorAll('.accordion-header').forEach(header => {
-    header.addEventListener('click', () => {
-        const content = header.nextElementSibling;
-        const isActive = content.style.display === 'block';
-        
-        document.querySelectorAll('.accordion-content').forEach(c => {
-            c.style.display = 'none';
+    // Accordion Functionality
+    document.querySelectorAll('.accordion-header').forEach(header => {
+        header.addEventListener('click', () => {
+            const content = header.nextElementSibling;
+            const isActive = content.style.display === 'block';
+
+            document.querySelectorAll('.accordion-content').forEach(c => {
+                c.style.display = 'none';
+            });
+
+            if (!isActive) {
+                content.style.display = 'block';
+            }
         });
-        
-        if (!isActive) {
-            content.style.display = 'block';
+    });
+
+    // License Modal Functionality
+    var licenseModal = document.getElementById("licenseModal");
+    var span = licenseModal.querySelector(".close");
+
+    span.onclick = function() {
+        licenseModal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == licenseModal) {
+            licenseModal.style.display = "none";
+        }
+    }
+
+    document.querySelectorAll('.licenses-card').forEach(card => {
+        card.addEventListener('click', function() {
+            var license = this.getAttribute("data-license");
+            var description = this.getAttribute("data-description");
+            var file = this.getAttribute("data-file");
+            var image = this.getAttribute("data-image");
+
+            document.getElementById("modal-title").innerText = license;
+            document.getElementById("modal-description").innerText = description;
+            document.getElementById("download-link").href = file;
+            document.getElementById("modal-image").src = image;
+
+            licenseModal.style.display = "block";
+        });
+    });
+
+    // Sea-Based Service Modal
+    function openServiceModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+
+    function closeServiceModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        const modals = document.querySelectorAll('.sb-modal');
+        modals.forEach(modal => {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        });
+    }
+
+    // Go Back Functionality
+
+    // Land-Based Service Modal
+    document.querySelectorAll('.lb-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const modalId = card.getAttribute('data-modal');
+            document.getElementById(modalId).style.display = 'flex';
+        });
+    });
+
+    document.querySelectorAll('.close').forEach(closeBtn => {
+        closeBtn.addEventListener('click', () => {
+            const modalId = closeBtn.getAttribute('data-close');
+            document.getElementById(modalId).style.display = 'none';
+        });
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target.classList.contains('modal')) {
+            event.target.style.display = 'none';
         }
     });
 });
-
-// licenses modal
-// Get the modal
-var modal = document.getElementById("licenseModal");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-// Add event listeners to the license cards
-var cards = document.getElementsByClassName("licenses-card");
-for (var i = 0; i < cards.length; i++) {
-  cards[i].onclick = function() {
-    var license = this.getAttribute("data-license");
-    var description = this.getAttribute("data-description");
-    var file = this.getAttribute("data-file");
-    var image = this.getAttribute("data-image");
-
-    document.getElementById("modal-title").innerText = license;
-    document.getElementById("modal-description").innerText = description;
-    document.getElementById("download-link").href = file;
-    document.getElementById("modal-image").src = image;
-
-    modal.style.display = "block";
-  }
-}
-
-// sb service modal
-function openModal(modalId) {
-    document.getElementById(modalId).style.display = "block";
-}
-
-function closeModal(modalId) {
-    document.getElementById(modalId).style.display = "none";
-}
-
-// Close the modal when clicking outside of the modal content
-window.onclick = function(event) {
-    const modals = document.querySelectorAll('.sb-modal');
-    modals.forEach(modal => {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    });
-}
-
-function goBack() {
-    window.history.back();
-}
-
