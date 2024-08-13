@@ -2,283 +2,203 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery Page</title>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaquery.css">
-    <link rel="stylesheet" href="css/darkmode.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Page</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+  <link rel="stylesheet" href="css/darkmode.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="icon" href="img/logo-pn.png" type="image/png">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <style>
-        .header {
-            text-align: center;
-            padding: 32px;
-          }
-          
-          .row {
-            display: -ms-flexbox; /* IE 10 */
-            display: flex;
-            -ms-flex-wrap: wrap; /* IE 10 */
-            flex-wrap: wrap;
-            padding: 0 4px;
-          }
-          
-          /* Create two equal columns that sits next to each other */
-          .column {
-            -ms-flex: 50%; /* IE 10 */
-            flex: 50%;
-            padding: 0 4px;
-          }
-          
-          .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-          }
-          
-          /* Style the buttons */
-          .btn {
-            border: none;
-            outline: none;
-            padding: 10px 16px;
-            background-color: #f1f1f1;
-            cursor: pointer;
-            font-size: 18px;
-          }
-          
-          .btn:hover {
-            background-color: #ddd;
-          }
-          
-          .btn.active {
-            background-color: #666;
-            color: white;
-          }
-          </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="icon" href="img/logo-pn.png" type="image/png">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+ 
 </head>
 
 <body>
-    <!-- Navigation Bar Start -->
-    <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-        <div class="logo">
-            <img src="img/logo-pn.png" Logo>
-            <div class="logo-tittle">
-                <h1>Perwita Nusaraya <span>Group</span></h1>
-            </div>
-        </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class='dropdown-arrow'>Units</a>
-                <ul class='sub-menus'>
-                    <li><a href="seabased.html">Sea Based</a></li>
-                    <li><a href="landbased.html">Land Based</a></li>
-                    <li><a href="training-centers.html">Training Centers</a></li>
-                </ul>
-            </li>
-            <li><a href="jobs.html">Jobs</a></li>
-            <li><a href="partner.html">Partner</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
+  <!-- Navigation Bar Start -->
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <div class="logo">
+      <img src="img/logo-pn.png" Logo>
+      <div class="logo-tittle">
+        <h1>Perwita Nusaraya <span>Group</span></h1>
+      </div>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class='dropdown-arrow'>Units</a>
+        <ul class='sub-menus'>
+          <li><a href="seabased.html">Sea Based</a></li>
+          <li><a href="landbased.html">Land Based</a></li>
+          <li><a href="training-centers.html">Training Centers</a></li>
         </ul>
-        <div class="dark-mode-button" id="dark-mode-button">
-            <li style="margin-right: 10px;">Dark Mode</li>
-            <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
-        </div>
-    </nav>
+      </li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="partner.html">Partner</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+    </ul>
+    <div class="dark-mode-button" id="dark-mode-button">
+      <li style="margin-right: 10px;">Dark Mode</li>
+      <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
+    </div>
+  </nav>
 
-    <div id="popupMessage" class="hidden"></div>
-    <!-- Navigation Bar end -->
-    <section class="about-home" style="background-image:url(img/gallery.jpg)">
+  <div id="popupMessage" class="hidden"></div>
+  <!-- Navigation Bar end -->
+  <section class="about-home" style="background-image:url(img/gallery.jpg)">
 
-        <div class="about-content">
-            <h1>Gallery</h1>
-            <!-- <p>To carry out activities of Human Resources Development in Indonesia.</p> -->
-        </div>
+    <div class="about-content">
+      <h1>Gallery</h1>
+      <!-- <p>To carry out activities of Human Resources Development in Indonesia.</p> -->
+    </div>
 
-    </section>
+  </section>
 
-<!-- Header -->
-<div class="header" id="myHeader">
-    <h1>Image Grid</h1>
-    <p>Click on the buttons to change the grid view.</p>
-    <button class="btn" onclick="one()">1</button>
-    <button class="btn active" onclick="two()">2</button>
-    <button class="btn" onclick="four()">4</button>
+  <!-- galery row -->
+
+  <div class="galery-row">
+    <div class="galery-column">
+      <img src="img/gallery/1.jpg">
+      <img src="img/gallery/2.jpg">
+      <img src="img/gallery/3.jpg">
+      <img src="img/gallery/4.jpg">
+      <img src="img/gallery/5.jpg">
+      <img src="img/gallery/6.jpg">
+      <img src="img/gallery/7.jpg">
+      <img src="img/gallery/8.jpg">
+      <img src="img/gallery/9.jpg">
+      <img src="img/gallery/10.jpg">
+      
+    </div>
+    <div class="galery-column">
+      <img src="img/gallery/1.jpg">
+      <img src="img/gallery/2.jpg">
+      <img src="img/gallery/3.jpg">
+      <img src="img/gallery/4.jpg">
+      <img src="img/gallery/5.jpg">
+      <img src="img/gallery/6.jpg">
+      <img src="img/gallery/7.jpg">
+      <img src="img/gallery/8.jpg">
+      <img src="img/gallery/9.jpg">
+      <img src="img/gallery/10.jpg">
+    </div>
+    <div class="galery-column">
+      <img src="img/gallery/1.jpg">
+      <img src="img/gallery/2.jpg">
+      <img src="img/gallery/3.jpg">
+      <img src="img/gallery/4.jpg">
+      <img src="img/gallery/5.jpg">
+      <img src="img/gallery/6.jpg">
+      <img src="img/gallery/7.jpg">
+      <img src="img/gallery/8.jpg">
+      <img src="img/gallery/9.jpg">
+      <img src="img/gallery/10.jpg">
+    </div>
+    <div class="galery-column">
+      <img src="img/gallery/1.jpg">
+      <img src="img/gallery/2.jpg">
+      <img src="img/gallery/3.jpg">
+      <img src="img/gallery/4.jpg">
+      <img src="img/gallery/5.jpg">
+      <img src="img/gallery/6.jpg">
+      <img src="img/gallery/7.jpg">
+      <img src="img/gallery/8.jpg">
+      <img src="img/gallery/9.jpg">
+      <img src="img/gallery/10.jpg">
+    </div>
   </div>
-  
-  <!-- Photo Grid -->
-  <div class="row"> 
-    <div class="column">
-      <img src="img/founder/ibudansby.png" style="width:100%">
-      <img src="img/gallery/1.jpg" style="width:100%">
-      <img src="img/gallery/2.jpg" style="width:100%">
-      <img src="img/gallery/3.jpg" style="width:100%">
-      <img src="img/gallery/4.jpg" style="width:100%">
-      <img src="img/gallery/5.jpg" style="width:100%">
-    
-    </div>
-    <div class="column">
-        <img src="img/founder/ibudansby.png" style="width:100%">
-        <img src="img/gallery/1.jpg" style="width:100%">
-        <img src="img/gallery/2.jpg" style="width:100%">
-        <img src="img/gallery/3.jpg" style="width:100%">
-        <img src="img/gallery/4.jpg" style="width:100%">
-        <img src="img/gallery/5.jpg" style="width:100%">
-    </div>  
-    <div class="column">
-        <img src="img/founder/ibudansby.png" style="width:100%">
-        <img src="img/gallery/1.jpg" style="width:100%">
-        <img src="img/gallery/2.jpg" style="width:100%">
-        <img src="img/gallery/3.jpg" style="width:100%">
-        <img src="img/gallery/4.jpg" style="width:100%">
-        <img src="img/gallery/5.jpg" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="img/founder/ibudansby.png" style="width:100%">
-      <img src="img/gallery/1.jpg" style="width:100%">
-      <img src="img/gallery/2.jpg" style="width:100%">
-      <img src="img/gallery/3.jpg" style="width:100%">
-      <img src="img/gallery/4.jpg" style="width:100%">
-      <img src="img/gallery/5.jpg" style="width:100%">
-    </div>
-  </div>
-  
-  <script>
-  // Get the elements with class="column"
-  var elements = document.getElementsByClassName("column");
-  
-  // Declare a loop variable
-  var i;
-  
-  // Full-width images
-  function one() {
-      for (i = 0; i < elements.length; i++) {
-      elements[i].style.msFlex = "100%";  // IE10
-      elements[i].style.flex = "100%";
-    }
-  }
-  
-  // Two images side by side
-  function two() {
-    for (i = 0; i < elements.length; i++) {
-      elements[i].style.msFlex = "50%";  // IE10
-      elements[i].style.flex = "50%";
-    }
-  }
-  
-  // Four images side by side
-  function four() {
-    for (i = 0; i < elements.length; i++) {
-      elements[i].style.msFlex = "25%";  // IE10
-      elements[i].style.flex = "25%";
-    }
-  }
-  
-  // Add active class to the current button (highlight it)
-  var header = document.getElementById("myHeader");
-  var btns = header.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-  </script>
-  
 
-    <!-- Footer Section -->
-    <div class="footer">
+  <!-- Footer Section -->
+  <div class="footer">
 
-        <h1 class="footer-header"><img src="img/logo-no-background.png" alt="">Perwita Nusaraya Group</h1>
+    <h1 class="footer-header"><img src="img/logo-no-background.png" alt="">Perwita Nusaraya Group</h1>
 
-        <div class="footer-content-container">
+    <div class="footer-content-container">
 
-            <div class="offices">
-                <!-- offices list -->
-                <div class="office-content">
-                    <h1>Corporate Office</h1>
-                    <ul>
-                        <li><span class="material-symbols-outlined">location_on</span>Graha Perwita Building Jalan Raya
-                            Bypass Krian
-                            Km.31 Sidoarjo 61262. East Java-Indonesia.</li>
-                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
-                        <li><span class="material-symbols-outlined">phone</span>+62 851 7671 5850</li>
-                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
-                                see map</a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="offices">
+        <!-- offices list -->
+        <div class="office-content">
+          <h1>Corporate Office</h1>
+          <ul>
+            <li><span class="material-symbols-outlined">location_on</span>Graha Perwita Building Jalan Raya
+              Bypass Krian
+              Km.31 Sidoarjo 61262. East Java-Indonesia.</li>
+            <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
+            <li><span class="material-symbols-outlined">phone</span>+62 851 7671 5850</li>
+            <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
+                see map</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="office-content">
-                    <h1>Jakarta Branch Office</h1>
-                    <ul>
-                        <li><span class="material-symbols-outlined">location_on</span>Perwita Nusaraya Wisma Bumiputera
-                            LT. 3A, Jl.
-                            Jend Sudirman Kav. 75, South Jakarta 12910, DKI Jakarta.
-                        </li>
-                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
-                        <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
-                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
-                                see map</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="office-content">
+          <h1>Jakarta Branch Office</h1>
+          <ul>
+            <li><span class="material-symbols-outlined">location_on</span>Perwita Nusaraya Wisma Bumiputera
+              LT. 3A, Jl.
+              Jend Sudirman Kav. 75, South Jakarta 12910, DKI Jakarta.
+            </li>
+            <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
+            <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+            <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
+                see map</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="office-content">
-                    <h1>Bali Branch Office</h1>
-                    <li><span class="material-symbols-outlined">location_on</span>Jl. Bina Kusuma No. 9 , Ubung -
-                        Denpasar , Bali.
-                    </li>
-                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
-                    <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to see
-                            map</a>
-                    </li>
-                </div>
+        <div class="office-content">
+          <h1>Bali Branch Office</h1>
+          <li><span class="material-symbols-outlined">location_on</span>Jl. Bina Kusuma No. 9 , Ubung -
+            Denpasar , Bali.
+          </li>
+          <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
+          <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+          <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to see
+              map</a>
+          </li>
+        </div>
 
-                <div class="office-content">
-                    <h1>South Korea Branch Office</h1>
-                    <li><span class="material-symbols-outlined">location_on</span>Hanil Office Tower 152, Jaseong-ro,
-                        1815,
-                        Munhyeon-dong, Nam-gu, Busan, South Korea</li>
-                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li>
-                    <li><span class="material-symbols-outlined">map</span>Click to see map<a href="#"
-                            style="color: white;" class="map-link"></a>
-                    </li>
-                </div>
-                <!-- offices list end -->
-            </div>
+        <div class="office-content">
+          <h1>South Korea Branch Office</h1>
+          <li><span class="material-symbols-outlined">location_on</span>Hanil Office Tower 152, Jaseong-ro,
+            1815,
+            Munhyeon-dong, Nam-gu, Busan, South Korea</li>
+          <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
+          <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li>
+          <li><span class="material-symbols-outlined">map</span>Click to see map<a href="#" style="color: white;"
+              class="map-link"></a>
+          </li>
+        </div>
+        <!-- offices list end -->
+      </div>
 
-            <div class="link-and-sm">
-                <h2>Link</h2>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="units.html">Units</a>
-                <a href="job-portal.html">Jobs</a>
-                <a href="partner.html">Partner</a>
-                <a href="#">Gallery</a>
-                <a href="faqs.html">FAQs</a>
+      <div class="link-and-sm">
+        <h2>Link</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="units.html">Units</a>
+        <a href="job-portal.html">Jobs</a>
+        <a href="partner.html">Partner</a>
+        <a href="#">Gallery</a>
+        <a href="faqs.html">FAQs</a>
 
-                <a href="/privacy-policy">Privacy Policy</a>
-                <a href="/terms-of-service">Terms of Service</a>
-                <a href="/our-team">Our Team</a>
-                <a href="/faqs">FAQs</a>
-                <a href="/blog">Blog</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms of Service</a>
+        <a href="/our-team">Our Team</a>
+        <a href="/faqs">FAQs</a>
+        <a href="/blog">Blog</a>
 
-                <!-- <div class="websitelink">
+        <!-- <div class="websitelink">
                     <a href="https://perwitanusaraya.co.id/"><span
                             class="material-symbols-outlined">globe</span>perwitanusaraya.co.id</a>
                     <a href="https://mji.perwitanusaraya.co.id/"><span
@@ -288,43 +208,43 @@
                     <a href="https://perwitamarine.com/"><span
                             class="material-symbols-outlined">globe</span>perwitamarine.com</a>
                 </div> -->
-            </div>
+      </div>
 
-            <div class="contact-form">
-                <h1>Contact us</h1>
-                <form action="php/submit_form.php" method="post">
-                    <input type="text" name="name" placeholder=" Your Name" required>
-                    <input type="email" name="email" placeholder=" Your Email" required>
-                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+      <div class="contact-form">
+        <h1>Contact us</h1>
+        <form action="php/submit_form.php" method="post">
+          <input type="text" name="name" placeholder=" Your Name" required>
+          <input type="email" name="email" placeholder=" Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
 
-                <p>Follow us :</p>
+        <p>Follow us :</p>
 
-                <div class="sm-icons">
-                    <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img
-                            src="img/icon/ig.png" alt=""></a>
-                    <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img
-                            src="img/icon/fb.png" alt=""></a>
-                    <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
-                            src="img/icon/linkedin.png" alt=""></a>
-                </div>
-            </div>
+        <div class="sm-icons">
+          <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img src="img/icon/ig.png"
+              alt=""></a>
+          <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img src="img/icon/fb.png"
+              alt=""></a>
+          <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
+              src="img/icon/linkedin.png" alt=""></a>
         </div>
-        <!-- links and Social media -->
-
-        <div class="copyright"><i data-feather="copyright"></i>&copy; Perwita Nusarya Group 2024</div>
-        <img src="img/assest/group logo.png" alt="" class="group-logo-footer">
+      </div>
     </div>
-    <!-- Footer section end-->
+    <!-- links and Social media -->
 
-    <!-- script list -->
-    <script src="https://unpkg.com/feather-icons"></script>
+    <div class="copyright"><i data-feather="copyright"></i>&copy; Perwita Nusarya Group 2024</div>
+    <img src="img/assest/group logo.png" alt="" class="group-logo-footer">
+  </div>
+  <!-- Footer section end-->
 
-    <script>
-        feather.replace();
-    </script>
-    <script src="script/script.js"></script>
+  <!-- script list -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script>
+    feather.replace();
+  </script>
+  <script src="script/script.js"></script>
 </body>
 
 </html>

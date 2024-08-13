@@ -2716,34 +2716,56 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     gap: 3rem;
     min-height: 70vh;
+    background-color: rgb(240, 240, 240);
+}
+.sm-bg {
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    rotate: -30deg;
+}
+.sm-bg2 {
+    width: 280px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    z-index: 1;
 }
 .socialmedia h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 .socialmedia h1 span {
     color: var(--secondary-color);
 }
 .smRow {
     display: flex;
-    justify-content: center;
+    margin-left: 10rem;
     gap: 4rem;
 }
 .smCard {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    width: 200px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
     border-radius: 10px;
     background-color: white;
+    z-index: 2;
 }
 .smCard h2 {
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
     padding: 10px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
 }
@@ -3133,11 +3155,14 @@ a:hover {
 }
 
 .partner-page__title {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 20px; 
 }
+.partner-page__title span {
+    color: var(--secondary-color);
+}
+
 
 .partner-page__clients {
     display: flex;
@@ -3190,8 +3215,10 @@ a:hover {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
-    color: #010101;
     font-size: 3em;
+}
+.partner-page__subtitle span {
+   color: var(--secondary-color);
 }
 
 .partner-page__pdf-link {
@@ -3213,12 +3240,18 @@ a:hover {
 }
 
 .partner-page__form-section {
-    background: linear-gradient(318deg, rgba(255, 203, 70, 1) 0%, rgba(70, 58, 180, 1) 29%, rgb(35, 95, 223) 100%);
+    position: relative;
+    background-color: var(--primary-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     max-width: 500px;
+}
+.form-logo {
+    left: 20px;
+    position: absolute;
+    width: 50px;
 }
 
 .partner-page__form {
@@ -3303,11 +3336,12 @@ a:hover {
 .why-perwita-img{
     align-content: end;
     width: 50%;
-    padding: 28px;
+    
+
 }
 .why-perwita-img img{
     width:420px;
-    border-radius: 10px;
+    border-radius: 20px;    
 }
 .exp-list {
     display: flex;
@@ -3547,3 +3581,38 @@ a:hover {
 .history-content h1 {
     font-size: 2em;
 }
+/* gallery */
+.galery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .galery-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .galery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .galery-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .galery-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
