@@ -709,7 +709,6 @@ a {
     letter-spacing: 1px;
     font-weight: 500;
     background-color: var(--secondary-color);
-
 }
 
 .card-text a span {
@@ -1449,7 +1448,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.468);
     background: linear-gradient(318deg, rgba(255, 203, 70, 1) 0%, rgb(84, 165, 222) 29%, rgb(7, 22, 83) 100%);
@@ -1489,6 +1488,9 @@ a {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
+.OH-card h4 span {
+    color: var(--secondary-color);
+}
 
 .OH-card-border {
     width: 200px;
@@ -1502,10 +1504,15 @@ a {
 
 .OH-card a {
     padding: 1rem 2rem;
-    background: #47ceff;
-    background: -webkit-linear-gradient(263deg, #47ceff 0%, #bc48ff 100%);
-    background: linear-gradient(263deg, #47ceff 0%, #bc48ff 100%);
+    background-color: var(--secondary-color);
     border-radius: 10px;
+    transition: 300ms ease-in-out;
+}
+.OH-card a:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: var(--primary2-color);
+ 
 }
 
 /* our history */
@@ -1613,6 +1620,9 @@ a {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.422);
     color: white;
 }
+.leader h1 span {
+    color: var(--secondary-color);
+}
 
 
 
@@ -1638,8 +1648,8 @@ a {
 }
 
 .leader-card img {
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 330px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.272);
@@ -1784,6 +1794,7 @@ a {
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+
 }
 .office {
     display: flex;
@@ -1958,6 +1969,9 @@ a {
     margin-top: 2rem;
 
     font-size: 3em;
+}
+.sb-career h1 span {
+    color: var(--secondary-color);
 }
 
 .sb-career p {
@@ -2450,6 +2464,9 @@ a:hover {
 .sb-services h1 {
     font-size: 3em;
 }
+.sb-services h1 span {
+    color: var(--secondary-color);
+}
 
 .sb-services-box h2 {
     text-align: center;
@@ -2680,6 +2697,7 @@ a:hover {
 }
 
 .department li {
+    /* display: none; */
     border-radius: 5px;
     text-align: left;
     width: 100%;
@@ -2687,11 +2705,66 @@ a:hover {
     margin-block: 1px;
     /* background-color: rgb(244, 244, 244); */
     text-transform: uppercase;
-    font-size: .6em;
+    font-size: .8em;
 }
 
 .department li:hover {
     background-color: rgb(234, 234, 234);
+}
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    min-height: 70vh;
+}
+.socialmedia h1 {
+    font-size: 3em;
+}
+.socialmedia h1 span {
+    color: var(--secondary-color);
+}
+.smRow {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.smCard {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
+    border-radius: 10px;
+    background-color: white;
+}
+.smCard h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
+}
+.smCard h2 img {
+    width: 30px;
+}
+.smCard a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    gap: 10px;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+}
+.smCard a:hover {
+    transform: scale(1.05);
+}
+.smCard a img {
+    width: 20px;
 }
 
 /* sb department */
@@ -3029,6 +3102,13 @@ a:hover {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.365);
     background: var(--primary2-color);
     color: white;
+}
+.lb-dp-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
 }
 .lb-dp-card h2 {
     margin-inline: 8px;
