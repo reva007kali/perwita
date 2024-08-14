@@ -8,10 +8,12 @@
     html {
         font-size: 85%;
     }
+
     .card {
         width: 200px;
         height: 350px;
     }
+
     .card-logo {
         border-radius: 50%;
         position: absolute;
@@ -20,42 +22,59 @@
         right: 10px;
         width: 40px;
     }
+
     .card-img {
         width: 100%;
         height: 60%;
         background-color: #ffffff;
     }
+
     .card-text {
         width: 80%;
-    }   
+    }
+
     .card-text li {
         margin-top: 3px;
     }
-    
+
     .card-text a {
-        padding: 4px;
-        font-size: 8px;    
+        padding: 8px;
+        font-size: 12px;
     }
 }
 
 /* tablet */
 @media (min-width: 766px) and (max-width: 1021px) {
-    /* Your styles for screens between 766px and 1022px */
+
+    /* Navigation Bar */
+    .logo .logo-tittle {
+        display: none;
+    }
 }
 
 /* large phone */
 @media (min-width: 425px) and (max-width: 765px) {
-    /* Your styles for screens between 425px and 766px */
+
+    /* Navigation Bar */
+    .logo .logo-tittle {
+        display: none;
+    }
 }
 
 /* medium phone */
 @media (min-width: 375px) and (max-width: 424px) {
-    /* Your styles for screens between 375px and 425px */
+    /* Navigation Bar */
+    .logo .logo-tittle {
+        display: none;
+    }
 }
 
 /* small phone */
 @media (min-width: 320px) and (max-width: 374px) {
-    /* Your styles for screens between 320px and 375px */
+    /* Navigation Bar */
+    .logo .logo-tittle {
+        display: none;
+    }
 }
 
 /* extra small phone */
