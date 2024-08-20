@@ -156,13 +156,13 @@ a {
 }
 .navbar label {
 	display: none;
-	line-height: 45px;
+	line-height: 50px;
 	text-align: center;
 	left: 35px
 }
 .navbar label:before {
-	font-size: 1.6em;
-	color: #000000;
+	font-size: 2.4em;
+	color: var(--primary-color);
 	content: "\2261"; 
 	margin-left: 20px;
 }
@@ -840,6 +840,7 @@ a {
     justify-content: center;
     background-size: cover;
     background-position: top;
+    padding: 1rem;
     min-height: 100vh;
     font-size: 80%;
 }
@@ -1216,7 +1217,6 @@ a {
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
     position: relative;
 }
 
@@ -1227,7 +1227,7 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.208));
     z-index: 1;
 }
@@ -1242,7 +1242,7 @@ a {
 }
 
 .about-content h1 {
-    font-size: 7em;
+    font-size: 5em;
     text-transform: uppercase;
     color: white;
 }
@@ -1267,7 +1267,7 @@ a {
     background-attachment: fixed;
     min-height: 100vh;
     text-align: center;
-    font-size: 80%;
+    padding: 1rem;
 }
 
 .perwita-tittle {
@@ -1311,6 +1311,8 @@ a {
 
 .OH-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
 }
@@ -1319,7 +1321,7 @@ a {
     position: relative;
     object-fit: cover;
     object-position: top;
-    width: 600px;
+    max-width: 600px;
     height: 400px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.511);
@@ -1599,6 +1601,7 @@ a {
 
 .vision-mission {
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
 }
 
@@ -1632,8 +1635,9 @@ a {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
     margin-bottom: 2rem;
 }
-
 /* vision mission */
+
+/* offices */
 .office-loc {
     display: flex;
     flex-direction: column;
@@ -1661,6 +1665,7 @@ a {
 
 .offices-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
@@ -1715,7 +1720,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     background-size: cover;
 }
 
@@ -1755,6 +1760,7 @@ a {
 .sb-cta {
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     z-index: 1;
@@ -1789,7 +1795,6 @@ a {
 }
 
 .sb-content {
-
     margin-inline: 5%;
     width: 50%;
 }
@@ -1878,11 +1883,10 @@ a {
 .sb-river {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin-bottom: 2rem;
     border-radius: 10px;
     overflow: hidden;
-
 }
 
 .sb-river h2 span {
@@ -1923,6 +1927,7 @@ a {
 
 .sb-river-img {
     flex: 1;
+    width: 50%;
     min-height: 500px;
     background-size: cover;
     background-position: center;
@@ -1932,6 +1937,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
+    margin-top: 1rem;
 }
 
 .sb-clients img {
@@ -2493,6 +2499,7 @@ a:hover {
 
 .sb-career-cta {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     gap: 2rem;
 }
@@ -2750,6 +2757,7 @@ a:hover {
 .lb-cta {
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     z-index: 1;
@@ -3159,15 +3167,6 @@ a:hover {
     align-items: center;
 }
 
-.partner-page__pdf-viewer {
-    align-self: center;
-    width: 100%;
-    height: 500px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .partner-form {
     display: flex;
     justify-content: center;
@@ -3176,6 +3175,7 @@ a:hover {
 
 .partner-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     min-height: 80vh;
@@ -3197,8 +3197,6 @@ a:hover {
 .why-perwita-img {
     align-content: end;
     width: 50%;
-
-
 }
 
 .why-perwita-img img {
@@ -3281,6 +3279,7 @@ a:hover {
 /* training centers */
 .tc-cta {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;

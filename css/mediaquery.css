@@ -3,11 +3,11 @@
         display: flex;
         align-items: center;
         position: fixed;
-        height: 40px;
+        height: 50px;
         background: white;
     }
     .navbar.scrolled {
-        height: 40px;
+        height: 50px;
     }
     .navbar.scrolled a {
         color: white;
@@ -25,7 +25,7 @@
         background-color: rgb(35, 35, 35);
     }
     .navbar-logo h3 {
-        font-size: 3vw;
+        font-size: 4vw;
         color: var(--primary-color);
     }
     .navbar-logo {
@@ -74,7 +74,7 @@
     .home-content {
         margin: auto;
         text-align: center;
-        top: calc(20% + 1vw);
+        top: calc(30% + 1vw);
     }
     .home-content h1 {
         font-size:3em;
@@ -185,7 +185,289 @@
         align-items: center;
         /* outline: 1px solid red; */
         padding-inline: 10px;
-        width: 285px;
+        width: 100%;
+    }
+
+    /* about page */
+    .about-home {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        background-size: fill;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .about-content h1 {
+        font-size: 3em;
+    }
+    /* about overview */
+    .perwita-tittle h1 {
+        margin-bottom: 1rem;
+        font-size: 1.4em;
+    }
+    /* our history */
+    .our-history {
+        padding: 1rem;
+    }
+    .OH-container img {
+        max-width: 300px;
+        height: 200px;
+    }
+    .OH-card {
+        padding: 3rem 1rem;
+        width: 300px;
+        height: 400px;
+    }
+    /* milestone */
+    .milestone {
+        padding: 1rem;
+    }
+    .ms-tittle {
+        margin-top: 2rem;
+        font-size: 80%;
+    }
+    .ms-card {
+        width: 300px;
+    }
+    .ms-card p {
+        margin-inline: 3rem;
+        font-size: 12px;
+    }
+    .ms-line {
+        rotate: 90deg;
+        margin-block: 2rem;
+        width: 100%;
+    }
+    /* our leadership */
+    .leader h1 {
+        margin-block: 1rem;
+        font-size: 2em;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.422);
+        color: white;
+    }
+    /* vision mission value */
+    .vision {
+        width: 100%;
+    }
+    .vision .value-img {
+        width: 300px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
+        margin-bottom: 2rem;
+    }
+    /* our offices */
+    .office-loc h1 {
+        margin-top: 1rem;
+        font-size: 2em;
+    }
+    .office h1 {
+        font-size: 1.3rem;
+    }
+    .office {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        height: 260px;
+        padding: 10px 30px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+        border-radius: 20px;
+        background-color: white;
+        color: var(--text-color1);
+        position: relative;
+    }
+    .office-loc p {
+        text-align: center;
+    }
+    .office img {
+        display: none;
+    }
+    /* seabased */
+    .seabased-content {
+        font-size: 60%;
+    }
+    .sb-cta {
+        max-width: 200px;
+        margin-top: 1rem;
+    }
+    .sb-cta a {
+        text-align: center;
+        width: 200px;
+        font-size: 1em;
+        padding: .5rem 1rem;
+
+    }
+    /* Seabased overview */
+    .sb-overview {
+        justify-content: center;
+        gap: 2rem;
+    }
+    .sb-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 80%;
+        width: 100%;
+        margin-right: 0rem;
+        margin-inline: 2%;
+        margin-bottom: 1rem;
+    }
+    .sb-content h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        padding-bottom: 5px;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+        text-align: center;
+    }
+    .sb-content p {
+        text-align: center;
+        font-size: 1em;
+    }
+    /* seabased services */
+    .sb-services h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    /* Seabased department */
+    .sb-department h1 {
+        padding: 1rem;
+        font-size: 2em;
+        margin-top: 1rem;
+    }
+    .sb-department h1 span {
+        font-size: 1em;
+    }
+    .department {
+        display: flex;
+        flex-direction: column;
+        /* text-align: left; */
+        background-color: white;
+        overflow: hidden;
+        background-size: cover;
+        width: 250px;
+        height: 320px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.489);
+        border-radius: 10px;
+        position: relative;
+    }
+    /* seabased career */
+    .sb-river {
+        border-radius: 0px;
+        flex-direction: column;
+    }
+    .sb-career h1 {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2em;
+    }
+    .river-content {
+        order: 2;
+        width: 100%;
+    }
+    .sb-river-img {
+        order: 1;
+        flex: 1;
+        width: 100%;
+        min-height: 300px;
+    }
+    .sb-career-cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+    
+    .sb-career-cta a {
+        width: 300px;
+    }
+    .river-content a {
+        margin-top: 1rem;
+    }
+    /* sb deployed */
+    .sb-deployed {
+        flex-wrap: wrap;
+    }
+    .sb-deployed h1 {
+        font-size: 1em;
+    }
+    .sb-deployed img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 20px;
+    }
+    /* post social media */
+    .sm-tittle {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0rem;
+        text-align: center;
+    }
+    .post-update {
+        padding: 1rem;
+    }
+    /* landbased */
+    .lb-cta a {
+        font-size: 12px;
+        border-radius: 5px;
+        width: 200px;
+        text-align: center;
+    }
+    .landbased-content h1 {
+        font-size: 3em;
+    }
+    .landbased-content p {
+        font-size: 1em;
+    }
+    .lb-services h1 {
+        font-size: 2em;
+    }
+    .lb-deployed h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .sb-clients ul {
+        line-height: 1.6;
+        margin-inline: 20px ;
+    }
+    /* training center */
+    .tc-cta a {
+        font-size: 10px;
+        border-radius: 5px;
+        width: 250px;
+        text-align: center;
+    }
+    .tc-cta a {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    /* partner page */
+    .why-perwita {
+        width: 100%;
+        padding: 28px;
+    }
+    .why-perwita-img {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .why-perwita-img img {
+        width: 300px;
+        border-radius: 20px;
+    }
+    .partner-page__pdf-section img {
+        width: 300px;
     }
     
 }

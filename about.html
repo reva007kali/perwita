@@ -27,36 +27,30 @@
 
 <body>
   <!-- Navigation Bar Start -->
-  <nav id='menu'>
-    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-    <div class="logo">
-      <img src="img/logo-pn.png" Logo>
-      <div class="logo-tittle">
-        <h1>Perwita Nusaraya <span>Group</span></h1>
-      </div>
+  <nav id='navbar' class="navbar">
+    <label></label>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+    <div class="navbar-logo">
+      <img src="img/logo-pn.png" alt="">
+      <h3>Perwita Nusaraya <span>Group</span></h3>
     </div>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='about.html'>About</a></li>
       <li><a class='dropdown-arrow'>Units</a>
         <ul class='sub-menus'>
-          <li><a href="seabased.html">Sea Based</a></li>
-          <li><a href="landbased.html">Land Based</a></li>
-          <li><a href="training-centers.html">Training Centers</a></li>
+          <li><a href='seabased.html'>Sea Based</a></li>
+          <li><a href='landbased.html'>Land Based</a></li>
+          <li><a href='training-centers.html'>Training Center</a></li>
+          <li><a href='index.html'>Internship</a></li>
         </ul>
       </li>
-      <li><a href="jobs.html">Jobs</a></li>
-      <li><a href="partner.html">Partner</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href=''>Jobs</a></li>
+      <li><a href='partner.html'>Partner</a></li>
+      <li><a href='gallery.html'>Gallery</a></li>
+      <li><a href='faqs.html'>FAQs</a></li>
     </ul>
-    <div class="dark-mode-button" id="dark-mode-button">
-      <li style="margin-right: 10px;">Dark Mode</li>
-      <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
-    </div>
   </nav>
-
-  <div id="popupMessage" class="hidden"></div>
   <!-- Navigation Bar end -->
 
   <!-- about home start -->
@@ -64,7 +58,6 @@
 
     <div class="about-content">
       <h1>About<span> us</span></h1>
-      <!-- <p>To carry out activities of Human Resources Development in Indonesia.</p> -->
     </div>
 
   </section>
@@ -244,9 +237,6 @@
           <a href=""><img src="img/icon/linkedin.png" alt="">Farah Dina</a>
         </div>
       </div> -->
-
-
-
     </div>
 
 
@@ -283,76 +273,69 @@
   </section>
   <!-- Vision Mission -->
 
-  <!-- units section -->
-  <section class="units">
-    <div class="units-tittle">
-      <h1 class="slide-element slide-up">OUR <span>BUSINESS </span> UNITS</h1>
-      <!-- <img src="img/assest/lineart.png" alt=""> -->
-    </div>
-    <div class="units-container slide-up">
-      <div class="units-card" style="font-size:70%;">
-        <div class="card appear-on-scroll" style="height: 300px;">
-          <h1 style="padding: 5px;">Sea Based</h1>
-          <a href="seabased.html">
-            <div class="card-img" style="height: 100%;"><img src="img/units/VIVA-ONE-PORTRAITS16060-819x1024.jpg"
-                alt="">
-            </div>
-            <!-- <div class="card-text">
-            <li>Ocean Cruises</li>
-            <li>River Cruise</li>
-            <li>Fisherman</li>
-            <li>Expedition Cruises</li>
-            <a href="seabased.html">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
-          </div> -->
-        </div>
-        </a>
-
-
-        <a href="landbased.html">
-          <div class="card appear-on-scroll" style="height: 300px;">
-            <h1 style="padding: 5px;">Land Based</h1>
-            <div class="card-img" style="height: 100%;"><img src="img/units/pertukangan.jpeg" alt=""></div>
-            <!-- <div class="card-text">
-            <li>Hotel Staff</li>
-            <li>Factory Worker</li>
-            <li>Construction Worker</li>
-            <li>Care giver</li>
-            <li>Maid</li>
-            <a href="landbased.html">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
-          </div> -->
-          </div>
-        </a>
-
-        <a href="training-centers.html">
-          <div class="card appear-on-scroll" style="height: 300px;">
-            <h1 style="padding: 5px;">Training Center</h1>
-            <div class="card-img" style="height: 100%;"><img src="img/units/trainingcenters.JPG" alt=""></div>
-            <!-- <div class="card-text">
-            <li>Maritime Training Center</li>
-            <li>Japanese Language & Culture</li>
-            <li>Fisherman Training Center</li>
-            <li>Construction Training Center</li>
-            <li>Care giver & Maid</li>
-            <a href="tc.html">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
-          </div> -->
-          </div>
-        </a>
-
-        <div class="card appear-on-scroll" style="height: 300px;">
-          <h1 style="padding: 5px;">Internship</h1>
-          <div class="card-img" style="height: 100%;"><img src="img/units/caretaker.jpeg" alt=""></div>
-          <!-- <div class="card-text">
-            <li>Japan</li>
-            <li>Malaysia</li>
-            <li>Turkey</li>
-            <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a> -->
-        </div>
+    <!-- Units Section Start -->
+    <section class="units">
+      <div class="units-tittle">
+        <h1 class="slide-element slide-up">OUR <span>BUSINESS </span> UNITS</h1>
+        <!-- <img src="img/assest/lineart.png" alt=""> -->
       </div>
-    </div>
-
-  </section>
-  <!-- Units Section end -->
-
+      <div class="units-container slide-up">
+        <div class="units-card">
+          <div class="card appear-on-scroll">
+            <div class="card-img"><img src="img/units/VIVA-ONE-PORTRAITS16060-819x1024.jpg" alt=""></div>
+            <div class="card-text">
+              <h1>Sea Based</h1>
+              <li>Ocean Cruises</li>
+              <li>River Cruise</li>
+              <li>Fisherman</li>
+              <li>Expedition Cruises</li>
+              <a href="seabased.html">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+            <img src="img/logo/crewmanninglogo.jpg" alt="" class="card-logo">
+          </div>
+          <div class="card appear-on-scroll">
+            <div class="card-img"><img src="img/units/pertukangan.jpeg" alt=""></div>
+            <div class="card-text">
+              <h1>Land Based</h1>
+              <li>Hotel Staff</li>
+              <li>Factory Worker</li>
+              <li>Construction Worker</li>
+              <li>Care giver</li>
+              <li>Maid</li>
+              <a href="landbased.html">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+            <img src="img/logo-pn.png" alt="" class="card-logo">
+          </div>
+          <div class="card appear-on-scroll">
+            <div class="card-img"><img src="img/units/trainingcenters.JPG" alt=""></div>
+            <div class="card-text">
+              <h1>Training Center</h1>
+              <li>Maritime Training Center</li>
+              <li>Japanese Language & Culture</li>
+              <li>Fisherman Training Center</li>
+              <li>Construction Training Center</li>
+              <li>Care giver & Maid</li>
+              <a href="/perwita.id/training-centers.html">Learn more <span
+                  class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+            <img src="img/logo/mtclogo.png" alt="" class="card-logo">
+          </div>
+          <div class="card appear-on-scroll">
+            <div class="card-img"><img src="img/units/caretaker.jpeg" alt=""></div>
+            <div class="card-text">
+              <h1>Internship</h1>
+              <li>Japan</li>
+              <li>Malaysia</li>
+              <li>Turkey</li>
+              <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+            <img src="img/logo/Internshiplogo.png" alt="" class="card-logo" style="border-radius: 0;">
+          </div>
+        </div>
+  
+    </section>
+    <!-- Units Section end -->
+  
 
 
   <!-- Licenses -->

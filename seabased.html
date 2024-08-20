@@ -25,36 +25,30 @@
 
 <body>
     <!-- Navigation Bar Start -->
-    <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-        <div class="logo">
-            <img src="img/logo-pn.png" Logo>
-            <div class="logo-tittle">
-                <h1>Perwita Nusaraya <span>Group</span></h1>
-            </div>
+    <nav id='navbar' class="navbar">
+        <label></label>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+        <div class="navbar-logo">
+            <img src="img/logo-pn.png" alt="">
+            <h3>Perwita Nusaraya <span>Group</span></h3>
         </div>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='about.html'>About</a></li>
             <li><a class='dropdown-arrow'>Units</a>
                 <ul class='sub-menus'>
-                    <li><a href="seabased.html">Sea Based</a></li>
-                    <li><a href="landbased.html">Land Based</a></li>
-                    <li><a href="training-centers.html">Training Centers</a></li>
+                    <li><a href='seabased.html'>Sea Based</a></li>
+                    <li><a href='landbased.html'>Land Based</a></li>
+                    <li><a href='training-centers.html'>Training Center</a></li>
+                    <li><a href='index.html'>Internship</a></li>
                 </ul>
             </li>
-            <li><a href="jobs.html">Jobs</a></li>
-            <li><a href="partner.html">Partner</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href=''>Jobs</a></li>
+            <li><a href='partner.html'>Partner</a></li>
+            <li><a href='gallery.html'>Gallery</a></li>
+            <li><a href='faqs.html'>FAQs</a></li>
         </ul>
-        <div class="dark-mode-button" id="dark-mode-button">
-            <li style="margin-right: 10px;">Dark Mode</li>
-            <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
-        </div>
     </nav>
-
-    <div id="popupMessage" class="hidden"></div>
     <!-- Navigation Bar end -->
 
     <!--seabased home  -->
@@ -422,7 +416,7 @@
                 <p>Working on an expedition cruise offers a thrilling career for those passionate about adventure and
                     travel. Jobs range from hospitality roles, like chefs and stewards, to specialized positions such as
                     naturalists and expedition leaders.?</p>
-                    <h2>Deployed <span style="color: white;">1000+</span> Crew Members</h2>
+                <h2>Deployed <span style="color: white;">1000+</span> Crew Members</h2>
                 <br>
                 <div class="sb-clients" style="display: flex;">
                     <img src="img/clients/ANGLO.da90e9.jpg" alt="">
@@ -460,7 +454,8 @@
     <section class="sb-deployed">
         <div class="sb-deployed-content">
             <h1>"With a proven track record in the maritime industry, Perwita Nusaraya has successfully deployed over
-                <span>4,000+ professionals</span> across ocean, river, and expedition cruises, as well as coastal fishing
+                <span>4,000+ professionals</span> across ocean, river, and expedition cruises, as well as coastal
+                fishing
                 operations."
             </h1>
             <!-- <p><strong>800+ </strong>F&B Services</p>
