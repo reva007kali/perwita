@@ -26,37 +26,33 @@
 <body>
 
   <!-- Navigation Bar Start -->
-  <nav id='menu'>
-    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-    <div class="logo">
-      <img src="img/logo-pn.png" Logo>
-      <div class="logo-tittle">
-        <h1>Perwita Nusaraya <span>Group</span></h1>
-      </div>
+  <nav id='navbar' class="navbar">
+    <label></label>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+    <div class="navbar-logo">
+      <img src="img/logo-pn.png" alt="">
+      <h3>Perwita Nusaraya <span>Group</span></h3>
     </div>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href='http://'>Home</a></li>
+      <li><a href='http://'>About</a></li>
       <li><a class='dropdown-arrow'>Units</a>
         <ul class='sub-menus'>
-          <li><a href="seabased.html">Sea Based</a></li>
-          <li><a href="landbased.html">Land Based</a></li>
-          <li><a href="training-centers.html">Training Centers</a></li>
-          <li><a href="#">Internship</a></li>
+          <li><a href='http://'>Sea Based</a></li>
+          <li><a href='http://'>Land Based</a></li>
+          <li><a href='http://'>Training Center</a></li>
+          <li><a href='http://'>Internship</a></li>
         </ul>
       </li>
-      <li><a href="jobs.html">Jobs</a></li>
-      <li><a href="partner.html">Partner</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href='http://'>Jobs</a></li>
+      <li><a href='http://'>Partner</a></li>
+      <li><a href='http://'>Gallery</a></li>
+      <li><a href='http://'>FAQs</a></li>
     </ul>
-    <div class="dark-mode-button" id="dark-mode-button">
-      <li style="margin-right: 10px;">Dark Mode</li>
-      <i class="dm-icon" id="dm-icon" data-feather="sun"></i>
-    </div>
   </nav>
 
-  <div id="popupMessage" class="hidden"></div>
+
+  <!-- <div id="popupMessage" class="hidden"></div> -->
   <!-- Navigation Bar end -->
 
   <!-- Hero Section Start -->
@@ -84,7 +80,7 @@
     <div class="founder-container">
 
       <div class="founder-message">
-        <h1 class="founder-tittle slide-up">Welcome to <span>Perwita Nusaraya </span>Group</h1>
+        <h1 class="founder-tittle">Welcome to <span>Perwita Nusaraya </span>Group</h1>
         <p class="slide-up"><strong>Since our founding in 1994,</strong> our mission has been to
           empower individuals and communities through exceptional training, employment opportunities, and career
           development. Over the years, we have expanded our services to include maritime training, overseas
@@ -95,7 +91,7 @@
         <img src="img/assest/group logo.png" alt="" class="group-logo slide-up">
       </div>
 
-      <div class="founder-img-name slide-up">
+      <div class="founder-img-name">
 
         <div class="FounderImageBorder">
           <img src="img/founder1.png" alt="" class="founder-image slide-up">
@@ -164,7 +160,7 @@
             <li>Japan</li>
             <li>Malaysia</li>
             <li>Turkey</li>
-            <!-- <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a> -->
+            <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
           </div>
           <img src="img/logo/Internshiplogo.png" alt="" class="card-logo" style="border-radius: 0;">
         </div>
@@ -190,14 +186,11 @@
   <section class="deploy slide-up" style="background-image: url(img/seabased/bgseabased01.png);">
     <img src="img/deployed/5.png" alt="" class="image2 slide-up">
     <img src="img/deployed/3.png" alt="" class="image3 slide-up">
-    <!-- <img src="img/deployed/4.png" alt="" class="image4"> -->
     <div class="deploy-tittle slide-up">
       <h1>PROUD TO SHARE OUR <span>DEPLOYMENT NUMBERS</span></h1>
     </div>
     <div class="deploy-container slide-up">
       <div class="total-deploy slide-up">
-        <!-- <img src="img/deployed/1.jpeg" alt="" style="width: 120px; height: 120px;"> -->
-        <!-- <span class="material-symbols-outlined">anchor</span> -->
         <img src="img/deployed/cruise_ship.png" alt="">
         <h1> Overseas Sea Based</h1>
         <div class="h2">
@@ -207,8 +200,6 @@
         <p>Crew Members</p>
       </div>
       <div class="total-deploy slide-up">
-        <!-- <img src="img/deployed/overseasland.png" alt="" style="width: 120px; height: 120px;"> -->
-        <!-- <span class="material-symbols-outlined">public</span> -->
         <img src="img/deployed/earth-icon.png" alt="">
         <h1>Overseas Land Based</h1>
         <div class="h2">
@@ -218,8 +209,6 @@
         <p>Employees</p>
       </div>
       <div class="total-deploy slide-up">
-        <!-- <img src="img/deployed/domesticland.png" alt="" style="width: 120px; height: 120px;"> -->
-        <!-- <span class="material-symbols-outlined">flag</span> -->
         <img src="img/deployed/file (3).png" alt="">
         <h1>Domestic Land Based</h1>
         <div class="h2">
@@ -241,70 +230,80 @@
   <!-- Deploy section end -->
 
   <!-- Licenses -->
-  <!-- <section class="licenses" style="background-image: url(img/background/licensesbg.jpg);">
+  <section class="licenses" style="background-image: url(img/background/licensesbg.jpg);">
     <h1 class="licences-tittle slide-up">OUR <span>LICENSES</span></h1>
 
     <div class="licenses-container">
-      <div class="licenses-card slide-up" data-license="ISO 9001:2015" data-description="International Organization for Standardization" data-file="path/to/iso9001.pdf" data-image="img/licences/IsO.png">
+      <div class="licenses-card slide-up" data-license="ISO 9001:2015"
+        data-description="International Organization for Standardization" data-file="path/to/iso9001.pdf"
+        data-image="img/licences/IsO.png">
         <img src="img/licences/IsO.png" alt="">
         <h1>ISO 9001:2015</h1>
         <p>International Organization for Standardization</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="SIUPAK" data-description="Ministry of Transportation" data-file="path/to/siupak.pdf" data-image="img/licences/Siupak.jpg">
+      <div class="licenses-card slide-up" data-license="SIUPAK" data-description="Ministry of Transportation"
+        data-file="path/to/siupak.pdf" data-image="img/licences/Siupak.jpg">
         <img src="img/licences/Siupak.jpg" alt="">
         <h1>SIUPAK</h1>
         <p>Ministry of Transportation</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="MLC 2006" data-description="Maritime Labour Convention" data-file="path/to/mlc2006.pdf" data-image="img/licences/mlc2006.png">
+      <div class="licenses-card slide-up" data-license="MLC 2006" data-description="Maritime Labour Convention"
+        data-file="path/to/mlc2006.pdf" data-image="img/licences/mlc2006.png">
         <img src="img/licences/mlc2006.png" alt="">
         <h1>MLC 2006</h1>
         <p>Maritime Labour Convention</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="MTC" data-description="Maritime Training Center" data-file="path/to/mtc.pdf" data-image="img/licences/maritimetrainingcenter.png">
+      <div class="licenses-card slide-up" data-license="MTC" data-description="Maritime Training Center"
+        data-file="path/to/mtc.pdf" data-image="img/licences/maritimetrainingcenter.png">
         <img src="img/licences/maritimetrainingcenter.png" alt="">
         <h1>MTC</h1>
         <p>Maritime Training Center</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="Jae Hwa Legalization" data-description="Fisherman for South Korea" data-file="path/to/jaehwa.pdf" data-image="img/licences/Jaehwa.jpg">
+      <div class="licenses-card slide-up" data-license="Jae Hwa Legalization"
+        data-description="Fisherman for South Korea" data-file="path/to/jaehwa.pdf"
+        data-image="img/licences/Jaehwa.jpg">
         <img src="img/licences/jaehwa.jpg" alt="">
         <h1>Jae Hwa Legalization</h1>
         <p>Fisherman for South Korea</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="BP2MI" data-description="Ministry of Manpower" data-file="path/to/bp2mi.pdf" data-image="img/licences/bp2mi.png">
+      <div class="licenses-card slide-up" data-license="BP2MI" data-description="Ministry of Manpower"
+        data-file="path/to/bp2mi.pdf" data-image="img/licences/bp2mi.png">
         <img src="img/licences/bp2mi.png" alt="">
         <h1>BP2MI</h1>
         <p>Ministry of Manpower</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="Sending organization" data-description="Licence for Japan" data-file="path/to/sending_organization.pdf" data-image="img/licences/sending organization.png">
+      <div class="licenses-card slide-up" data-license="Sending organization" data-description="Licence for Japan"
+        data-file="path/to/sending_organization.pdf" data-image="img/licences/sending organization.png">
         <img src="img/licences/sending organization.png" alt="">
         <h1>Sending organization</h1>
         <p>Licence for Japan</p>
       </div>
 
-      <div class="licenses-card slide-up" data-license="NIB" data-description="Business Identification Number" data-file="path/to/nib.pdf" data-image="img/licences/NiB.png">
+      <div class="licenses-card slide-up" data-license="NIB" data-description="Business Identification Number"
+        data-file="path/to/nib.pdf" data-image="img/licences/NiB.png">
         <img src="img/licences/NiB.png" alt="">
         <h1>NIB</h1>
         <p>Business Identification Number</p>
       </div>
     </div>
-</section> -->
+  </section>
 
   <!-- Modal -->
-  <!-- <div id="licenseModal" class="licenseModal">
-  <div class="licenseModal-content">
-    <span class="close">&times;</span>
-    <img id="modal-image" src="" alt="License Image" style="width: 100%; height: auto;">
-    <h1 id="modal-title"></h1>
-    <p id="modal-description"></p>
-    <a id="download-link" href="#" download>Download</a>
+  <div id="licenseModal" class="licenseModal">
+    <div class="licenseModal-content">
+      <span class="close">&times;</span>
+      <img id="modal-image" src="" alt="License Image" style="width: 100%; height: auto;">
+      <h1 id="modal-title"></h1>
+      <p id="modal-description"></p>
+      <a id="download-link" href="#" download>Download</a>
+    </div>
   </div>
-</div> -->
 
   <!-- Licenses removed-->
 
@@ -347,7 +346,6 @@
 
   <!-- all social media -->
   <section class="socialmedia" style="background: url(img/seabased/bgseabased01.png);">
-    <!-- <img class="sm-bg" src="/perwita.id/img/background/sm-bg.png" alt=""> -->
     <img class="sm-bg2" src="/perwita.id/img/background/sm-bg2.png" alt="">
     <h1>OUR <span>SOCIAL MEDIA</span></h1>
     <div class="smRow">
@@ -379,6 +377,7 @@
 
   </section>
   <!-- all social media -->
+   <!-- floating menu -->
   <div id="circularMenu" class="circular-menu">
 
     <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
@@ -397,14 +396,14 @@
 
 
   <!-- Footer Section -->
-  <div class="footer">
+<div class="footer">
 
     <h1 class="footer-header"><img src="img/logo-no-background.png" alt="">Perwita Nusaraya Group</h1>
 
     <div class="footer-content-container">
 
       <div class="offices">
-        <!-- offices list -->
+        
         <div class="office-content">
           <h1>Corporate Office</h1>
           <ul>
@@ -450,7 +449,7 @@
               class="map-link"></a>
           </li>
         </div>
-        <!-- offices list end -->
+       
       </div>
 
       <div class="link-and-sm">
@@ -468,16 +467,6 @@
         <a href="/our-team">Our Team</a>
         <a href="/faqs">FAQs</a>
         <a href="/blog">Blog</a>
-
-        <!-- <div class="websitelink">
-          <a href="https://perwitanusaraya.co.id/"><span
-              class="material-symbols-outlined">globe</span>perwitanusaraya.co.id</a>
-          <a href="https://mji.perwitanusaraya.co.id/"><span
-              class="material-symbols-outlined">globe</span>mji.perwitanusaraya.co.id</a>
-          <a href="https://perwitainternship.com/"><span
-              class="material-symbols-outlined">globe</span>perwitainternship.com</a>
-          <a href="https://perwitamarine.com/"><span class="material-symbols-outlined">globe</span>perwitamarine.com</a>
-        </div> -->
       </div>
 
       <div class="contact-form">
@@ -501,13 +490,11 @@
         </div>
       </div>
     </div>
-    <!-- links and Social media -->
+
 
     <div class="copyright"><i data-feather="copyright"></i>&copy; Perwita Nusarya Group 2024</div>
     <img src="img/assest/group logo.png" alt="" class="group-logo-footer">
   </div>
-  <!-- Footer section end-->
-
   <!-- script list -->
   <script src="https://unpkg.com/feather-icons"></script>
 
