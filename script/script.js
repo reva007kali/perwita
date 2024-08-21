@@ -18,34 +18,6 @@ function updatemenu() {
         navbar.style.borderRadius = '0px';
     }
 }
-
-// Dark Mode Toggle
-const darkModeToggle = document.getElementById('dark-mode-button');
-const popupMessage = document.getElementById('popupMessage');
-
-darkModeToggle.addEventListener('click', function () {
-    document.body.classList.toggle('dark-mode');
-    const darkModeOn = document.body.classList.contains('dark-mode');
-    showPopupMessage(darkModeOn ? 'Dark Mode On' : 'Dark Mode Off');
-    updateIcon();
-});
-
-function showPopupMessage(message) {
-    popupMessage.textContent = message;
-    popupMessage.classList.add('show');
-    popupMessage.classList.remove('hidden');
-    setTimeout(() => {
-        popupMessage.classList.remove('show');
-        popupMessage.classList.add('hidden');
-    }, 1000);
-}
-
-function updateIcon() {
-    const icon = document.getElementById('dm-icon');
-    icon.setAttribute('data-feather', document.body.classList.contains('dark-mode') ? 'moon' : 'sun');
-    feather.replace(); 
-}
-
 // Deploy Number Animation
 const counters = document.querySelectorAll('.count-up');
 
@@ -89,15 +61,6 @@ function animateCounter(element, target) {
     updateCounter();
 }
 
-// Slider Infinite Loop
-const sliderWrapper = document.querySelector('.slider-wrapper');
-const images = sliderWrapper.querySelectorAll('img');
-
-images.forEach(img => {
-    const clone = img.cloneNode(true);
-    sliderWrapper.appendChild(clone);
-});
-
 // Modal for Images
 function openImageModal(imgElement) {
     var modal = document.getElementById("myModal");
@@ -111,26 +74,9 @@ function closeImageModal() {
     modal.style.display = "none";
 }
 
-
-// Accordion for Sea-Based Section
-document.querySelectorAll('.accordion-header').forEach(header => {
-    header.addEventListener('click', () => {
-        const content = header.nextElementSibling;
-        const isActive = content.style.display === 'block';
-
-        document.querySelectorAll('.accordion-content').forEach(c => {
-            c.style.display = 'none';
-        });
-
-        if (!isActive) {
-            content.style.display = 'block';
-        }
-    });
-});
-
 // Modal for Licenses
 var licenseModal = document.getElementById("licenseModal");
-var licenseModalClose = document.getElementsByClassName("close")[0];
+var licenseModalClose = document.getElementsByClassName("closeLicenses")[0];
 
 licenseModalClose.onclick = function () {
     licenseModal.style.display = "none";
@@ -152,7 +98,6 @@ for (var i = 0; i < licenseCards.length; i++) {
 
         document.getElementById("modal-title").innerText = license;
         document.getElementById("modal-description").innerText = description;
-        document.getElementById("download-link").href = file;
         document.getElementById("modal-image").src = image;
 
         licenseModal.style.display = "block";
