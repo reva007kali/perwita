@@ -63,14 +63,14 @@ function animateCounter(element, target) {
 
 // Modal for Images
 function openImageModal(imgElement) {
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("postModal");
     var modalImg = document.getElementById("modalImg");
     modal.style.display = "block";
     modalImg.src = imgElement.src;
 }
 
 function closeImageModal() {
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("postModal");
     modal.style.display = "none";
 }
 

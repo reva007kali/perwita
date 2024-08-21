@@ -15,11 +15,12 @@
 
     .navbar ul {
         position: absolute;
+        overflow-y: scroll;
         top: 100%;
         right: 0;
         left: 0;
         z-index: 3;
-        height: auto;
+        height: fit-content;
         display: none;
         text-align: left;
         background-color: rgb(35, 35, 35);
@@ -69,6 +70,10 @@
 
     .navbar input:checked~ul {
         display: block
+    }
+    .navbar a {
+        line-height: 50px;
+        font-size: 15px;
     }
     /* hero section */
     .home-content {
