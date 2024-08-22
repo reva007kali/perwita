@@ -174,6 +174,7 @@ a {
 	position: absolute;
 	z-index: 99;
 	display: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.648);
 }
 .navbar ul.sub-menus li {
 	display: block;
@@ -249,7 +250,7 @@ a {
 }
 
 .home .cta {
-    font-size: calc(2em+1vw);
+    font-size: 1.3em;
     margin-top: 2%;
     margin-right: 1%;
     border-radius: 20px;
@@ -569,7 +570,7 @@ a {
     justify-content: center;
     background-size: fill;
     gap: 1rem;
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
 }
 
@@ -959,7 +960,7 @@ a {
 }
 
 /* modal late post */
-.modal {
+.postModal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -973,14 +974,14 @@ a {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.modal-content {
+.post-modalImg {
     display: block;
     margin-inline: auto;
     height: 70%;
     max-width: 500px;
 }
 
-.close {
+.closePost {
     position: absolute;
     top: 17%;
     right: 6%;
@@ -990,8 +991,8 @@ a {
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.closePost:hover,
+.closePost:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -1247,7 +1248,8 @@ a {
 
 .perwita-tittle h1 {
     margin-bottom: 1rem;
-    font-size: 2em;
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
 .perwita-tittle p {
@@ -1390,7 +1392,7 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 150px;
+    width: 180px;
     transition: transform 200ms ease-in-out;
 }
 
@@ -1424,8 +1426,8 @@ a {
     background-color: var(--primary-color);
     border: 5px solid var(--secondary-color);
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     font-size: 70%;
     gap: 10px;
@@ -1803,6 +1805,7 @@ a {
     padding: 10px;
     color: white;
     border-radius: 10px;
+    margin-right: 20px;
 }
 
 .sb-content a:hover {
@@ -2438,7 +2441,7 @@ a:hover {
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.833);
     /* Black w/ opacity */
 }
 
@@ -2450,7 +2453,7 @@ a:hover {
     background-color: #fefefe;
     margin: 5% auto;
     /* 15% from the top and centered */
-    padding: 4rem;
+    padding: 2rem;
     border: 1px solid #888;
     width: 60%;
     /* Could be more or less, depending on screen size */
@@ -2460,15 +2463,15 @@ a:hover {
     font-size: 2em;
 }
 
-.close {
+.sbClose {
     color: #aaa;
     float: right;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.sbClose:hover,
+.sbClose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -3463,8 +3466,8 @@ a:hover {
 
 .circular-menu {
     position: fixed;
-    bottom: 1em;
-    right: 1em;
+    bottom: 2em;
+    right: 2em;
     z-index: 99;
 }
 
@@ -3476,7 +3479,7 @@ a:hover {
     height: 3.5em;
     border-radius: 50%;
     background-color: var(--secondary-color);
-    box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, 0.26);
+    box-shadow: 1px 2px 5px 0 hsla(0, 0%, 0%, 0.151);
     color: hsl(0, 0%, 100%);
     text-align: center;
     line-height: 3.9;
@@ -3490,11 +3493,11 @@ a:hover {
 }
 
 .circular-menu.active .floating-btn {
-    box-shadow: inset 0 0 3px hsla(0, 0%, 0%, 0.811);
+    box-shadow: 1px 1px 10px hsla(0, 0%, 0%, 0.811);
 }
 
 .circular-menu .floating-btn:active {
-    box-shadow: 0 4px 8px 0 hsla(0, 0%, 0%, 0.916);
+    box-shadow: 1px 4px 8px 0 hsla(0, 0%, 0%, 0.916);
 }
 
 .circular-menu .floating-btn i {
@@ -3520,7 +3523,7 @@ a:hover {
 }
 
 .circular-menu.active:after {
-    transform: scale3d(5.5, 5.5, 1);
+    transform: scale3d(3, 3, 1);
     transition-timing-function: cubic-bezier(.68, 1.55, .265, 1);
 }
 
@@ -3546,6 +3549,7 @@ a:hover {
     text-align: center;
     line-height: 3;
     transition: transform .3s ease;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.142);
 }
 
 .circular-menu .menu-item img {
@@ -3561,7 +3565,7 @@ a:hover {
 }
 
 .circular-menu.active .menu-item:nth-child(1) {
-    transform: translate3d(1em, -7em, 0);
+    transform: translate3d(.5em, -7em, 0);
 }
 
 .circular-menu.active .menu-item:nth-child(2) {

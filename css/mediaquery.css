@@ -75,6 +75,7 @@
         line-height: 50px;
         font-size: 15px;
     }
+
     /* hero section */
     .home-content {
         margin: auto;
@@ -192,7 +193,7 @@
         padding-inline: 10px;
         width: 100%;
     }
-
+    
     /* about page */
     .about-home {
         display: flex;
@@ -238,7 +239,7 @@
         font-size: 80%;
     }
     .ms-card {
-        width: 300px;
+        width: 100%;
     }
     .ms-card p {
         margin-inline: 3rem;
