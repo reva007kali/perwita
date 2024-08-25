@@ -3486,16 +3486,25 @@ a:hover {
 
 /* ourhistory */
 .history-content {
-    padding: 30px;
+    padding: 100px;
 }
-
+.history-content img {
+    display: inline;
+    margin-block: 2rem;
+    width: 400px;
+}
 .history-content p {
     width: 60%;
-    margin-block: 1rem;
+    font-size: 1.3rem;
+    margin-block: 2rem;
 }
 
 .history-content h1 {
+    text-transform: uppercase;
     font-size: 3em;
+}
+.history-content h2 {
+    font-size: 2em;
 }
 
 /* gallery */

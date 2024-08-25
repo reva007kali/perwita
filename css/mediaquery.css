@@ -6,9 +6,11 @@
         height: 50px;
         background: white;
     }
+
     .navbar.scrolled {
         height: 50px;
     }
+
     .navbar.scrolled a {
         color: white;
     }
@@ -25,14 +27,17 @@
         text-align: left;
         background-color: rgb(35, 35, 35);
     }
+
     .navbar-logo h3 {
         font-size: 4vw;
         color: var(--primary-color);
     }
+
     .navbar-logo {
         position: absolute;
         right: 5%;
     }
+
     .navbar ul.sub-menus {
         width: 100%;
         position: static;
@@ -71,6 +76,7 @@
     .navbar input:checked~ul {
         display: block
     }
+
     .navbar a {
         line-height: 50px;
         font-size: 15px;
@@ -82,13 +88,16 @@
         text-align: center;
         top: calc(30% + 1vw);
     }
+
     .home-content h1 {
-        font-size:3em;
+        font-size: 3em;
     }
+
     .home-content h2 {
         margin-inline: 30px;
         font-size: 1em;
     }
+
     /* founder section */
     .founder-message {
         display: flex;
@@ -98,6 +107,7 @@
         max-width: 100%;
         font-size: 60%;
     }
+
     .founder-container {
         display: flex;
         flex-wrap: wrap;
@@ -105,6 +115,7 @@
         justify-content: center;
         padding: 1rem 0rem;
     }
+
     .founder-img-name {
         display: flex;
         flex-direction: column;
@@ -112,22 +123,27 @@
         align-items: center;
         text-align: center;
     }
+
     .founder-img-name h4 {
         font-size: calc(20px + 1 vw);
     }
+
     /* units section */
     .units-tittle h1 {
         margin-inline: 0%;
         font-size: 2em;
     }
+
     .card {
         width: 300px;
         height: 350px;
     }
+
     /* build future section */
     .build-future {
         min-height: 80vh;
     }
+
     .build-content {
         max-width: 80%;
         text-align: center;
@@ -136,24 +152,30 @@
         margin-bottom: 1rem;
         font-size: 80%;
     }
+
     .build-future img {
         width: 80%;
         border-radius: 10px;
     }
+
     /* deploy section */
-    .deploy .image2,.image3 {
+    .deploy .image2,
+    .image3 {
         display: none;
     }
+
     .deploy-tittle h1 {
         margin-inline: 2%;
         text-align: center;
         font-size: 2em;
     }
+
     /* licenses */
     .licences-tittle {
         font-size: 2em;
         margin-block: 2rem;
     }
+
     /* social media */
     .smRow {
         display: flex;
@@ -163,28 +185,33 @@
         gap: 2rem;
         margin-bottom: 2rem;
     }
+
     .sm-bg {
         display: none;
     }
-    
+
     .sm-bg2 {
         display: none;
     }
+
     .socialmedia h1 {
         margin-top: 2rem;
         font-size: 2em;
     }
+
     /* floating menu */
     .circular-menu .floating-btn {
         width: 3.5em;
         height: 3.5em;
         transform: scale(.8);
     }
+
     /* footer */
     .footer {
         padding: 0 .5rem;
         font-size: 60%;
     }
+
     .contact-form {
         display: flex;
         flex-direction: column;
@@ -193,7 +220,7 @@
         padding-inline: 10px;
         width: 100%;
     }
-    
+
     /* about page */
     .about-home {
         display: flex;
@@ -201,6 +228,7 @@
         min-height: 100vh;
         background-size: fill;
     }
+
     .about-content {
         display: flex;
         flex-direction: column;
@@ -208,48 +236,58 @@
         text-align: center;
         z-index: 1;
     }
-    
+
     .about-content h1 {
         font-size: 3em;
     }
+
     /* about overview */
     .perwita-tittle h1 {
         margin-bottom: 1rem;
         font-size: 1.4em;
     }
+
     /* our history */
     .our-history {
         padding: 1rem;
     }
+
     .OH-container img {
         max-width: 300px;
         height: 200px;
     }
+
     .OH-card {
         padding: 3rem 1rem;
         width: 300px;
         height: 400px;
     }
+
     /* milestone */
     .milestone {
         padding: 1rem;
     }
+
     .ms-tittle {
         margin-top: 2rem;
         font-size: 80%;
     }
+
     .ms-card {
         width: 100%;
     }
+
     .ms-card p {
         margin-inline: 3rem;
         font-size: 12px;
     }
+
     .ms-line {
         rotate: 90deg;
         margin-block: 2rem;
         width: 100%;
     }
+
     /* our leadership */
     .leader h1 {
         margin-block: 1rem;
@@ -257,10 +295,12 @@
         text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.422);
         color: white;
     }
+
     /* vision mission value */
     .vision {
         width: 100%;
     }
+
     .vision .value-img {
         width: 300px;
         height: auto;
@@ -268,14 +308,17 @@
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
         margin-bottom: 2rem;
     }
+
     /* our offices */
     .office-loc h1 {
         margin-top: 1rem;
         font-size: 2em;
     }
+
     .office h1 {
         font-size: 1.3rem;
     }
+
     .office {
         display: flex;
         flex-direction: column;
@@ -289,20 +332,25 @@
         color: var(--text-color1);
         position: relative;
     }
+
     .office-loc p {
         text-align: center;
     }
+
     .office img {
         display: none;
     }
+
     /* seabased */
     .seabased-content {
         font-size: 60%;
     }
+
     .sb-cta {
         max-width: 200px;
         margin-top: 1rem;
     }
+
     .sb-cta a {
         text-align: center;
         width: 200px;
@@ -310,11 +358,13 @@
         padding: .5rem 1rem;
 
     }
+
     /* Seabased overview */
     .sb-overview {
         justify-content: center;
         gap: 2rem;
     }
+
     .sb-content {
         display: flex;
         flex-direction: column;
@@ -325,6 +375,7 @@
         margin-inline: 2%;
         margin-bottom: 1rem;
     }
+
     .sb-content h1 {
         display: flex;
         flex-direction: column;
@@ -337,24 +388,29 @@
         margin-right: 0rem;
         text-align: center;
     }
+
     .sb-content p {
         text-align: center;
         font-size: 1em;
     }
+
     /* seabased services */
     .sb-services h1 {
         text-align: center;
         font-size: 2em;
     }
+
     /* Seabased department */
     .sb-department h1 {
         padding: 1rem;
         font-size: 2em;
         margin-top: 1rem;
     }
+
     .sb-department h1 span {
         font-size: 1em;
     }
+
     .department {
         display: flex;
         flex-direction: column;
@@ -368,50 +424,60 @@
         border-radius: 10px;
         position: relative;
     }
+
     /* seabased career */
     .sb-river {
         border-radius: 0px;
         flex-direction: column;
     }
+
     .sb-career h1 {
         margin-top: 2rem;
         text-align: center;
         font-size: 2em;
     }
+
     .river-content {
         order: 2;
         width: 100%;
     }
+
     .sb-river-img {
         order: 1;
         flex: 1;
         width: 100%;
         min-height: 300px;
     }
+
     .sb-career-cta {
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
     }
-    
+
     .sb-career-cta a {
         width: 300px;
     }
+
     .river-content a {
         margin-top: 1rem;
     }
+
     /* sb deployed */
     .sb-deployed {
         flex-wrap: wrap;
     }
+
     .sb-deployed h1 {
         font-size: 1em;
     }
+
     .sb-deployed img {
         object-fit: cover;
         width: 100%;
         border-radius: 20px;
     }
+
     /* post social media */
     .sm-tittle {
         flex-wrap: wrap;
@@ -419,9 +485,11 @@
         gap: 0rem;
         text-align: center;
     }
+
     .post-update {
         padding: 1rem;
     }
+
     /* landbased */
     .lb-cta a {
         font-size: 12px;
@@ -429,23 +497,29 @@
         width: 200px;
         text-align: center;
     }
+
     .landbased-content h1 {
         font-size: 3em;
     }
+
     .landbased-content p {
         font-size: 1em;
     }
+
     .lb-services h1 {
         font-size: 2em;
     }
+
     .lb-deployed h1 {
         text-align: center;
         font-size: 1.5em;
     }
+
     .sb-clients ul {
         line-height: 1.6;
-        margin-inline: 20px ;
+        margin-inline: 20px;
     }
+
     /* training center */
     .tc-cta a {
         font-size: 10px;
@@ -453,34 +527,42 @@
         width: 250px;
         text-align: center;
     }
+
     .tc-cta a {
         padding: 10px;
         border-radius: 10px;
     }
+
     /* partner page */
     .why-perwita {
         width: 100%;
         padding: 28px;
     }
+
     .why-perwita-img {
         display: flex;
         justify-content: center;
         padding: 10px;
         width: 100%;
     }
+
     .why-perwita-img img {
         width: 300px;
         border-radius: 20px;
     }
+
     .partner-page__pdf-section img {
         width: 270px;
     }
+
     .sbPartner {
         width: 100%;
     }
+
     .lbPartner {
         width: 100%;
     }
+
     /* circular menu */
     .circular-menu {
         position: fixed;
@@ -488,20 +570,24 @@
         right: 10px;
         z-index: 99;
     }
+
     /* galery */
     .galery {
         padding: 10px;
     }
+
     .galery-tumbnail img {
         padding: 5px;
         width: 95px;
         height: 95px;
     }
+
     .galery-modalImg {
         display: block;
         margin-inline: auto;
         max-width: 290px;
     }
+
     /* sb modal */
     .sb-modal-content {
         display: flex;
@@ -516,5 +602,62 @@
         width: 100%;
         /* Could be more or less, depending on screen size */
     }
+
+    /* ourhistory */
+    .history-content {
+        padding: 10px;
+    }
+
+    .history-content img {
+        display: inline;
+        margin-block: 2rem;
+        width: 280px;
+    }
+
+    .history-content p {
+        width: 100%;
+        font-size: 1rem;
+        margin-block: .4rem;
+    }
+
+    .history-content h1 {
+        text-transform: uppercase;
+        font-size: 2em;
+    }
+
+    .history-content h2 {
+        font-size: 1em;
+    }
+    /* Modal Styles */
+    .licenseModal {
+        padding-top: 60px;
+    }
     
+    .licenseModal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid #888;
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .closeLicenses {
+        color: #e77e7e;
+        float: right;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    
+    .closeLicenses:hover,
+    .closeLicenses:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    /* Licenses section */
+
 }
