@@ -73,6 +73,18 @@ function closeImageModal() {
     var modal = document.getElementById("postModal");
     modal.style.display = "none";
 }
+// Modal for Images Gallery
+function openGaleryModal(imgElement) {
+    var modal = document.getElementById("galeryModal");
+    var modalImg = document.getElementById("galery-modalImg");
+    modal.style.display = "block";
+    modalImg.src = imgElement.src;
+}
+
+function closeGaleryModal() {
+    var modal = document.getElementById("galeryModal");
+    modal.style.display = "none";
+}
 
 // Modal for Licenses
 var licenseModal = document.getElementById("licenseModal");
