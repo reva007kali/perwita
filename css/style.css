@@ -3494,26 +3494,74 @@ a:hover {
 /* bio leader */
 
 /* ourhistory */
-.history-content {
-    padding: 100px;
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2rem;
 }
-.history-content img {
-    display: inline;
-    margin-block: 2rem;
-    width: 400px;
-}
-.history-content p {
-    width: 60%;
-    font-size: 1.3rem;
-    margin-block: 2rem;
-}
-
-.history-content h1 {
+.history h1 {
     text-transform: uppercase;
     font-size: 3em;
+    padding:3% 10%;
 }
-.history-content h2 {
-    font-size: 2em;
+.history h1 span {
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+.history-founded {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.history-img-frame {
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px;
+    height: 450px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.244);
+}
+.history-img-frame img {
+    object-position: bottom;
+    object-fit: cover;
+    width: 350px;
+    height: 320px;
+}
+.history-img-frame h5 {
+    font-style: italic;
+    font-weight: 400;
+    max-width: 300px;
+    padding: 1rem;
+}
+.history-content {
+    max-width: 50%;
+    padding: 50px;
+    line-height: 1.6;
+}
+.history-content p {
+    font-size: 22px;
+}
+.history-content p strong {
+    font-size: 25px;
+}
+.history-content p span {
+    font-weight: 600;
+    font-style: italic;
+}
+.history-founded a {
+    display: block;
+    margin-block: 50px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+.history-founded a:hover {
+    background-color: var(--secondary-color);
 }
 
 /* gallery */
