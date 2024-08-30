@@ -1,3 +1,6 @@
+<?php
+include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,33 +27,6 @@
 </head>
 
 <body>
-    <!-- Navigation Bar Start -->
-    <nav id='navbar' class="navbar">
-        <label></label>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
-        <div class="navbar-logo">
-            <img src="img/logo-pn.png" alt="">
-            <h3>Perwita Nusaraya <span>Group</span></h3>
-        </div>
-        <ul>
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='about.html'>About</a></li>
-            <li><a class='dropdown-arrow'>Units</a>
-                <ul class='sub-menus'>
-                    <li><a href='seabased.html'>Sea Based</a></li>
-                    <li><a href='landbased.html'>Land Based</a></li>
-                    <li><a href='training-centers.html'>Training Center</a></li>
-                    <li><a href='index.html'>Internship</a></li>
-                </ul>
-            </li>
-            <li><a href=''>Jobs</a></li>
-            <li><a href='partner.html'>Partner</a></li>
-            <li><a href='gallery.html'>Gallery</a></li>
-            <li><a href='faqs.html'>FAQs</a></li>
-        </ul>
-    </nav>
-    <!-- Navigation Bar end -->
-
     <!--seabased home  -->
     <section class="seabased" id="seabased" style="background-image: url(img/hero-picture/1.jpeg);">
         <div class="seabased-content slideupanim">

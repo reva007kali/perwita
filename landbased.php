@@ -1,3 +1,7 @@
+
+<?php
+include 'navbar.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,34 +28,6 @@
 </head>
 
 <body>
-    <!-- Navigation Bar Start -->
-    <nav id='navbar' class="navbar">
-        <label></label>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
-        <div class="navbar-logo">
-            <img src="img/logo-pn.png" alt="">
-            <h3>Perwita Nusaraya <span>Group</span></h3>
-        </div>
-        <ul>
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='about.html'>About</a></li>
-            <li><a class='dropdown-arrow'>Units</a>
-                <ul class='sub-menus'>
-                    <li><a href='seabased.html'>Sea Based</a></li>
-                    <li><a href='landbased.html'>Land Based</a></li>
-                    <li><a href='training-centers.html'>Training Center</a></li>
-                    <li><a href='index.html'>Internship</a></li>
-                </ul>
-            </li>
-            <li><a href=''>Jobs</a></li>
-            <li><a href='partner.html'>Partner</a></li>
-            <li><a href='gallery.html'>Gallery</a></li>
-            <li><a href='faqs.html'>FAQs</a></li>
-        </ul>
-    </nav>
-    <!-- Navigation Bar end -->
-
-
     <!-- Land based home  -->
     <section class="landbased" id="landbased" style="background-image: url(img/landbased/landbasedbg.png);">
         <div class="landbased-content">
@@ -267,35 +243,35 @@
         <div class="lb-dp-container">
 
             <div class="lb-dp-card">
-                <img src="/perwita.id/img/landbased/caretaker.jpeg" alt="">
+                <img src="img/landbased/caretaker.jpeg" alt="">
                 <h2>Caregiver <br> and Maid</h2>
                 <h3>3000+</h3>
             </div>
 
 
             <div class="lb-dp-card">
-                <img src="/perwita.id/img/landbased/factoryWorker.jpg" alt="">
+                <img src="img/landbased/factoryWorker.jpg" alt="">
                 <h2>Factory and Construction</h2>
                 <h3>500+</h3>
             </div>
 
 
             <div class="lb-dp-card">
-                <img src="/perwita.id/img/landbased/construction.jpg" alt="">
+                <img src="img/landbased/construction.jpg" alt="">
                 <h2>Processing,Packaging & Construction</h2>
                 <h3>500+</h3>
             </div>
 
 
             <div class="lb-dp-card">
-                <img src="/perwita.id/img/landbased/landbasedbg.png" alt="">
+                <img src="img/landbased/landbasedbg.png" alt="">
                 <h2>Turkey <br>(Hotel)</h2>
                 <h3>40+</h3>
             </div>
 
 
             <div class="lb-dp-card">
-                <img src="/perwita.id/img/landbased/securitystaff.JPG" alt="">
+                <img src="img/landbased/securitystaff.JPG" alt="">
                 <h2>Domestic <br>( Factory & Security Staff)</h2>
                 <h3>4600+</h3>
             </div>
@@ -305,7 +281,7 @@
 
     <!-- deployed number landbased -->
 
-    \
+    
     <!-- Licenses -->
     <section class="licenses" style="background-image: url(img/background/licensesbg.jpg);">
         <h1 class="licences-tittle slide-up">OUR <span>LICENSES</span></h1>
@@ -574,7 +550,7 @@
     <script>
         feather.replace();
     </script>
-    <script src="/perwita.id/script/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

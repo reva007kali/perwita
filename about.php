@@ -1,3 +1,7 @@
+<?php
+include 'navbar.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,32 +30,6 @@
 </head>
 
 <body>
-  <!-- Navigation Bar Start -->
-  <nav id='navbar' class="navbar">
-    <label></label>
-    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
-    <div class="navbar-logo">
-      <img src="img/logo-pn.png" alt="">
-      <h3>Perwita Nusaraya <span>Group</span></h3>
-    </div>
-    <ul>
-      <li><a href='index.html'>Home</a></li>
-      <li><a href='about.html'>About</a></li>
-      <li><a class='dropdown-arrow'>Units</a>
-        <ul class='sub-menus'>
-          <li><a href='seabased.html'>Sea Based</a></li>
-          <li><a href='landbased.html'>Land Based</a></li>
-          <li><a href='training-centers.html'>Training Center</a></li>
-          <li><a href='index.html'>Internship</a></li>
-        </ul>
-      </li>
-      <li><a href=''>Jobs</a></li>
-      <li><a href='partner.html'>Partner</a></li>
-      <li><a href='gallery.html'>Gallery</a></li>
-      <li><a href='faqs.html'>FAQs</a></li>
-    </ul>
-  </nav>
-  <!-- Navigation Bar end -->
 
   <!-- about home start -->
   <section class="about-home" style="background-image:url(img/hero-picture/perwitabuilding.png)">
@@ -481,38 +459,37 @@
 
   <!-- office location -->
 
-  <!-- all social media -->
-  <section class="socialmedia" style="background: url(img/seabased/bgseabased01.png);">
-    <img class="sm-bg2 slideupanim" src="/perwita.id/img/background/sm-bg2.png" alt="">
-    <h1>OUR <span>SOCIAL MEDIA</span></h1>
+    <!-- all social media -->
+    <section class="socialmedia" style="background: url(img/seabased/bgseabased01.png);">
+    <img class="sm-bg2" src="img/background/sm-bg2.png" alt="">
+    <h1 class="slideupanim">OUR <span>SOCIAL MEDIA</span></h1>
     <div class="smRow slideupanim">
-      <div class="smCard slideupanim">
-        <h2>Sea Based <img src="/perwita.id/img/logo/crewmanninglogo.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="/perwita.id/img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
+      <div class="smCard">
+        <h2>Sea Based <img src="img/logo/crewmanninglogo.png"></h2>
+        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
           Manning</a>
-        <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID"><img src="/perwita.id/img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
+        <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
           Manning</a>
       </div>
 
 
       <div class="smCard">
-        <h2>Land Based <img src="/perwita.id/img/logo-pn.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.p3mi/?hl=en"><img src="/perwita.id/img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
+        <h2>Land Based <img src="img/logo-pn.png"></h2>
+        <a href="https://www.instagram.com/perwitanusaraya.p3mi/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
           Manning</a>
-        <a href="https://www.facebook.com/perwitanusarayagresik/?locale=id_ID"><img src="/perwita.id/img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
+        <a href="https://www.facebook.com/perwitanusarayagresik/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
           Manning</a>
       </div>
 
       <div class="smCard">
-        <h2>Internship <img src="/perwita.id/img/logo/Internshiplogo.png"></h2>
-        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="/perwita.id/img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
+        <h2>Internship <img src="img/logo/Internshiplogo.png"></h2>
+        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
           Manning</a>
       </div>
     </div>
 
   </section>
   <!-- all social media -->
-
 
   <!-- Footer Section -->
   <div class="footer">
@@ -653,7 +630,7 @@
     feather.replace();
   </script>
   <!-- <script src="script/navbar2.js"></script> -->
-  <script src="/perwita.id/script/script.js"></script>
+  <script src="script/script.js"></script>
 </body>
 
 </html>
