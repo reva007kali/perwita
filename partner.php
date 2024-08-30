@@ -235,190 +235,74 @@ include 'navbar.php';
     <!-- partner form for landbased and seabased -->
 
 
-  <!-- office location -->
-  <section class="office-loc" style="background: url(img/background/3.png);">
-    <h1 class="">OUR <span>OFFICES</span></h1>
-    <p class="">Located in three main cities of Indonesia and also in Busan , South Korea.
-      The below points highlight their strategic advantage</p>
+    <!-- office location -->
+    <section class="office-loc" style="background: url(img/background/3.png);">
+        <h1 class="">OUR <span>OFFICES</span></h1>
+        <p class="">Located in three main cities of Indonesia and also in Busan , South Korea.
+            The below points highlight their strategic advantage</p>
 
-    <div class="offices-container ">
+        <div class="offices-container ">
 
-      <div class="office">
-        <h1>Surabaya</h1>
-        <ul>
-          <li>Easy access to <strong>Juanda International Airport</strong> for domestic and international travel.</li>
-          <li>Availability of top-tier <strong>medical facilities approved</strong> by major clients.</li>
-          <li>Presence of the <strong>US Embassy</strong> for consular services and business support.</li>
-          <li>Convenient access to visa services <strong>(VFS)for Schengen countries.</strong> </li>
-          <li>Essential services for maritime professionals, <strong>Seaman Book, SID, and Sign-on Stamp</strong></li>
-          <li>Strategic location in Indonesia’s <strong>second largest city</strong></li>
-        </ul>
-        <img src="img/offices/surabaya.jpg" alt="">
-      </div>
+            <div class="office">
+                <h1>Surabaya</h1>
+                <ul>
+                    <li>Easy access to <strong>Juanda International Airport</strong> for domestic and international travel.</li>
+                    <li>Availability of top-tier <strong>medical facilities approved</strong> by major clients.</li>
+                    <li>Presence of the <strong>US Embassy</strong> for consular services and business support.</li>
+                    <li>Convenient access to visa services <strong>(VFS)for Schengen countries.</strong> </li>
+                    <li>Essential services for maritime professionals, <strong>Seaman Book, SID, and Sign-on Stamp</strong></li>
+                    <li>Strategic location in Indonesia’s <strong>second largest city</strong></li>
+                </ul>
+                <img src="img/offices/surabaya.jpg" alt="">
+            </div>
 
-      <div class="office">
-        <h1>Jakarta</h1>
-        <ul>
-          <li>Easy access to <strong>Soekarno-Hatta International Airport</strong> for domestic and international travel.
-            Availability of top-tier <strong>medical facilities</strong> approved by clients.</li>
-          <li>Presence of the <strong>US Embassy</strong> for consular services and business support.</li>
-          <li>Convenient access to visa services for <strong>all Schengen countries</strong>, including BLS for Spain and TLS for France.</li>
-          <li>Centralized location for all embassies, facilitating international business and consular services.</li>
-          <li>Essential services for maritime professionals, <strong>Seaman Book, SID, and Sign-on Stamp</strong></li>
-          <li>Strategic location in the capital city, <strong>the economic and political hub of Indonesia.</strong></li>
-        </ul>
-        <img src="img/offices/Jakarta.jpg" alt="">
-      </div>
-    </div>
+            <div class="office">
+                <h1>Jakarta</h1>
+                <ul>
+                    <li>Easy access to <strong>Soekarno-Hatta International Airport</strong> for domestic and international travel.
+                        Availability of top-tier <strong>medical facilities</strong> approved by clients.</li>
+                    <li>Presence of the <strong>US Embassy</strong> for consular services and business support.</li>
+                    <li>Convenient access to visa services for <strong>all Schengen countries</strong>, including BLS for Spain and TLS for France.</li>
+                    <li>Centralized location for all embassies, facilitating international business and consular services.</li>
+                    <li>Essential services for maritime professionals, <strong>Seaman Book, SID, and Sign-on Stamp</strong></li>
+                    <li>Strategic location in the capital city, <strong>the economic and political hub of Indonesia.</strong></li>
+                </ul>
+                <img src="img/offices/Jakarta.jpg" alt="">
+            </div>
+        </div>
 
-    <div class="offices-container">
-      <div class="office">
-        <h1>Bali</h1>
-        <ul>
-          <li>Easy access to International Airport for domestic and international travel.</li>
-          <li>Availability of top-tier medical facilities approved by major clients.</li>
-          <li>Bali is known for having the highest number of hotel employees in Indonesia.</li>
-          <li>Essential services for maritime professionals, including Seaman Book, SID, and Sign-on Stamp.</li>
-          <li>Essential services for maritime professionals, including Seaman Book, SID, and Sign-on Stamp.</li>
-          <li>Bali is a central hub for Cruise and Hotel recruitment in Indonesia</li>
-        </ul>
-        <img src="img/offices/bali.jpg" alt="">
-      </div>
+        <div class="offices-container">
+            <div class="office">
+                <h1>Bali</h1>
+                <ul>
+                    <li>Easy access to International Airport for domestic and international travel.</li>
+                    <li>Availability of top-tier medical facilities approved by major clients.</li>
+                    <li>Bali is known for having the highest number of hotel employees in Indonesia.</li>
+                    <li>Essential services for maritime professionals, including Seaman Book, SID, and Sign-on Stamp.</li>
+                    <li>Essential services for maritime professionals, including Seaman Book, SID, and Sign-on Stamp.</li>
+                    <li>Bali is a central hub for Cruise and Hotel recruitment in Indonesia</li>
+                </ul>
+                <img src="img/offices/bali.jpg" alt="">
+            </div>
 
-      <div class="office" style="margin-bottom: 3rem;">
-        <h1>South Korea</h1>
-        <p>Perwita Nusaraya has entered the job market in Korea since 2014 by placing thousands of fishermen on near coastal fishing boats owned by Korean companies. And in 2023, we decided to open an office in Busan, South Korea to look for collaborative opportunities to place skilled workers in several well-known companies in Korea. We see potential opportunity to hire South Korean candidates for Cruise lines</p>
-        <img src="img/offices/busan.jpg" alt="">
-      </div>
-    </div>
+            <div class="office" style="margin-bottom: 3rem;">
+                <h1>South Korea</h1>
+                <p>Perwita Nusaraya has entered the job market in Korea since 2014 by placing thousands of fishermen on near coastal fishing boats owned by Korean companies. And in 2023, we decided to open an office in Busan, South Korea to look for collaborative opportunities to place skilled workers in several well-known companies in Korea. We see potential opportunity to hire South Korean candidates for Cruise lines</p>
+                <img src="img/offices/busan.jpg" alt="">
+            </div>
+        </div>
 
-  </section>
+    </section>
 
-  <!-- office location -->
+    <!-- office location -->
 
 
 
 
     <!-- Footer Section -->
-    <div class="footer">
-
-        <h1 class="footer-header"><img src="img/logo-no-background.png" alt="">Perwita Nusaraya Group</h1>
-
-        <div class="footer-content-container">
-
-            <div class="offices">
-
-                <div class="office-content">
-                    <h1>Corporate Office</h1>
-                    <ul>
-                        <li><span class="material-symbols-outlined">location_on</span>Graha Perwita Building Jalan Raya
-                            Bypass Krian
-                            Km.31 Sidoarjo 61262. East Java-Indonesia.</li>
-                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
-                        <li><span class="material-symbols-outlined">phone</span>+62 851 7671 5850</li>
-                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
-                                see map</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="office-content">
-                    <h1>Jakarta Branch Office</h1>
-                    <ul>
-                        <li><span class="material-symbols-outlined">location_on</span>Perwita Nusaraya Wisma Bumiputera
-                            LT. 3A, Jl.
-                            Jend Sudirman Kav. 75, South Jakarta 12910, DKI Jakarta.
-                        </li>
-                        <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
-                        <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
-                        <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to
-                                see map</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="office-content">
-                    <h1>Bali Branch Office</h1>
-                    <li><span class="material-symbols-outlined">location_on</span>Jl. Bina Kusuma No. 9 , Ubung -
-                        Denpasar , Bali.
-                    </li>
-                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
-                    <li><span class="material-symbols-outlined">map</span><a href="#" style="color: white;">Click to see
-                            map</a>
-                    </li>
-                </div>
-
-                <div class="office-content">
-                    <h1>South Korea Branch Office</h1>
-                    <li><span class="material-symbols-outlined">location_on</span>Hanil Office Tower 152, Jaseong-ro,
-                        1815,
-                        Munhyeon-dong, Nam-gu, Busan, South Korea</li>
-                    <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li>
-                    <li><span class="material-symbols-outlined">map</span>Click to see map<a href="#"
-                            style="color: white;" class="map-link"></a>
-                    </li>
-                </div>
-
-            </div>
-
-            <div class="link-and-sm">
-                <h2>Link</h2>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="units.html">Units</a>
-                <a href="job-portal.html">Jobs</a>
-                <a href="partner.html">Partner</a>
-                <a href="#">Gallery</a>
-                <a href="faqs.html">FAQs</a>
-            </div>
-
-            <div class="contact-form">
-                <h1>Contact us</h1>
-                <form action="php/submit_form.php" method="post">
-                    <input type="text" name="name" placeholder=" Your Name" required>
-                    <input type="email" name="email" placeholder=" Your Email" required>
-                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-
-                <div class="sm-icons">
-                    <p>Sea Based Social Media:</p>
-                    <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en" target="_blank"><img
-                            src="img/icon/ig.png" alt=""></a>
-                    <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img
-                            src="img/icon/fb.png" alt=""></a>
-                    <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
-                            src="img/icon/linkedin.png" alt=""></a>
-                </div>
-
-                <div class="sm-icons">
-                    <p>Land Based Social Media:</p>
-                    <a href="https://www.instagram.com/perwitanusaraya.p3mi/?hl=en" target="_blank"><img
-                            src="img/icon/ig.png" alt=""></a>
-                    <a href="https://www.facebook.com/perwitanusarayagresik/?locale=id_ID" target="_blank"><img
-                            src="img/icon/fb.png" alt=""></a>
-                    <!-- <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
-                      src="img/icon/linkedin.png" alt=""></a> -->
-                </div>
-
-                <div class="sm-icons">
-                    <p>Internship Social Media:</p>
-                    <a href="https://www.instagram.com/japan.perwitanusaraya/" target="_blank"><img
-                            src="img/icon/ig.png" alt=""></a>
-                    <!-- <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" target="_blank"><img
-                      src="img/icon/fb.png" alt=""></a>
-              <a href="https://id.linkedin.com/company/pt-perwita-nusaraya?trk=ppro_cprof" target="_blank"><img
-                      src="img/icon/linkedin.png" alt=""></a> -->
-                </div>
-            </div>
-        </div>
-
-
-        <div class="copyright"><i data-feather="copyright"></i>&copy; Perwita Nusarya Group 2024</div>
-        <img src="img/assest/group logo.png" alt="" class="group-logo-footer">
-    </div>
+    <?php
+    include('footer.php');
+    ?>
     <!-- Footer section end-->
 
     <!-- floating menu -->
