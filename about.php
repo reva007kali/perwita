@@ -65,7 +65,7 @@ include 'navbar.php';
       <div class="OH-card">
         <h4 class="slideupanim">Our <span>History</span></h4>
         <div class="OH-card-border slideupanim"></div>
-        <p class="slideupanim">">The Perwita Nusaraya group of companies was founded in August
+        <p class="slideupanim">"The Perwita Nusaraya group of companies was founded in August
           The Perwita Nusaraya group of companies was founded in August
           1994 with the mission to uplift Indonesians through educational
           training and job placement. Our headquarters is located in the
@@ -113,11 +113,10 @@ include 'navbar.php';
       <div class="ms-card">
         <div class="ms-circle">
           <i data-feather="anchor"></i>
-          <h2>2015</h2>
+          <h2>2014</h2>
         </div>
-        <h1>Collaborated with global companies for seafarers' recruitment.</h1>
-        <p>Endorsed crew for notable cruise lines including Carnival Cruise Lines, Oceania Cruises, Regent Seven Seas
-          Cruises, Quark Expeditions, and Scylla.</p>
+        <h1>Perwita Nusaraya expanded its operations beyond Indonesia.</h1>
+        <p>The company entered the South Korean job market by placing Indonesian fishermen on coastal fishing boats.</p>
       </div>
 
       <div class="ms-line"><i data-feather="arrow-right"></i></div>
@@ -127,9 +126,9 @@ include 'navbar.php';
           <i data-feather="award"></i>
           <h2>2018</h2>
         </div>
+        <h1>Perwita Nusaraya Group had established collaborations for the recruitment of seafarers &</h1>
         <h1>Established PT. Perwita Maritim Pershada, a Maritime Training Center.</h1>
-        <p>Center adheres to STCW 2010 standards.
-          Approved by the Directorate General of Sea Transportation, Indonesia.</p>
+        <!-- <p>The company successfully endorsed crew members for prestigious cruise lines, including Carnival Cruise Lines, Oceania Cruises, Regent Seven Seas Cruises, Quark Expeditions, and Scylla.</p> -->
       </div>
 
       <div class="ms-line"><i data-feather="arrow-right"></i></div>

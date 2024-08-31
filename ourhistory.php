@@ -49,7 +49,7 @@ include 'navbar.php';
             workers.</strong> At the time, many Indonesian workers faced significant challenges, including inadequate
           benefits, poor working conditions, and limited job opportunities. Recognizing these hardships, especially the
           imbalance between the growing number of graduates and the limited job placements available, Ibu Murti was
-          inspired to create Perwita Nusaraya. Her vision was clear: to empower Indonesian workers by providing them
+          inspired to create Perwita Nusaraya. <strong>Her vision was clear: </strong> to empower Indonesian workers by providing them
           with better employment opportunities, fair benefits, and the respect they deserved.</p>
       </div>
       <div class="history-img-frame">
@@ -65,8 +65,8 @@ include 'navbar.php';
         </h5>
       </div>
       <div class="history-content">
-        <p><strong>In 2000 </strong>, Perwita Nusaraya received official recognition from the Indonesian Ministry of
-          Manpower as a licensed manpower recruiting company. This was a pivotal moment that established the company as
+        <p><strong style="font-size: larger;">In 2000 , Perwita Nusaraya received official recognition from the Indonesian Ministry of
+            Manpower as a licensed manpower recruiting company.</strong> This was a pivotal moment that established the company as
           a trusted partner in the recruitment and placement of Indonesian workers for overseas employment. With a focus
           on the maritime sector, Perwita Nusaraya quickly became a leader in deploying skilled seafarers and other
           professionals to international clients, gaining a reputation for excellence and reliability.</p>
@@ -74,7 +74,9 @@ include 'navbar.php';
     </div>
     <div class="history-founded">
       <div class="history-content">
-        <p><strong>Over the years</strong>, Perwita Nusaraya expanded its operations beyond Indonesia. <span>In 2014</span>, the company entered the South Korean job market by placing Indonesian fishermen on coastal fishing boats. This expansion marked the beginning of Perwita Nusaraya’s transformation into a global player in the human resources industry. <span>By 2018</span>, Perwita Nusaraya Group had established collaborations for the recruitment of seafarers. The company successfully endorsed crew members for prestigious <span>cruise lines, including Carnival Cruise Lines, Oceania Cruises, Regent Seven Seas Cruises, Quark Expeditions, and Scylla.</span> These partnerships underscored the company’s commitment to providing high-quality personnel to the maritime industry.
+        <p><strong>Over the years</strong>, Perwita Nusaraya expanded its operations beyond Indonesia. <span>In 2014 , the company entered the South Korean job market by placing Indonesian fishermen on coastal fishing boats.</span> This expansion marked the beginning of Perwita Nusaraya’s transformation into a global player in the human resources industry. 
+
+        <br><span>By 2018</span>, Perwita Nusaraya Group had established collaborations for the recruitment of seafarers. The company successfully endorsed crew members for prestigious <span>cruise lines, including Carnival Cruise Lines, Oceania Cruises, Regent Seven Seas Cruises, Quark Expeditions, and Scylla.</span> These partnerships underscored the company’s commitment to providing high-quality personnel to the maritime industry.
 
         </p>
       </div>
@@ -86,7 +88,8 @@ include 'navbar.php';
     </div>
     <div class="history-founded">
       <div class="history-content">
-        <p><strong>The company’s commitment</strong> to providing comprehensive training and ensuring the welfare of its workers led to the establishment of PT. Perwita Maritim Pershada in 2018, a Maritime Training Center dedicated to preparing Indonesian seafarers for the challenges of the global maritime industry. In 2019, Perwita Nusaraya continued to broaden its scope by launching PT. Hamerta Sinar Surya, a Construction Skill Training and Test Center. This facility was created to address the growing demand for skilled labor in the construction industry, both domestically and internationally. Recognizing the importance of language skills in today’s globalized world, the company received approval in 2020 to conduct a Japanese Internship Program. Managed by LPK Perwita Nusaraya, this program aims to produce Japanese-speaking professionals who are ready to meet the needs of the international workforce, particularly in the cruise industry. </p>
+        <p><strong>The company’s commitment</strong> to providing comprehensive training and ensuring the welfare of its workers led to the establishment of <strong>PT. Perwita Maritim Pershada in 2018,</strong> a Maritime Training Center dedicated to preparing Indonesian seafarers for the challenges of the global maritime industry. 
+        <br><br> <strong>In 2019, Perwita Nusaraya continued to broaden its scope by launching PT. Hamerta Sinar Surya, a Construction Skill Training and Test Center.</strong> This facility was created to address the growing demand for skilled labor in the construction industry, both domestically and internationally. Recognizing the importance of language skills in today’s globalized world,<strong>the company received approval in 2020 to conduct a Japanese Internship Program.</strong>  Managed by LPK Perwita Nusaraya, this program aims to produce Japanese-speaking professionals who are ready to meet the needs of the international workforce, particularly in the cruise industry. </p>
       </div>
       <div class="history-img-frame">
         <img src="img/gallery/38.jpg" alt="" style="width: fit-content;">
@@ -111,7 +114,7 @@ include 'navbar.php';
     </div>
     <div class="history-founded">
       <div class="history-content" style="max-width: 80%;">
-        <p><strong>Perwita Nusaraya’s strategic vision</strong> also led to the opening of a new office in Busan, South Korea, in 2023. This move was part of the company’s ongoing efforts to explore new opportunities and strengthen its presence in key international markets. Today, with over 30 years of experience, Perwita Nusaraya stands as a beacon of empowerment for Indonesian workers, offering them pathways to success in both land-based and sea-based careers. The company’s legacy is one of compassion, innovation, and an unwavering commitment to improving the lives of its workers while contributing to the global workforce.</p>
+        <p><strong>Perwita Nusaraya’s strategic vision</strong> also led to the opening of a <strong>new office in Busan, South Korea, in 2023.</strong> This move was part of the company’s ongoing efforts to explore new opportunities and strengthen its presence in key international markets. Today, with over 30 years of experience, Perwita Nusaraya stands as a beacon of empowerment for Indonesian workers, offering them pathways to success in both land-based and sea-based careers. The company’s legacy is one of compassion, innovation, and an unwavering commitment to improving the lives of its workers while contributing to the global workforce.</p>
         <a href="gallery.html">See Our Gallery</a>
       </div>
     </div>

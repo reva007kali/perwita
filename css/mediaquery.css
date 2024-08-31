@@ -1,5 +1,5 @@
 /* tablet */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 432px) {
     .navbar {
         display: flex;
         align-items: center;
@@ -254,14 +254,14 @@
     }
 
     .OH-container img {
-        max-width: 300px;
+        max-width: 200px;
         height: 200px;
     }
 
     .OH-card {
-        padding: 3rem 1rem;
-        width: 300px;
-        height: 400px;
+        padding: 2rem 1rem;
+        width: 250px;
+        height: fit-content;
     }
 
     /* milestone */
@@ -681,81 +681,3 @@
 }
 
 /* desktop */
-@media screen and (max-width: 1440px) {
-    .navbar {
-        height: 50px;
-        font-size: 80%;
-    }
-
-    .home {
-        font-size: 80%;
-    }
-
-    .founder {
-        font-size: 90%;
-    }
-    .founder-message {
-        display: flex;
-        flex-direction: column;
-        max-width: 50%;
-    }
-    .deploy .image2 {
-        height: 300px;
-    }
-    
-    .deploy .image3 {
-        height: 300px;
-    }
-    .total-deploy {
-        width: 200px;
-        height: 200px;
-        font-size: 80%;
-    }
-    .sm-bg2 {
-        width: 200px;
-    }
-    .perwita {
-        font-size: 80%;
-    }
-    .our-history {
-        font-size: 80%;
-    }
-    .OH-container img {
-        max-width: 450px;
-        height: 300px;
-    }
-    .OH-card {
-        padding: 3rem;
-        width: 400px;
-        height: 300px;
-    }
-    .ms-card {
-        width: 130px;
-    }
-    .ms-line {
-        margin-top: 3.5rem;
-        width: 30px;
-    }
-    .leader-card img {
-        width: 200px;
-        height: 310px;
-    }
-    .sb-overview {
-        font-size: 80%;
-    }
-    .sb-services-card {
-        width: 190px;
-    }
-    .sb-career {
-        font-size: 70%;
-    }
-    .lb-card {
-        width: 190px;
-    }
-    .lb-dp-card {
-        width: 190px;
-    }
-    
-    
-    
-}
