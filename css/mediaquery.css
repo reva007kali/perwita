@@ -1,4 +1,4 @@
-/* tablet */
+/* phone */
 @media screen and (max-width: 442px) {
     .navbar {
         display: flex;
@@ -110,10 +110,11 @@
         flex-wrap: wrap;
 
     }
+
     .home .cta {
         width: 100%;
     }
-    
+
 
     /* founder section */
     .founder-message {
@@ -616,7 +617,7 @@
         /* 15% from the top and centered */
         padding: 2rem;
         border: 1px solid #888;
-        width:95%;
+        width: 95%;
         /* Could be more or less, depending on screen size */
     }
 
@@ -696,4 +697,243 @@
     }
 }
 
-/* desktop */
+/* tablet */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        height: 70px;
+        background: white;
+    }
+
+    .navbar.scrolled {
+        height: 70px;
+    }
+
+    .navbar.scrolled a {
+        color: white;
+    }
+
+    .navbar ul {
+        position: absolute;
+        overflow-y: hidden;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        height: fit-content;
+        display: none;
+        text-align: left;
+        background-color: var(--primary-color);
+    }
+
+    .navbar-logo h3 {
+        font-size: 4vw;
+        color: var(--primary-color);
+    }
+
+    .navbar-logo {
+        position: absolute;
+        right: 5%;
+    }
+
+    .navbar ul.sub-menus {
+        width: 100%;
+        position: static;
+    }
+
+    .navbar ul.sub-menus a {
+        padding-left: 30px;
+    }
+
+    .navbar li {
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    .navbar input,
+    .navbar label {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        display: block;
+    }
+
+    .navbar input {
+        z-index: 10000
+    }
+
+    .navbar input:checked+label {
+        color: #000000
+    }
+
+    .navbar input:checked+label:before {
+        content: "\00d7"
+    }
+
+    .navbar input:checked~ul {
+        display: block
+    }
+
+    .navbar a {
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    /* hero section */
+    .home-content {
+        top: calc(20% + 1vw);
+    }
+
+    .home-content h1 {
+        font-size: 7em;
+        padding-inline: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .home-content h2 {
+        margin-inline: 30px;
+        font-size: 2em;
+        margin-bottom: 1rem;
+    }
+
+    /* founder section */
+    .founder-message {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        font-size: 140%;
+    }
+
+    .founder-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0rem;
+    }
+
+    .founder-img-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .founder-img-name h4 {
+        font-size: calc(20px + 1 vw);
+    }
+
+    /* social media */
+    .sm-bg2 {
+        z-index: 0;
+        width: 600px;
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+    }
+
+    .smRow {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* milestones */
+    .milestone {
+        padding: 1rem;
+    }
+
+    .ms-tittle {
+        margin-top: 2rem;
+        font-size: 140%;
+    }
+
+    .ms-card {
+        width: 100%;
+    }
+
+    .ms-card p {
+        margin-inline: 3rem;
+        font-size: 180%;
+    }
+
+    .ms-line {
+        rotate: 90deg;
+        margin-block: 2rem;
+        width: 100%;
+    }
+
+    .ms-card h1 {
+        font-size: 2em;
+    }
+
+    .ms-circle {
+        width: 230px;
+        height: 230px;
+    }
+
+    /* vision mission value */
+    .vision {
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+    }
+
+    .vision .value-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
+        margin-bottom: 2rem;
+    }
+
+    /* seabased career */
+    .sb-river {
+        border-radius: 0px;
+        flex-direction: column;
+    }
+
+    .sb-career h1 {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .river-content {
+        order: 2;
+        width: 100%;
+    }
+
+    .sb-river-img {
+        order: 1;
+        flex: 1;
+        width: 100%;
+        min-height: 500px;
+        background-position: top;
+    }
+
+    .sb-career-cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    .sb-career-cta a {
+        width: 300px;
+    }
+
+    .river-content a {
+        margin-top: 1rem;
+    }
+
+
+}
