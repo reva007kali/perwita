@@ -1,5 +1,5 @@
 /* phone */
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 542px) {
     .navbar {
         display: flex;
         align-items: center;
@@ -84,6 +84,9 @@
     }
 
     /* hero section */
+    .home {
+        min-height: fit-content;
+    }
     .home-content {
         margin: auto;
         text-align: center;
@@ -698,7 +701,7 @@
 }
 
 /* tablet */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 824px) {
     .navbar {
         display: flex;
         align-items: center;

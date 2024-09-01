@@ -87,7 +87,7 @@ a {
 /* text setting done */
 /* scrolled navbar */
 .navbar.scrolled {
-    height: 60px;
+    height: 50px;
     background: rgb(255, 255, 255);
 }
 
@@ -107,7 +107,7 @@ a {
     position: fixed;
     width: 100%;
     background: transparent;
-    height: 80px;
+    height: 60px;
     padding: 0 50px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
     transition: all 200ms ease;
@@ -1918,11 +1918,14 @@ a {
 }
 
 .river-content h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 1rem;
     border-bottom: 4px solid var(--secondary-color);
     margin-right: 0rem;
     font-weight: 600;
+}
+.river-content p {
+    font-size: 1em;
 }
 
 .river-content a {
