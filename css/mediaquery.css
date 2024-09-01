@@ -788,7 +788,7 @@
     }
 
     .home-content h1 {
-        font-size: 7em;
+        font-size: 4em;
         padding-inline: 1rem;
         margin-bottom: 1rem;
     }
@@ -989,6 +989,11 @@
         align-items: center;
         width: 140px;
         transition: transform 200ms ease-in-out;
+    }
+    .sb-career h1 {
+        margin-top: 2rem;
+        font-size: 3em;
+        text-align:center;
     }
     
 }
