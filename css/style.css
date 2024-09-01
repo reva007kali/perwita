@@ -3385,8 +3385,8 @@ a:hover {
     gap: 1rem;
     margin-top: 2rem;
     z-index: 88;
+    margin-inline: 10%;
 }
-
 .tc-cta a {
     padding: 20px;
     background-color: var(--primary-color);
