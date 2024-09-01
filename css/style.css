@@ -157,6 +157,7 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
+    border: 1px solid rgba(92, 92, 92, 0.11);
 }
 
 .navbar a.dropdown-arrow:after {
@@ -173,7 +174,7 @@ a {
     display: none;
     margin: 0;
     padding: 0;
-    height: 45px;
+    height: 55px;
     width: 45px;
     opacity: 0;
     cursor: pointer
@@ -187,7 +188,7 @@ a {
 }
 
 .navbar label:before {
-    font-size: 2.4em;
+    font-size: 3.4em;
     color: var(--primary-color);
     content: "\2261";
     margin-left: 20px;
@@ -197,7 +198,7 @@ a {
     height: auto;
     overflow: hidden;
     width: 170px;
-    background: var(--primary-color);
+    background: rgb(0, 9, 33);
     position: absolute;
     z-index: 99;
     display: none;
@@ -213,6 +214,7 @@ a {
 .navbar ul.sub-menus a {
     color: #FFFFFF;
     font-size: 14px;
+    border: 1px solid gray;
 }
 
 .navbar li:hover ul.sub-menus {
