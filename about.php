@@ -300,16 +300,14 @@ include 'navbar.php';
             <a href="training-centers.php">Learn more <span
                 class="material-symbols-outlined">chevron_right</span></a>
           </div>
-          <img src="img/logo/mtclogo.png" alt="" class="card-logo">
+          <!-- <img src="img/logo/mtclogo.png" alt="" class="card-logo"> -->
         </div>
         <div class="card slideupanim">
           <div class="card-img"><img src="img/units/caretaker.jpeg" alt=""></div>
           <div class="card-text">
             <h1>Internship</h1>
             <li>Japan</li>
-            <li>Malaysia</li>
-            <li>Turkey</li>
-            <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
+            <a href="internship.php">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
           </div>
           <img src="img/logo/Internshiplogo.png" alt="" class="card-logo" style="border-radius: 0;">
         </div>

@@ -49,7 +49,7 @@ include 'navbar.php';
     <section class="perwita" id="perwita" style="background-image: url(img/background/milestonebg.png);">
 
         <div class="perwita-tittle">
-            <img src="img/logo/Internshiplogo.png" alt="">
+            <!-- <img src="img/logo/Internshiplogo.png" alt=""> -->
             <h1>Perwita Nusaraya Training Center is a premier institution dedicated to the development of skilled
                 professionals across various industries.</h1>
             <p> With a strong focus on both theoretical knowledge and practical skills, the center offers a diverse
@@ -69,7 +69,7 @@ include 'navbar.php';
 
         <div class="sb-river" id="river">
             <div class="sb-river-img" style="background-image: url(img/trainingcenter/mtc.JPG)"></div>
-            <div class="river-content" style="background-color: rgb(208, 246, 255);" id="mtc">
+            <div class="river-content" style="background-color: rgb(208, 246, 255); position:relative;" id="mtc">
                 <h1>Maritime Training Center</h1>
                 <p>The Maritime Training Center of Perwita Nusaraya Group is a premier institution dedicated to the
                     education and training of maritime professionals in Indonesia. Established to enhance the skills and
@@ -86,6 +86,7 @@ include 'navbar.php';
                 </ul>
                 <a href="https://perwitamaritime.com/" target="_blank">Learn More<span
                         class="material-symbols-outlined">arrow_right</span></a>
+                <img style="width: 70px; position:absolute; right:15px; top:15px;" src="img/logo/mtclogo.png" alt="">
             </div>
         </div>
 
@@ -98,10 +99,8 @@ include 'navbar.php';
                     offers meticulously designed programs that cover language proficiency, cultural nuances, and
                     professional etiquette.</p>
                 <br>
-                <ul style="list-style: circle; font-size: .8rem;">
-                    <li>Japanese Language Program</li>
-                    <li>Korean Language Program</li>
-                    <li>English Language Program</li>
+                <ul style="list-style: circle; font-size: 1rem;">
+                    <li><strong>Japanese Language Program</strong></li>
                 </ul>
                 <a href="https://perwitainternship.com/training" target="_blank">Learn More<span
                         class="material-symbols-outlined">arrow_right</span></a>
@@ -217,20 +216,20 @@ include 'navbar.php';
     <?php
     include('footer.php');
     ?>
-    
-   <!-- floating menu -->
-   <div id="circularMenu" class="circular-menu">
-    <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-      <i data-feather="message-circle"></i>
-    </a>
-    <menu class="items-wrapper">
-      <a href="https://wa.me/6281514299198" class="menu-item"><img src="img/icon/3225179_app_logo_media_popular_social_icon.png" alt=""></a>
-      <a href="https://www.linkedin.com/company/pt-perwita-nusaraya/?trk=ppro_cprof&originalSubdomain=id" class="menu-item"><img src="img/icon/linkedin.png" alt=""></a>
-      <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" class="menu-item"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt=""></a>
-      <a href="mailto:apply@perwitanusaraya.co.id" class="menu-item"><img src="img/icon/email.png" alt=""></a>
-    </menu>
-  </div>
-  <!-- floating menu  end -->
+
+    <!-- floating menu -->
+    <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+            <i data-feather="message-circle"></i>
+        </a>
+        <menu class="items-wrapper">
+            <a href="https://wa.me/6281514299198" class="menu-item"><img src="img/icon/3225179_app_logo_media_popular_social_icon.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/pt-perwita-nusaraya/?trk=ppro_cprof&originalSubdomain=id" class="menu-item"><img src="img/icon/linkedin.png" alt=""></a>
+            <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" class="menu-item"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt=""></a>
+            <a href="mailto:apply@perwitanusaraya.co.id" class="menu-item"><img src="img/icon/email.png" alt=""></a>
+        </menu>
+    </div>
+    <!-- floating menu  end -->
 
     <!-- script list -->
     <script src="https://unpkg.com/feather-icons"></script>

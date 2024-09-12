@@ -57,7 +57,7 @@ include 'navbar.php';
                 prepare our
                 trainees and recruits to meet the demands of the ever-evolving maritime sector."</p>
             <br>
-            <a href="partner.html">Contact us for partnership</a><a href="link to job portal">Apply for a Job</a>
+            <a href="partner.php">Contact us for partnership</a><a href="https://seaports.perwitamarine.com/">Apply for a Job</a>
         </div>
     </section>
     <!-- overview -->

@@ -40,8 +40,8 @@ include 'navbar.php';
       <h2>Established in <strong>1994</strong>, helping Indonesian youth achieve their dreams</h2>
 
       <div class="home-cta slideupanim">
-        <a href="link to job portal"><button class="cta">Find Job</button></a>
-        <a href="partner.html"><button class="cta">Partner with us</button></a>
+        <a href="https://seaports.perwitamarine.com/"><button class="cta">Find Job</button></a>
+        <a href="partner.php"><button class="cta">Partner with us</button></a>
       </div>
     </div>
 
@@ -123,15 +123,13 @@ include 'navbar.php';
             <a href="training-centers.php">Learn more <span
                 class="material-symbols-outlined">chevron_right</span></a>
           </div>
-          <img src="img/logo/mtclogo.png" alt="" class="card-logo">
+          <!-- <img src="img/logo/mtclogo.png" alt="" class="card-logo"> -->
         </div>
         <div class="card slideupanim">
           <div class="card-img"><img src="img/units/caretaker.jpeg" alt=""></div>
           <div class="card-text">
             <h1>Internship</h1>
             <li>Japan</li>
-            <li>Malaysia</li>
-            <li>Turkey</li>
             <a href="#">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
           </div>
           <img src="img/logo/Internshiplogo.png" alt="" class="card-logo" style="border-radius: 0;">

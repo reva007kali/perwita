@@ -87,7 +87,7 @@ a {
 /* text setting done */
 /* scrolled navbar */
 .navbar.scrolled {
-    height: 50px;
+    height: 60px;
     background: rgb(255, 255, 255);
 }
 
@@ -157,7 +157,6 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
-    border: 1px solid rgba(92, 92, 92, 0.11);
 }
 
 .navbar a.dropdown-arrow:after {
@@ -450,6 +449,7 @@ a {
 /* Units Section Start */
 .units {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -487,7 +487,6 @@ a {
     padding: 2rem;
     border-radius: 40px;
     gap: 0rem;
-    margin-bottom: 5rem;
 }
 
 .units-card {

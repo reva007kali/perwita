@@ -36,10 +36,10 @@
           <li><a href='seabased.php'>Sea Based</a></li>
           <li><a href='landbased.php'>Land Based</a></li>
           <li><a href='training-centers.php'>Training Center</a></li>
-          <li><a href='#'>Internship</a></li>
+          <li><a href='internship.php'>Internship</a></li>
         </ul>
       </li>
-      <li><a href='link to job portal'>Jobs</a></li>
+      <li><a href='https://seaports.perwitamarine.com/'>Jobs</a></li>
       <li><a href='partner.php'>Partner</a></li>
       <li><a href='gallery.php'>Gallery</a></li>
       <li><a href='faqs.php'>FAQs</a></li>

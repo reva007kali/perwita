@@ -62,7 +62,7 @@ include 'navbar.php';
                 domestic roles, Perwita Nusaraya supports career opportunities right at home.
             </p>
             <br>
-            <a href="partner.html">Contact us for partnership</a><a href="link to job portal">Apply for a Job</a>
+            <a href="partner.php">Contact us for partnership</a><a href="lb-job.php">Apply for a Job</a>
         </div>
 
     </section>
