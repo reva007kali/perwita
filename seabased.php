@@ -46,10 +46,10 @@ include 'navbar.php';
         <div class="managingdirector slideupanim">
             <img src="img/seabased/pakganang.png" alt="">
             <h2>Dwihariyo S.Wibowo</h2>
-            <p>Managing Director of Perwita Crew Manning</p>
+            <p>Managing Director of Perwita Nusaraya Manning</p>
         </div>
         <div class="sb-content slideupanim">
-            <h1>Welcome to Perwita Nusaraya Crew Manning<img src="img/logo/crewmanninglogo.jpg" alt=""></h1>
+            <h1>Welcome to Perwita Nusaraya Manning<img src="img/logo/crewmanninglogo.jpg" alt=""></h1>
             <p>"At Perwita Nusaraya, we are committed to shaping the future of maritime professionals. Our seabased
                 services provide comprehensive training, recruitment, and career development for individuals aspiring to
                 excel in the global maritime industry. We specialize in recruiting for ocean, river, and expedition
@@ -296,7 +296,7 @@ include 'navbar.php';
                     crew members secure positions with some of the world's leading cruise lines. We have facilitated the
                     deployment of talented candidates to Carnival Cruise Line, Oceania, Marella, Regent Seven Seas, and
                     Virgin Voyages, enabling them to embark on successful careers in the global maritime industry."</p>
-                <h2>Deployed <span>1000+</span> Crew Members</h2>
+                <h2>Deployed <span>2279+</span> Crew Members</h2>
 
                 <div class="sb-career-cta slideupanim">
                     <!-- <a href="link to job portal ATS">Available Jobs <span
@@ -319,6 +319,8 @@ include 'navbar.php';
                     deploy high
                     quality experienced candidates
                 </p>
+                <h2>Deployed <span>745+</span> Crew Members</h2>
+                <br>
                 <h2>Our <span>Clients :</span></h2>
                 <br>
                 <div class="sb-clients slideupanim" style="display: flex;">
@@ -328,9 +330,9 @@ include 'navbar.php';
                     <img src="img/clients/amadeus.png" alt="">
                 </div>
                 <div class="sb-career-cta slideupanim">
-                    <a href="link to job portal ATS">Available Jobs <span
+                    <a href="https://seaports.perwitamarine.com/">Available Jobs <span
                             class="material-symbols-outlined">arrow_right</span></a>
-                    <a href="lifeOnboardRiver.html">Life Onboard River Cruise<span
+                    <a href="lifeOnboardRiver.php">Life Onboard River Cruise<span
                             class="material-symbols-outlined">arrow_right</span></a>
                 </div>
             </div>
@@ -367,6 +369,8 @@ include 'navbar.php';
                 <p>Working onboard a Korean fishing vessel presents a challenging yet rewarding experience. Crew members
                     engage in demanding tasks such as catching, processing, and storing fish, often in harsh and
                     unpredictable weather conditions. The work requires physical stamina, resilience, and teamwork. </p>
+                    <h2>Deployed <span>1166+</span> Crew Members</h2>
+                    <br>
                 <h2>Our <span>Client :</span></h2>
                 <div class="sb-clients slideupanim" style="display: flex;">
                     <img src="img/clients/11.png" alt="">

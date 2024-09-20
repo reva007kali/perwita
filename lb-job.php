@@ -27,7 +27,7 @@ include 'navbar.php';
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body style="height:100px;">
+<body>
     <!-- Land based home  -->
     <section class="landbased" id="landbased" style="background-image: url(img/landbased/turkey.png);">
         <div class="landbased-content">
@@ -35,8 +35,9 @@ include 'navbar.php';
             <p>"Building Futures, Creating Opportunities"</p>
         </div>
     </section>
-
-    <iframe data-tally-src="https://tally.so/r/w5vGeM?transparentBackground=1" width="100%" height="60%" frameborder="0" marginheight="0" marginwidth="0" title="Turkey Job Application Form"></iframe>
+    <section class="lb-form">
+        <iframe data-tally-src="https://tally.so/r/w5vGeM?transparentBackground=1" frameborder="0" marginheight="0" marginwidth="0" title="Turkey Job Application Form"></iframe>
+    </section>
 
 
 

@@ -89,60 +89,60 @@ include 'navbar.php';
         <br>
     </section>
     <!-- why partner with us -->
-    <section class="partner-page" style="background: url(/perwita.id/img/seabased/bgseabased01.png);">
+    <section class="partner-page" style="background: url(img/seabased/bgseabased01.png);">
         <!-- Client Details Section -->
         <div class="partner-page__clients">
             <h1 class="partner-page__title">Our <span>Current</span> Clients </h1>
             <div class="partner-page__client-list">
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/1.png" alt="Client 1 Logo" class="partner-page__client-logo">
+                    <img src="img/clients/1.png" alt="Client 1 Logo" class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/amadeus.png" alt="Client 2 Logo"
+                    <img src="img/clients/amadeus.png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/americanqueen.png" alt="Client 2 Logo"
+                    <img src="img/clients/americanqueen.png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/ANGLO.da90e9.jpg" alt="Client 2 Logo"
+                    <img src="img/clients/ANGLO.da90e9.jpg" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/astglobal.png" alt="Client 2 Logo"
+                    <img src="img/clients/astglobal.png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/aurora.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                    <img src="img/clients/aurora.png" alt="Client 2 Logo" class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/cruisinc.png" alt="Client 2 Logo"
+                    <img src="img/clients/cruisinc.png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/eesb (2).png" alt="Client 2 Logo"
+                    <img src="img/clients/eesb (2).png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/jhi.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                    <img src="img/clients/jhi.png" alt="Client 2 Logo" class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/maxwell.png" alt="Client 2 Logo"
+                    <img src="img/clients/maxwell.png" alt="Client 2 Logo"
                         class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <div class="partner-page__client-item">
-                    <img src="/perwita.id/img/clients/quark.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                    <img src="img/clients/quark.png" alt="Client 2 Logo" class="partner-page__client-logo">
                     <p class="partner-page__client-name"></p>
                 </div>
                 <!-- Add more clients as needed -->
@@ -154,43 +154,43 @@ include 'navbar.php';
                 <br>
                 <div class="partner-page__client-list">
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/3.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/3.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/4.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/4.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/5.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/5.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/6.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/6.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/7.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/7.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/8.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/8.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/9.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/9.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/10.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/10.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/12.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/12.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <div class="partner-page__client-item">
-                        <img src="/perwita.id/img/clients/13.png" alt="Client 2 Logo" class="partner-page__client-logo">
+                        <img src="img/clients/13.png" alt="Client 2 Logo" class="partner-page__client-logo">
                         <p class="partner-page__client-name"></p>
                     </div>
                     <!-- Add more clients as needed -->
@@ -200,7 +200,7 @@ include 'navbar.php';
         <!-- Company Profile PDF Section -->
         <div class="partner-page__pdf-section">
             <h2 class="partner-page__subtitle">Company <span>Profile</span> </h2>
-            <a href="img/Perwita nusaraya group (4).pdf" download class="partner-page__pdf-link">Download Company
+            <a href="img/compro.pdf" download class="partner-page__pdf-link">Download Company
                 Profile (PDF)</a>
             <img src="img/Perwita nusaraya group (6).jpg" alt="">
         </div>

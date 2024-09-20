@@ -171,7 +171,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Sri Murtiningsih S.Pd</h2>
           <p>Chairman & Founder of Perwita Nusaraya Group</p>
-          <a href="/perwita.id/LeaderPage/srimurtiningsih/">Learn More</a>
+          <a href="/LeaderPage/srimurtiningsih/">Learn More</a>
         </div>
       </div>
 
@@ -180,7 +180,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Dwihariyo S. Wibowo</h2>
           <p>Managing Director of PT.Perwita Nusaraya</p>
-          <a href="/perwita.id/LeaderPage/dwihariyoswibowo/">Learn More</a>
+          <a href="/LeaderPage/dwihariyoswibowo/">Learn More</a>
           </a>
         </div>
       </div>
@@ -190,7 +190,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Hariyani S. Purwanti</h2>
           <p>Lorem, ipsum dolor.</p>
-          <a href="/perwita.id/LeaderPage/ivanpereira/">Learn More</a>
+          <a href="/LeaderPage/ivanpereira/">Learn More</a>
         </div>
       </div>
 
@@ -199,7 +199,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2> Ir. Achmad Winarko</h2>
           <p>Managing Director PT. Perwita Maritim Pershada, Maritime Training Center</p>
-          <a href="/perwita.id/LeaderPage/irachmadwinarko/">Learn More</a>
+          <a href="/LeaderPage/irachmadwinarko/">Learn More</a>
         </div>
       </div>
 
@@ -209,16 +209,19 @@ include 'navbar.php';
           <h2>Dyah Indriana</h2>
           <p>Administration Manager
             Land Based</p>
-          <a href="/perwita.id/LeaderPage/dyahindrianni/">Learn More</a>
+          <a href="/LeaderPage/dyahindrianni/">Learn More</a>
         </div>
       </div>
 
-      <!-- <div class="leader-card">
-        <img src="img/leader/6.png" alt="">
+      <div class="leader-card slideupanim">
+        <img src="img/leader/ivanpereira.jpeg" alt="">
         <div class="leader-card-link">
-          <a href=""><img src="img/icon/linkedin.png" alt="">Farah Dina</a>
+          <h2>Ivan Pereira</h2>
+          <p>Director of Cruise Talent Acquisition and Business Develompment</p>
+          <a href="LeaderPage/ivanpereira/">Learn More</a>
         </div>
-      </div> -->
+      </div>
+
     </div>
 
 
@@ -229,7 +232,7 @@ include 'navbar.php';
   <section class="VM" id="VM" style="background-image: url(img/seabased/bgseabased01.png);">
     <div class="vision-mission slideupanim">
       <div class="vision slideupanim" style="background-color: var(--secondary-color );">
-        <img src="/perwita.id/img/assest/vision.png" alt="">
+        <img src="/img/assest/vision.png" alt="">
         <h1>VISION</h1>
         <p>
           To nourish and champion the human spirit within our manpower and employees, encouraging them to
@@ -238,7 +241,7 @@ include 'navbar.php';
 
 
       <div class="vision slideupanim" style="background-color:rgb(50, 145, 145);">
-        <img src="/perwita.id/img/assest/mission.png" alt="">
+        <img src="/img/assest/mission.png" alt="">
         <h1>MISSION</h1>
         <p>To be the premier Human Resources Solutions and Global Career Partner in the industry by leading with the
           highest global standards and having the best manpower in the world.</p>

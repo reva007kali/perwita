@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaquery.css">
   <link rel="stylesheet" href="css/darkmode.css">
@@ -19,8 +20,9 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 </head>
+
 <body>
-      <!-- Navigation Bar Start -->
+  <!-- Navigation Bar Start -->
   <nav id='navbar' class="navbar">
     <label></label>
     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
@@ -39,7 +41,12 @@
           <li><a href='internship.php'>Internship</a></li>
         </ul>
       </li>
-      <li><a href='https://seaports.perwitamarine.com/'>Jobs</a></li>
+      <li><a class="dropdown-arrow">Jobs</a>
+        <ul class='sub-menus'>
+          <li><a href='https://seaports.perwitamarine.com/'>Seabased Jobs</a></li>
+          <li><a href='lb-job.php'>Landbased Jobs</a></li>
+        </ul>
+      </li>
       <li><a href='partner.php'>Partner</a></li>
       <li><a href='gallery.php'>Gallery</a></li>
       <li><a href='faqs.php'>FAQs</a></li>
@@ -47,4 +54,5 @@
   </nav>
   <!-- Navigation Bar end -->
 </body>
+
 </html>

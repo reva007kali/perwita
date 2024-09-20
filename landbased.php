@@ -145,15 +145,15 @@ include 'navbar.php';
                     <img src="img/clients/eesb (2).png" alt="">
                     <img src="img/clients/25.png" alt="">
                 </div>
-                <a href="link to job portal ATS">Available Jobs <span
-                        class="material-symbols-outlined">arrow_right</span></a>
+                    <!-- <a href="link to job portal ATS">Available Jobs <span
+                            class="material-symbols-outlined">arrow_right</span></a> -->
             </div>
             <div class="sb-river-img" style="background-image: url(img/units/pertukangan.jpeg)"></div>
         </div>
 
 
         <div class="sb-river" id="caregiver">
-            <div class="sb-river-img" style="background-image: url(img/units/caretaker.jpeg)"></div>
+            <div class="sb-river-img" style="background-image: url(img/units/caretaker.jpg)"></div>
             <div class="river-content" style="background-color: rgb(208, 246, 255);">
                 <h1>Care giver and Maid</h1>
                 <p>In these countries, caregivers assist with daily living activities, provide medical support, and
@@ -169,8 +169,8 @@ include 'navbar.php';
                         <li>Regent Pacific Service Agency</li>
                     </ul>
                 </div>
-                <a href="link to job portal ATS">Available Jobs <span
-                        class="material-symbols-outlined">arrow_right</span></a>
+                <!-- <a href="link to job portal ATS">Available Jobs <span
+                        class="material-symbols-outlined">arrow_right</span></a> -->
             </div>
         </div>
 
@@ -208,8 +208,8 @@ include 'navbar.php';
                     <img src="img/clients/6.png" alt="">
                     <img src="img/clients/7.png" alt="">
                 </div>
-                <a href="link to job portal ATS">Available Jobs <span
-                        class="material-symbols-outlined">arrow_right</span></a>
+                <!-- <a href="link to job portal ATS">Available Jobs <span
+                        class="material-symbols-outlined">arrow_right</span></a> -->
             </div>
             <div class="sb-river-img" style="background-image: url(img/landbased/factoryWorker.jpg)"></div>
         </div>
@@ -242,7 +242,7 @@ include 'navbar.php';
         <div class="lb-dp-container">
 
             <div class="lb-dp-card">
-                <img src="img/landbased/caretaker.jpeg" alt="">
+                <img src="img/units/caretaker.jpg" alt="">
                 <h2>Caregiver <br> and Maid</h2>
                 <h3>3000+</h3>
             </div>

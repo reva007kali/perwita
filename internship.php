@@ -29,7 +29,7 @@ include 'navbar.php';
 <body>
     <section class="seabased" id="seabased" style="background-image: url(img/units/internship.png);">
         <div class="seabased-content">
-            <h1>INTERNSHIP <span>PROGRAM</span></h1>
+            <h1><span style="color:rgb(255, 46, 46);">JAPAN</span><br>INTERNSHIP <span>PROGRAM</span></h1>
             <p>From Indonesia to Japan: Unlocking Global Opportunities</p>
         </div>
     </section>
@@ -40,25 +40,30 @@ include 'navbar.php';
         <div class="perwita-tittle">
             <img src="img/logo/Internshiplogo.png" alt="">
             <h1>The Perwita Nusaraya Internship Program to Japan offers young professionals a unique opportunity to gain valuable international experience while immersing themselves in Japanese culture and industry.</h1>
+            <h1>ペルウィタ・ヌサラヤの日本インターンシッププログラムは、若いプロフェッショナルにとって、日本の文化や産業に触れながら、貴重な国際経験を得るためのユニークな機会を提供します。</h1>
             <p>Designed to cultivate skilled, globally competitive talent, this program bridges the gap between Indonesia and Japan, empowering participants to enhance their expertise, language skills, and professional networks.</p>
-            <img src="img/assest/group logo.png" alt="">
+            <p>このプログラムは、インドネシアと日本の架け橋となり、参加者が専門知識、語学力、そしてプロフェッショナルなネットワークを強化できるように設計された、世界的に競争力のあるスキルを持つ人材を育成することを目的としています。</p>
+            <!-- <img src="img/assest/group logo.png" alt=""> -->
         </div>
     </section>
 
     <div class="sb-river" id="flc" style="min-height:100vh;">
         <div class="river-content" style="background-color: rgb(255, 249, 78);">
-            <h1>Foreign Language and culture</h1>
-            <p>The Foreign Language and Culture Training Center of Perwita Nusaraya Group is an esteemed institution
+            <h1>Japanese Language and culture</h1>
+            <h1 style="border: none;">日本語と言語文化</h1>
+            <p>The Japanese Language and Culture Training Center of Perwita Nusaraya Group is an esteemed institution
                 focused on equipping individuals with essential language skills and cultural understanding for
                 international opportunities. Specializing in Japanese language and cultural education, the center
                 offers meticulously designed programs that cover language proficiency, cultural nuances, and
                 professional etiquette.</p>
+                <br>
+            <p>ペルウィタ・ヌサラヤグループの日本語と言語文化研修センターは、国際的な機会に向けて必要な言語スキルと文化理解を提供する名高い機関です。日本語と言語文化教育に特化したこのセンターでは、言語能力、文化的な微妙な違い、そしてプロフェッショナルなマナーを網羅した、細部まで計画されたプログラムを提供しています。</p>
             <br>
             <ul style="list-style: circle; font-size: 1rem;">
                 <li><strong>Japanese Language Program</strong></li>
             </ul>
-            <a href="https://perwitainternship.com/training" target="_blank">Learn More<span
-                    class="material-symbols-outlined">arrow_right</span></a>
+            <!-- <a href="https://perwitainternship.com/training" target="_blank">Learn More<span
+                    class="material-symbols-outlined">arrow_right</span></a> -->
         </div>
         <div class="sb-river-img" style="background-image: url(img/japan/3.jpg)"></div>
     </div>

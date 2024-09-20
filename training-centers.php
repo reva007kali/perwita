@@ -110,7 +110,7 @@ include 'navbar.php';
 
 
         <div class="sb-river" id="river">
-            <div class="sb-river-img" style="background-image: url(img/units/caretaker.jpeg)"></div>
+            <div class="sb-river-img" style="background-image: url(img/units/caretaker.jpg)"></div>
             <div class="river-content" style="background-color: rgb(208, 246, 255);" id="cgt">
                 <h1>Care giver & Maid Training</h1>
                 <p>The Caregiver Training Program at Perwita Nusaraya Group is dedicated to preparing individuals for
