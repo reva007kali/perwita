@@ -277,7 +277,7 @@ include 'navbar.php';
   <!-- clients Section -->
   <section class="clients" style="background-image: url(img/background/clientsbg.png);">
     <div class="clients-tittle slideupanim">
-      <h1>"PT<span>.PERWITA NUSARAYA GROUP</span> HAS SUCCESSFULLY PLACED NUMEROUS QUALIFIED WORKERS AND EXPERTS IN A
+      <h1>"<span>PT.PERWITA NUSARAYA GROUP</span> HAS SUCCESSFULLY PLACED NUMEROUS QUALIFIED WORKERS AND EXPERTS IN A
         WIDE RANGE OF INDUSTRIES, BOTH DOMESTICALLY AND
         ABROAD."</h1>
       <P>SOME OF OUR MAJOR CLIENTS :</P>
@@ -285,7 +285,7 @@ include 'navbar.php';
     <div class="clients-row">
 
       <div class="clients-category slideupanim">
-        <h1>Sea based</h1>
+        <h1>SEA BASED</h1>
         <div class="clients-images">
           <a href="https://scylla.com/" target="_blank"><img src="img/clients/1.png" alt=""></a>
           <a href="https://www.bing.com/ck/a?!&&p=b26638870e4e6817JmltdHM9MTcyMTQzMzYwMCZpZ3VpZD0xMWMyYTZhOS1jOTQyLTY0N2EtMzI4Mi1iMjMzYzgxODY1MDImaW5zaWQ9NTE4Ng&ptn=3&ver=2&hsh=3&fclid=11c2a6a9-c942-647a-3282-b233c8186502&psq=jae+hwa+co+ltd&u=a1aHR0cHM6Ly93d3cuZG5iLmNvbS9idXNpbmVzcy1kaXJlY3RvcnkvY29tcGFueS1wcm9maWxlcy5qYWVod2FfY29fbHRkLjQxOGM2Zjg4NjkwMGIzYzQ4NDE0ODQ2MjcyMzIwODczLmh0bWw&ntb=1"
@@ -297,7 +297,7 @@ include 'navbar.php';
       </div>
 
       <div class="clients-category slideupanim">
-        <h1>Land based</h1>
+        <h1>LAND BASED  </h1>
         <div class="clients-images">
           <a href="" target="_blank"><img src="img/clients/jhi.png" alt=""></a>
           <a href="https://equatorengineering.com/" target="_blank"><img src="img/clients/eesb (2).png" alt=""></a>
@@ -318,25 +318,21 @@ include 'navbar.php';
     <div class="smRow slideupanim">
       <div class="smCard">
         <h2>Sea Based <img src="img/logo/crewmanninglogo.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
-        <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
-          Manning</a>
+        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwitanusaraya.manning</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">PT. Perwita Nusaraya</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/linkedin.png" alt="">PT. Perwita Nusaraya (Cruise Division)</a>
       </div>
 
 
       <div class="smCard">
         <h2>Land Based <img src="img/logo-pn.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.p3mi/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
-        <a href="https://www.facebook.com/perwitanusarayagresik/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
-          Manning</a>
-      </div>
+        <a href="https://www.instagram.com/perwitanusaraya.p3mi/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">perwitanusaraya.p3mi</a>
+        <a href="https://www.facebook.com/perwitanusaraya.p3mi"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">P3MI PT. Perwita Nusaraya</a>
+      </div> 
 
       <div class="smCard">
         <h2>Internship <img src="img/logo/Internshiplogo.png"></h2>
-        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
+        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">japan.perwitanusaraya</a>
       </div>
     </div>
 

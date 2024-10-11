@@ -204,6 +204,15 @@ include 'navbar.php';
       </div>
 
       <div class="leader-card slideupanim">
+        <img src="img/leader/ivanpereira.jpeg" alt="">
+        <div class="leader-card-link">
+          <h2>Ivan Pereira</h2>
+          <p>Director of Cruise Talent Acquisition and Business Develompment</p>
+          <a href="LeaderPage/ivanpereira/">Learn More</a>
+        </div>
+      </div>
+
+      <div class="leader-card slideupanim">
         <img src="img/leader/dina.png" alt="">
         <div class="leader-card-link">
           <h2>Dyah Indriana</h2>
@@ -213,14 +222,7 @@ include 'navbar.php';
         </div>
       </div>
 
-      <div class="leader-card slideupanim">
-        <img src="img/leader/ivanpereira.jpeg" alt="">
-        <div class="leader-card-link">
-          <h2>Ivan Pereira</h2>
-          <p>Director of Cruise Talent Acquisition and Business Develompment</p>
-          <a href="LeaderPage/ivanpereira/">Learn More</a>
-        </div>
-      </div>
+     
 
     </div>
 
@@ -466,25 +468,21 @@ include 'navbar.php';
     <div class="smRow slideupanim">
       <div class="smCard">
         <h2>Sea Based <img src="img/logo/crewmanninglogo.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
-        <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
-          Manning</a>
+        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwitanusaraya.manning</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">PT. Perwita Nusaraya</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/linkedin.png" alt="">PT. Perwita Nusaraya (Cruise Division)</a>
       </div>
 
 
       <div class="smCard">
         <h2>Land Based <img src="img/logo-pn.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.p3mi/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
-        <a href="https://www.facebook.com/perwitanusarayagresik/?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">Perwita
-          Manning</a>
-      </div>
+        <a href="https://www.instagram.com/perwitanusaraya.p3mi/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">perwitanusaraya.p3mi</a>
+        <a href="https://www.facebook.com/perwitanusaraya.p3mi"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">P3MI PT. Perwita Nusaraya</a>
+      </div> 
 
       <div class="smCard">
         <h2>Internship <img src="img/logo/Internshiplogo.png"></h2>
-        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwita
-          Manning</a>
+        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">japan.perwitanusaraya</a>
       </div>
     </div>
 

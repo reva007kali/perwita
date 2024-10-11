@@ -2690,7 +2690,7 @@ a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 220px;
+    width: fit-content;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.196);
     border-radius: 10px;
     background-color: white;
@@ -2724,10 +2724,6 @@ a:hover {
     gap: 10px;
     border-radius: 10px;
     transition: 200ms ease-in-out;
-}
-
-.smCard a:hover {
-    transform: scale(1.05);
 }
 
 .smCard a img {

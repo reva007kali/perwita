@@ -35,7 +35,7 @@
                             Jend Sudirman Kav. 75, South Jakarta 12910, DKI Jakarta.
                         </li>
                         <li><span class="material-symbols-outlined">email</span>manpower@perwitanusaraya.co.id</li>
-                        <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+                        <li><span class="material-symbols-outlined">phone</span>+62 815-1429-9198</li>
                         <li><span class="material-symbols-outlined">map</span><a href="https://maps.app.goo.gl/TePyKcr8VQ7c6Vqf7" style="color: white;">Click to see map</a>
                         </li>
                     </ul>
@@ -46,7 +46,7 @@
                     <li><span class="material-symbols-outlined">location_on</span>Jl. Bina Kusuma No. 9 , Ubung - Denpasar , Bali.
                     </li>
                     <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+62 800 0000 0000</li>
+                    <li><span class="material-symbols-outlined">phone</span>(0361) 9002917</li>
                     <li><span class="material-symbols-outlined">map</span><a href="https://maps.app.goo.gl/i6u9GUz5izHujVHS9" style="color: white;">Click to see map</a>
                     </li>
                 </div>
@@ -56,7 +56,7 @@
                     <li><span class="material-symbols-outlined">location_on</span>Hanil Office Tower 152, Jaseong-ro, 1815,
                         Munhyeon-dong, Nam-gu, Busan, South Korea</li>
                     <li><span class="material-symbols-outlined">email</span>email@perwitanusaraya.co.id</li>
-                    <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li>
+                    <!-- <li><span class="material-symbols-outlined">phone</span>+000 0000 0000 000</li> -->
                     <li><span class="material-symbols-outlined">map</span><a href="https://maps.app.goo.gl/6HJTi2fRC1fxqdjdA" style="color: white;">Click to see map</a>
                     </li>
                 </div>
