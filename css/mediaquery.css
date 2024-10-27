@@ -87,16 +87,20 @@
     .home {
         min-height: fit-content;
     }
+
     .home-content {
         margin: auto;
         text-align: center;
-        top: calc(20% + 1vw);
+        
+        padding: 0rem;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .home-content h1 {
-        font-size: 3em;
-        padding-inline: 1rem;
-        margin-bottom: 1rem;
+        font-size: 5em;
+        font-weight: 700;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.63);
     }
 
     .home-content h2 {
@@ -791,7 +795,7 @@
     }
 
     .home-content h1 {
-        font-size: 4em;
+        font-size: 3em;
         padding-inline: 1rem;
         margin-bottom: 1rem;
     }

@@ -171,7 +171,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Sri Murtiningsih S.Pd</h2>
           <p>Chairman & Founder of Perwita Nusaraya Group</p>
-          <a href="/LeaderPage/srimurtiningsih/">Learn More</a>
+          <a href="LeaderPage/srimurtiningsih/">Learn More</a>
         </div>
       </div>
 
