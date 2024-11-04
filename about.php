@@ -254,9 +254,35 @@ include 'navbar.php';
 
     </div>
 
-    <div class="vision slideupanim" style="background-color: paleturquoise; width: 98%; height: 300px;">
+    <div class="vision slideupanim" style="background-color: paleturquoise; width: 98%; height: fit-content;">
       <h1>Values</h1>
-      <img class="value-img" src="img/assest/VALUES.png" alt="">
+      <div class="valuecontainer">
+        <div class="valuecard">
+          <img src="img/assest/6.png" alt="">
+          <h2>QUALITY</h2>
+          <p>We deliver high standart of serice</p>
+        </div>
+        <div class="valuecard">
+          <img src="img/assest/7.png" alt="">
+          <h2>INTEGRITY</h2>
+          <p>Doing the right things matter for us</p>
+        </div>
+        <div class="valuecard">
+          <img src="img/assest/8.png" alt="">
+          <h2>RESPECT</h2>
+          <p>We are compassionate and considerate</p>
+        </div>
+        <div class="valuecard">
+          <img src="img/assest/9.png" alt="">
+          <h2>PARTNERSHIP</h2>
+          <p>We work as a team</p>
+        </div>
+        <div class="valuecard">
+          <img src="img/assest/10.png" alt="">
+          <h2>EFFECTIVENESS</h2>
+          <p>We run a lean business</p>
+        </div>
+      </div>
     </div>
 
   </section>

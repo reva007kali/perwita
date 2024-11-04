@@ -1641,13 +1641,15 @@ a {
     margin-inline: 2rem;
     margin-block: 1rem;
 }
-
-.vision .value-img {
-    width: 700px;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
-    margin-bottom: 2rem;
+.valuecontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+}
+.valuecard {
+    max-width: 300px;
 }
 
 /* vision mission */
