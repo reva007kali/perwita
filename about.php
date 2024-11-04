@@ -46,12 +46,14 @@ include 'navbar.php';
 
     <div class="perwita-tittle slideupanim">
       <img src="img/logo-pn.png" alt="">
-      <h1 class="slideupanim">Perwita Nusaraya Group excels in Human Resources Development, specializing in both domestic and overseas
+      <h1 class="slideupanim">Perwita Nusaraya Group excels in Human Resources Development, specializing in both
+        domestic and overseas
         recruitment for maritime and land-based roles. We proudly own and operate a Maritime Training Center, a
         Construction Skill Training Center, a Maid and Caregiver Training Facility, and a Fisherman Training Facility,
         ensuring top-notch training and skill development. Additionally, we manage a comprehensive Japanese Internship
         Program.</h1>
-      <p class="slideupanim">With strategically located offices in Surabaya, Jakarta, Bali, and Busan (South Korea), we guarantee effective
+      <p class="slideupanim">With strategically located offices in Surabaya, Jakarta, Bali, and Busan (South Korea), we
+        guarantee effective
         hiring and training processes. Our commitment to excellence ensures that we meet the diverse needs of our
         clients and candidates alike.</p>
       <img class="slideupanim" src="img/assest/group logo.png" alt="">
@@ -186,10 +188,10 @@ include 'navbar.php';
       </div>
 
       <div class="leader-card slideupanim">
-        <img src="img/leader/-ivanpereira.jpeg" alt="">
+        <img src="img/leader/farah.jpg" alt="">
         <div class="leader-card-link">
-          <h2>Hariyani S. Purwanti</h2>
-          <p>Lorem, ipsum dolor.</p>
+          <h2>Farah Dina Fithriyyah</h2>
+          <p>General Manager of PT.Perwita Nusaraya</p>
           <a href="/LeaderPage/ivanpereira/">Learn More</a>
         </div>
       </div>
@@ -203,14 +205,14 @@ include 'navbar.php';
         </div>
       </div>
 
-      <div class="leader-card slideupanim">
+      <!-- <div class="leader-card slideupanim">
         <img src="img/leader/ivanpereira.jpeg" alt="">
         <div class="leader-card-link">
           <h2>Ivan Pereira</h2>
           <p>Director of Cruise Talent Acquisition and Business Develompment</p>
           <a href="LeaderPage/ivanpereira/">Learn More</a>
         </div>
-      </div>
+      </div> -->
 
       <div class="leader-card slideupanim">
         <img src="img/leader/dina.png" alt="">
@@ -222,7 +224,7 @@ include 'navbar.php';
         </div>
       </div>
 
-     
+
 
     </div>
 
@@ -302,8 +304,7 @@ include 'navbar.php';
             <li>Fisherman Training Center</li>
             <li>Construction Training Center</li>
             <li>Care giver & Maid</li>
-            <a href="training-centers.php">Learn more <span
-                class="material-symbols-outlined">chevron_right</span></a>
+            <a href="training-centers.php">Learn more <span class="material-symbols-outlined">chevron_right</span></a>
           </div>
           <!-- <img src="img/logo/mtclogo.png" alt="" class="card-logo"> -->
         </div>
@@ -424,10 +425,12 @@ include 'navbar.php';
       <div class="office slideupanim">
         <h1>Jakarta</h1>
         <ul>
-          <li>Easy access to <strong>Soekarno-Hatta International Airport</strong> for domestic and international travel.
+          <li>Easy access to <strong>Soekarno-Hatta International Airport</strong> for domestic and international
+            travel.
             Availability of top-tier <strong>medical facilities</strong> approved by clients.</li>
           <li>Presence of the <strong>US Embassy</strong> for consular services and business support.</li>
-          <li>Convenient access to visa services for <strong>all Schengen countries</strong>, including BLS for Spain and TLS for France.</li>
+          <li>Convenient access to visa services for <strong>all Schengen countries</strong>, including BLS for Spain
+            and TLS for France.</li>
           <li>Centralized location for all embassies, facilitating international business and consular services.</li>
           <li>Essential services for maritime professionals, <strong>Seaman Book, SID, and Sign-on Stamp</strong></li>
           <li>Strategic location in the capital city, <strong>the economic and political hub of Indonesia.</strong></li>
@@ -452,7 +455,10 @@ include 'navbar.php';
 
       <div class="office slideupanim" style="margin-bottom: 3rem;">
         <h1>South Korea</h1>
-        <p>Perwita Nusaraya has entered the job market in Korea since 2014 by placing thousands of fishermen on near coastal fishing boats owned by Korean companies. And in 2023, we decided to open an office in Busan, South Korea to look for collaborative opportunities to place skilled workers in several well-known companies in Korea. We see potential opportunity to hire South Korean candidates for Cruise lines</p>
+        <p>Perwita Nusaraya has entered the job market in Korea since 2014 by placing thousands of fishermen on near
+          coastal fishing boats owned by Korean companies. And in 2023, we decided to open an office in Busan, South
+          Korea to look for collaborative opportunities to place skilled workers in several well-known companies in
+          Korea. We see potential opportunity to hire South Korean candidates for Cruise lines</p>
         <img src="img/offices/busan.jpg" alt="">
       </div>
     </div>
@@ -468,21 +474,27 @@ include 'navbar.php';
     <div class="smRow slideupanim">
       <div class="smCard">
         <h2>Sea Based <img src="img/logo/crewmanninglogo.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwitanusaraya.manning</a>
-        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">PT. Perwita Nusaraya</a>
-        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/linkedin.png" alt="">PT. Perwita Nusaraya (Cruise Division)</a>
+        <a href="https://www.instagram.com/perwitanusaraya.manning/?hl=en"><img
+            src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">Perwitanusaraya.manning</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img
+            src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">PT. Perwita Nusaraya</a>
+        <a href="https://www.facebook.com/perwitanusaraya.manning?locale=id_ID"><img src="img/icon/linkedin.png"
+            alt="">PT. Perwita Nusaraya (Cruise Division)</a>
       </div>
 
 
       <div class="smCard">
         <h2>Land Based <img src="img/logo-pn.png"></h2>
-        <a href="https://www.instagram.com/perwitanusaraya.p3mi/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">perwitanusaraya.p3mi</a>
-        <a href="https://www.facebook.com/perwitanusaraya.p3mi"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">P3MI PT. Perwita Nusaraya</a>
-      </div> 
+        <a href="https://www.instagram.com/perwitanusaraya.p3mi/"><img
+            src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">perwitanusaraya.p3mi</a>
+        <a href="https://www.facebook.com/perwitanusaraya.p3mi"><img
+            src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt="">P3MI PT. Perwita Nusaraya</a>
+      </div>
 
       <div class="smCard">
         <h2>Internship <img src="img/logo/Internshiplogo.png"></h2>
-        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">japan.perwitanusaraya</a>
+        <a href="https://www.instagram.com/japan.perwitanusaraya/"><img
+            src="img/icon/5296765_camera_instagram_instagram logo_icon.png" alt="">japan.perwitanusaraya</a>
       </div>
     </div>
 
@@ -498,9 +510,12 @@ include 'navbar.php';
       <i data-feather="message-circle"></i>
     </a>
     <menu class="items-wrapper">
-      <a href="https://wa.me/6281514299198" class="menu-item"><img src="img/icon/3225179_app_logo_media_popular_social_icon.png" alt=""></a>
-      <a href="https://www.linkedin.com/company/pt-perwita-nusaraya/?trk=ppro_cprof&originalSubdomain=id" class="menu-item"><img src="img/icon/linkedin.png" alt=""></a>
-      <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" class="menu-item"><img src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt=""></a>
+      <a href="https://wa.me/6281514299198" class="menu-item"><img
+          src="img/icon/3225179_app_logo_media_popular_social_icon.png" alt=""></a>
+      <a href="https://www.linkedin.com/company/pt-perwita-nusaraya/?trk=ppro_cprof&originalSubdomain=id"
+        class="menu-item"><img src="img/icon/linkedin.png" alt=""></a>
+      <a href="https://www.facebook.com/PTPerwitaNusaraya/?locale=id_ID" class="menu-item"><img
+          src="img/icon/5296499_fb_facebook_facebook logo_icon.svg" alt=""></a>
       <a href="mailto:apply@perwitanusaraya.co.id" class="menu-item"><img src="img/icon/email.png" alt=""></a>
     </menu>
   </div>
