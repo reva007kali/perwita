@@ -236,7 +236,7 @@ include 'navbar.php';
   <section class="VM" id="VM" style="background-image: url(img/seabased/bgseabased01.png);">
     <div class="vision-mission slideupanim">
       <div class="vision slideupanim" style="background-color: var(--secondary-color );">
-        <img src="/img/assest/vision.png" alt="">
+        <img src="img/assest/vision.png" alt="">
         <h1>VISION</h1>
         <p>
           To nourish and champion the human spirit within our manpower and employees, encouraging them to
@@ -245,7 +245,7 @@ include 'navbar.php';
 
 
       <div class="vision slideupanim" style="background-color:rgb(50, 145, 145);">
-        <img src="/img/assest/mission.png" alt="">
+        <img src="img/assest/mission.png" alt="">
         <h1>MISSION</h1>
         <p>To be the premier Human Resources Solutions and Global Career Partner in the industry by leading with the
           highest global standards and having the best manpower in the world.</p>
@@ -256,7 +256,7 @@ include 'navbar.php';
 
     <div class="vision slideupanim" style="background-color: paleturquoise; width: 98%; height: 300px;">
       <h1>Values</h1>
-      <!-- <img class="value-img" src="/perwita.id/img/assest/VALUES.png" alt=""> -->
+      <img class="value-img" src="img/assest/VALUES.png" alt="">
     </div>
 
   </section>
