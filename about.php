@@ -182,7 +182,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Dwihariyo S. Wibowo</h2>
           <p>Managing Director of PT.Perwita Nusaraya</p>
-          <a href="/LeaderPage/dwihariyoswibowo/">Learn More</a>
+          <a href="LeaderPage/dwihariyoswibowo/">Learn More</a>
           </a>
         </div>
       </div>
@@ -192,7 +192,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Farah Dina Fithriyyah</h2>
           <p>General Manager of PT.Perwita Nusaraya</p>
-          <a href="/LeaderPage/ivanpereira/">Learn More</a>
+          <a href="LeaderPage/ivanpereira/">Learn More</a>
         </div>
       </div>
 
@@ -201,7 +201,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2> Ir. Achmad Winarko</h2>
           <p>Managing Director PT. Perwita Maritim Pershada, Maritime Training Center</p>
-          <a href="/LeaderPage/irachmadwinarko/">Learn More</a>
+          <a href="LeaderPage/irachmadwinarko/">Learn More</a>
         </div>
       </div>
 
@@ -220,7 +220,7 @@ include 'navbar.php';
           <h2>Dyah Indriana</h2>
           <p>Administration Manager
             Land Based</p>
-          <a href="/LeaderPage/dyahindrianni/">Learn More</a>
+          <a href="LeaderPage/dyahindrianni/">Learn More</a>
         </div>
       </div>
 
