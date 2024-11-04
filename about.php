@@ -192,7 +192,7 @@ include 'navbar.php';
         <div class="leader-card-link">
           <h2>Farah Dina Fithriyyah</h2>
           <p>General Manager of PT.Perwita Nusaraya</p>
-          <a href="LeaderPage/ivanpereira/">Learn More</a>
+          <a href="LeaderPage/farahdina/">Learn More</a>
         </div>
       </div>
 
